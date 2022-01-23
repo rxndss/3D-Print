@@ -1,0 +1,40 @@
+; ENDER-3 PRO CUSTOM END GCODE
+
+; N O T I C E
+M300 S260 P100 ; Chirp
+M117 Printing complete
+G92 E0 ; Reset Extruder
+
+; A N T I - S T R I N G I N G  E N D  W I G G L E
+G91 ; Use relative positioning
+	; R E T R A C T
+G1 E-2 F1800 ; Retract to avoid stringing
+	; W I P E
+G1 X-0.5 Y-0.5 F1800 ; Wipe
+G1 X0.5 Y0.5 F1800 ; Wipe
+
+; T U R N  O F F  T E M P E R A T U R E
+M104 S0 ; Turn off temperature
+M140 S0 ; Turn off heatbed
+M107 ; Turn off fan
+
+; R A I S E  N O Z Z L E  A N D  P R E S E N T
+G90 ; Use absolute positioning
+	; M O V E  Z - A X I S
+{if max_layer_z < max_print_height}G1 Z{z_offset+min(max_layer_z+2, max_print_height)} F600 ; Move Z-axis head up{endif}
+	; P R E S E N T  P R I N T
+G1 X{print_bed_max[1]*1} F10000 ; Move X-axis to max limit
+G1 Y{print_bed_max[1]*0.9} F1200 ; Present print
+	; M O V E  Z - A X I S
+{if max_layer_z < max_print_height-10}G1 Z{z_offset+min(max_layer_z+70, max_layer_z)} F600 ; Move Z-axis head further up{endif}
+{if max_layer_z < max_print_height*0.6}G1 Z{max_print_height*0.6} F600 ; Move Z-axis head further up{endif}
+
+; R E S E T
+M200 D0 ; Disable volumetric e
+M220 S100 ; Reset speed factor to 100%
+M221 S100 ; Reset extruder factor to 100%
+M211 S1 ; Software limit ON
+G90 ; Use absolute positioning
+G92 E0 ; Reset extruder
+
+M84 X Y E ; Disable motors

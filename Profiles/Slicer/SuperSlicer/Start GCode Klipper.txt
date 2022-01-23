@@ -1,0 +1,33 @@
+; ENDER-3 PRO CUSTOM START GCODE
+; Klipper
+
+; S T A R T  P R I N T  M A C R O  K L I P P E R
+START_PRINT
+
+; S T A R T  F I N A L  T E M P E R A T U R E
+BEEP ; Notice
+PRINT MSG="Set Final Temp"
+M140 S[first_layer_bed_temperature] ; Start heating "BED" final temperature
+M104 S{first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} ; Start heating "EXTRUDER" final temperature
+G1 Z30 F240 ; Move Z
+M190 S[first_layer_bed_temperature] ; Wait for "BED" to reach temp before proceeding
+M109 S{first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} ; Wait for "EXTRUDER" to reach temp before proceeding
+G1 Z2 F600 ; Move Z
+
+; B E D  L E V E L
+BEEP ; Notice
+PRINT MSG="Initialize Bed Mesh"
+BED_MESH_CALIBRATE PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}
+G1 Z2 F600 ; Move Z
+
+; P R I M E  L I N E  M A C R O  K L I P P E R
+PRIME_LINE
+G1 Z2 F600 ; Move Z
+
+; V A L I D A T E  F I N A L  T E M P E R A T U R E
+M140 S[first_layer_bed_temperature] ; Start heating "BED" final temperature
+M104 S{first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} ; Start heating "EXTRUDER" final temperature
+M190 S[first_layer_bed_temperature] ; Wait for "BED" to reach temp before proceeding
+M109 S{first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]} ; Wait for "EXTRUDER" to reach temp before proceeding
+BEEP ; Notice
+PRINT MSG="Printing..."
