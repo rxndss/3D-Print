@@ -13,7 +13,7 @@
 #
 # Defaults to auto
 #
-#camera="auto"
+camera="raspi"
 
 ### Additional options to supply to MJPG Streamer for the USB camera
 #
@@ -21,7 +21,7 @@
 #
 # Defaults to a resolution of 640x480 px and a framerate of 10 fps
 #
-#camera_usb_options="-r 640x480 -f 10"
+#camera_usb_options=""
 
 ### Additional webcam devices known to cause problems with -f
 #
@@ -55,7 +55,7 @@
 #
 # Defaults to 10fps
 #
-#camera_raspi_options="-fps 10"
+camera_raspi_options="-fps 10"
 
 ### Configuration of camera HTTP output
 #
@@ -68,12 +68,12 @@
 #
 # Current working directory is the mjpg-streamer base directory.
 #
-#camera_http_webroot="./www-fluidd"
-#camera_http_options="-n"
+camera_http_webroot="./www-fluidd"
+camera_http_options="-n"
 
 ### EXPERIMENTAL
 # Support for different streamer types.
 #
 # Available options:
 #   mjpeg [default] - stable MJPG-streamer
-#camera_streamer=mjpeg
+camera_streamer=MJPG-streamer
