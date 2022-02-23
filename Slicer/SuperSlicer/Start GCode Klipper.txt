@@ -1,4 +1,0 @@
-; ENDER-3 PRO CUSTOM START GCODE
-; Klipper
-
-START_PRINT FILAMENT_TYPE=[filament_type] BED_TEMPERATURE=[first_layer_bed_temperature] EXTRUDER_TEMPERATURE={first_layer_temperature[initial_extruder] + extruder_temperature_offset[initial_extruder]} PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}
