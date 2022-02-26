@@ -1,6 +1,3 @@
-; VORON, SWITCHWIRE Custom Extrusion Role G-Code
-; Klipper
-
 ; External perimeter
 {if extrusion_role=~/ExternalPerimeter/};[extrusion_role]
 SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000

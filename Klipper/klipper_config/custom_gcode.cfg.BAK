@@ -5,7 +5,7 @@
   # START_PRINT
 ##===========================================================================
 [gcode_macro START_PRINT]
-variable_parameter_FILAMENT_TYPE : "PLA"
+variable_parameter_FILAMENT_TYPE : "Stock"
 gcode:
   {% set BED_TEMPERATURE = params.BED_TEMPERATURE %}
   {% set EXTRUDER_TEMPERATURE = params.EXTRUDER_TEMPERATURE %}
@@ -15,14 +15,14 @@ gcode:
   CLEAR_PAUSE
   # Turn-off fan
   M107
-  # Set filament profile
-  SET_FILAMENT_PROFILE TYPE={params.FILAMENT_TYPE|default("PLA")}
   # Units to milimeters
   G21
   # Use absolute coordinates
   G90
   # Use relative extrusion distances
   M83
+  # Set filament profile
+  SET_FILAMENT_PROFILE TYPE={params.FILAMENT_TYPE|default("Stock")}
 ##--------------------------------- Pre-heat --------------------------------
   PRINT MSG="Start Pre-heat Temp." OUTPUT_TARGET=1
   # Start heating "EXTRUDER" "BED" pre-heat temperature
@@ -67,9 +67,9 @@ gcode:
   # Home all axes
   G28
   # Auto-align
-  #Z_TILT_ADJUST
+  Z_TILT_ADJUST
   # Home Z
-  #G28 Z
+  G28 Z
 ##---------------------- Heating Bed Final Temperature ----------------------
   PRINT MSG="Heating Bed Temp." OUTPUT_TARGET=1
   # Start heating "BED" final temperature
@@ -166,7 +166,7 @@ gcode:
   # Turn off fan & temperatures
   TURN_OFF_HEATERS
   M106 S0
-  # Use absolute positioning
+  # Use absolute coordinates
   G90
   # Set maximum & actual axes
   {% set max_x = printer.toolhead.axis_maximum.x|float %}
@@ -180,9 +180,9 @@ gcode:
   {% set end_print_z2 = max_z * 0.6 %}
   # Move Z axis
   {% if act_z < max_z %}
-    G1 Z{end_print_z} F720
+    G1 Z{end_print_z} F600
   {% else %}
-    G1 Z{act_z} F720
+    G1 Z{act_z} F600
   {% endif %}
   # Present print
   G1 X{end_print_x} F9000
@@ -193,31 +193,14 @@ gcode:
   {% else %}
     G1 Z{act_z} F420
   {% endif %}
-  # Move further Z axis
-  #{% if act_z < (max_z * 0.6) %}
-  #  G1 Z{end_print_z2} F420
-  #{% endif %}
+  # Disable motors
+  M84
   # Clear Mesh
   BED_MESH_CLEAR
   # Reset extrusion rate
   M221 S100
   # Reset feed rate
   M220 S100
-  # Disable motors
-  M84
-  # Nozzle Cooling Logic
-  #{% if printer.extruder.temperature > 150 %}
-    # Fan On
-    #M106 S255
-    # Set Extruder 150C
-    #M104 S150
-    # Wait Extruder Below 150C
-    #M109 S150
-    # Fan Off
-    #M106 S0
-    # Turn Off Heaters
-    #TURN_OFF_HEATERS
-  #{% endif %}
 ##=================================== End ===================================
 
 ##===========================================================================
@@ -246,7 +229,7 @@ gcode:
   # Turn off fan & temperatures
   TURN_OFF_HEATERS
   M106 S0
-  # Use absolute positioning
+  # Use absolute coordinates
   G90
   # Set maximum & actual axes
   {% set max_x = printer.toolhead.axis_maximum.x|float %}
@@ -260,9 +243,9 @@ gcode:
   {% set end_print_z2 = max_z * 0.6 %}
   # Move Z axis
   {% if act_z < max_z %}
-    G1 Z{end_print_z} F720
+    G1 Z{end_print_z} F600
   {% else %}
-    G1 Z{act_z} F720
+    G1 Z{act_z} F600
   {% endif %}
   # Present print
   G1 X{end_print_x} F9000
@@ -273,29 +256,12 @@ gcode:
   {% else %}
     G1 Z{act_z} F420
   {% endif %}
-  # Move further Z axis
-  #{% if act_z < (max_z * 0.6) %}
-  #  G1 Z{end_print_z2} F420
-  #{% endif %}
+  # Disable motors
+  M84
   # Clear Mesh
   BED_MESH_CLEAR
   # Reset extrusion rate
   M221 S100
   # Reset feed rate
   M220 S100
-  # Disable motors
-  M84
-  # Nozzle Cooling Logic
-  #{% if printer.extruder.temperature > 150 %}
-    # Fan On
-    #M106 S255
-    # Set Extruder 150C
-    #M104 S150
-    # Wait Extruder Below 150C
-    #M109 S150
-    # Fan Off
-    #M106 S0
-    # Turn Off Heaters
-    #TURN_OFF_HEATERS
-  #{% endif %}
 ##=================================== End ===================================
