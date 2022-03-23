@@ -1,0 +1,6 @@
+; Custom Start G-Code
+; Klipper
+
+M104 S0
+M140 S0
+PRINT_START FILAMENT_TYPE=[filament_type] BED_TEMPERATURE=[first_layer_bed_temperature] EXTRUDER_TEMPERATURE={first_layer_temperature[initial_extruder] + extruder_temperature_offset[initial_extruder]}

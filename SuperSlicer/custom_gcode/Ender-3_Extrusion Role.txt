@@ -1,4 +1,4 @@
-; VORON, SWITCHWIRE Custom Extrusion Role G-Code
+; Custom Extrusion Role G-Code
 ; Klipper
 
 ; External perimeter
@@ -11,15 +11,15 @@ SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
 
 ; Overhang perimeter
 {elsif extrusion_role=~/OverhangPerimeter/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
+SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Internal infill
 {elsif extrusion_role=~/InternalInfill/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
+SET_VELOCITY_LIMIT ACCEL=3000 ACCEL_TO_DECEL=1500
 
 ; Top solid infill
 {elsif extrusion_role=~/TopSolidInfill/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=1500 ACCEL_TO_DECEL=750
+SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Solid infill
 {elsif extrusion_role=~/SolidInfill/};[extrusion_role]
@@ -27,19 +27,19 @@ SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
 
 ; Bridge infill
 {elsif extrusion_role=~/BridgeInfill/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
+SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Gap fill
 {elsif extrusion_role=~/GapFill/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
+SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Skirt
 {elsif extrusion_role=~/Skirt/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
+SET_VELOCITY_LIMIT ACCEL=3000 ACCEL_TO_DECEL=1500
 
 ; Support material
 {elsif extrusion_role=~/SupportMaterial/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
+SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
 
 ; Support material interface
 {elsif extrusion_role=~/SupportMaterialInterface/};[extrusion_role]
@@ -47,9 +47,9 @@ SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Thin walls
 {elsif extrusion_role=~/ThinWall/};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
+SET_VELOCITY_LIMIT ACCEL=1000 ACCEL_TO_DECEL=500
 
 ; Other
 {else};[extrusion_role]
-SET_VELOCITY_LIMIT ACCEL=1500 ACCEL_TO_DECEL=750
+SET_VELOCITY_LIMIT ACCEL=2000 ACCEL_TO_DECEL=1000
 {endif}
