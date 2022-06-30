@@ -1,4 +1,0 @@
-; Custom End G-Code
-; Klipper
-
-PRINT_END
