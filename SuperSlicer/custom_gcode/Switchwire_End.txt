@@ -1,4 +1,0 @@
-; VORON, SWITCHWIRE Custom End G-Code
-; Klipper
-
-END_PRINT
