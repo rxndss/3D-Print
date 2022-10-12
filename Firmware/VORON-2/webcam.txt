@@ -55,7 +55,7 @@
 #
 # Defaults to 10fps
 #
-#camera_raspi_options="-fps 10"
+#camera_raspi_options="-fps 15"
 
 ### Configuration of camera HTTP output
 #
