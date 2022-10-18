@@ -1,0 +1,5 @@
+#camera="usb"
+
+#camera_usb_options="-r 1080 -f 30 -d /dev/v4l/by-id/usb-Vimicro_corp._PC-LM1E_Camera_PC-LM1E_Audio-video-index0"
+
+#camera_http_options="-n -p 8081"
