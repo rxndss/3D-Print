@@ -1,5 +1,5 @@
-camera="raspi"
+## Logitech C310 ##
 
-camera_raspi_options="-fps 30"
-
+camera="usb"
+camera_usb_options="-r 720x1080 -f 60 -q 100 -d /dev/v4l/by-id/usb-046d_081b_91111560-video-index0"
 camera_http_options="-n -p 8080"
