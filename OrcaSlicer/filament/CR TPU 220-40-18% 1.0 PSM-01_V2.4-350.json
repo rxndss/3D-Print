@@ -2,9 +2,6 @@
     "close_fan_the_first_x_layers": [
         "1"
     ],
-    "enable_overhang_bridge_fan": [
-        "0"
-    ],
     "enable_pressure_advance": [
         "1"
     ],
@@ -12,13 +9,13 @@
         "0"
     ],
     "fan_max_speed": [
-        "18"
+        "23"
     ],
     "fan_min_speed": [
         "18"
     ],
     "filament_cost": [
-        "148000"
+        "418000"
     ],
     "filament_density": [
         "1.24"
@@ -30,10 +27,10 @@
         "20"
     ],
     "filament_settings_id": [
-        "CR TPU 220-40-25% 1.0 PSM-01_V2.4-350"
+        "CR TPU 220-40-18% 1.0 PSM-01_V2.4-350"
     ],
     "filament_start_gcode": [
-        "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.04\n\nSET_RETRACTION RETRACT_LENGTH=0.8\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=10\nSET_RETRACTION UNRETRACT_SPEED=8"
+        "SET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.04\n\nSET_RETRACTION RETRACT_LENGTH=1.0\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=10\nSET_RETRACTION UNRETRACT_SPEED=8"
     ],
     "filament_type": [
         "TPU"
@@ -49,8 +46,7 @@
         "40"
     ],
     "inherits": "Snapmaker Generic ABS",
-    "is_custom_defined": "0",
-    "name": "CR TPU 220-40-25% 1.0 PSM-01_V2.4-350",
+    "name": "CR TPU 220-40-18% 1.0 PSM-01_V2.4-350",
     "nozzle_temperature": [
         "240"
     ],
@@ -63,14 +59,14 @@
     "nozzle_temperature_range_low": [
         "200"
     ],
+    "overhang_fan_speed": [
+        "23"
+    ],
     "pressure_advance": [
         "0.07"
     ],
     "slow_down_layer_time": [
-        "0"
-    ],
-    "slow_down_min_speed": [
-        "40"
+        "4"
     ],
     "temperature_vitrification": [
         "60"

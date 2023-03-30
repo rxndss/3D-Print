@@ -1,0 +1,61 @@
+{
+    "chamber_temperature": "45",
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "fan_min_speed": [
+        "14"
+    ],
+    "filament_cost": [
+        "148000"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "Sunlu ABS 250-110-14% 0.98 PSM-01_V2.4-350"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z_ADJUST=0 MOVE=1\n\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.025\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=20\nSET_RETRACTION UNRETRACT_SPEED=10"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "Snapmaker Generic ABS",
+    "name": "Sunlu ABS 250-110-14% 0.98 PSM-01_V2.4-350",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "overhang_fan_speed": [
+        "20"
+    ],
+    "pressure_advance": [
+        "0.025"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.1"
+}
