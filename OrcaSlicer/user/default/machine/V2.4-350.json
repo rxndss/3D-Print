@@ -1,0 +1,97 @@
+{
+    "before_layer_change_gcode": ";SET_VELOCITY_LIMIT ACCEL=30000\n;TIMELAPSE_TAKE_FRAME\nG92 E0.0",
+    "change_filament_gcode": "PAUSE",
+    "extruder_clearance_radius": "55",
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Anker M5 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "_PRINT_END",
+    "machine_max_acceleration_e": [
+        "8000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "8000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_y": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_z": [
+        "500",
+        "200"
+    ],
+    "machine_max_jerk_x": [
+        "9",
+        "30"
+    ],
+    "machine_max_jerk_y": [
+        "9",
+        "30"
+    ],
+    "machine_max_jerk_z": [
+        "0.2",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "240",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "240",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "20",
+        "12"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M104 S0\nM140 S0\n_PRINT_START PRINT_PROFILE=CASUAL BED_TEMPERATURE=[bed_temperature_initial_layer_single] EXTRUDER_TEMPERATURE=[nozzle_temperature_initial_layer] CHAMBER_TEMPERATURE=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
+    "max_layer_height": [
+        "0.32"
+    ],
+    "min_layer_height": [
+        "0.12"
+    ],
+    "name": "V2.4-350",
+    "nozzle_diameter": [
+        "0.5"
+    ],
+    "print_host": "http://192.168.18.6/",
+    "printable_area": [
+        "0x0",
+        "350x0",
+        "350x330",
+        "0x330"
+    ],
+    "printable_height": "270",
+    "printer_settings_id": "V2.4-350",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "0.5"
+    ],
+    "thumbnails": [
+        "400x300"
+    ],
+    "use_firmware_retraction": "1",
+    "version": "1.4.4.0",
+    "z_hop": [
+        "1"
+    ]
+}

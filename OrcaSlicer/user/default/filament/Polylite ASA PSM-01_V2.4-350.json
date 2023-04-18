@@ -1,0 +1,53 @@
+{
+    "chamber_temperature": "45",
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#FF8000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "18"
+    ],
+    "filament_max_volumetric_speed": [
+        "45"
+    ],
+    "filament_settings_id": [
+        "Polylite ASA PSM-01_V2.4-350"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.02\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=80"
+    ],
+    "filament_z_hop": [
+        "0.1"
+    ],
+    "from": "User",
+    "inherits": "Anker Generic ASA",
+    "is_custom_defined": "0",
+    "name": "Polylite ASA PSM-01_V2.4-350",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "overhang_fan_speed": [
+        "23"
+    ],
+    "pressure_advance": [
+        "0.024"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.0"
+}

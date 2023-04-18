@@ -1,0 +1,101 @@
+{
+    "app": {
+        "associate_3mf": false,
+        "associate_step": false,
+        "associate_stl": false,
+        "backup_interval": "10",
+        "backup_switch": false,
+        "curr_bed_type": "3",
+        "dark_color_mode": "0",
+        "developer_mode": false,
+        "download_path": "C:\\Users\\RENDI SAPUTRA\\Downloads",
+        "drop_project_action": true,
+        "dump_video": false,
+        "installed_networking": "1",
+        "iot_environment": "3",
+        "keyboard_supported": "none/alt/control/shift",
+        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Tue_Apr_18/10_33_57#17540#1358",
+        "mouse_supported": "mouse left/mouse middle/mouse right",
+        "mouse_wheel": "0",
+        "move_view": "none/mouse left",
+        "precise_control": "none/mouse left",
+        "preset_folder": "",
+        "print_host_queue_dialog_column_0": "120",
+        "print_host_queue_dialog_column_1": "120",
+        "print_host_queue_dialog_column_2": "120",
+        "print_host_queue_dialog_column_3": "120",
+        "print_host_queue_dialog_column_4": "120",
+        "print_host_queue_dialog_column_5": "336",
+        "print_host_queue_dialog_height": "60",
+        "print_host_queue_dialog_width": "30",
+        "print_host_queue_dialog_x": "760",
+        "print_host_queue_dialog_y": "379",
+        "privacy_version": "00.00.00.00",
+        "region": "Asia-Pacific",
+        "rotate_view": "none/mouse left",
+        "severity_level": "info",
+        "show_build_edgets": false,
+        "show_daily_tips": true,
+        "show_gcode_window": true,
+        "show_hints": true,
+        "show_home_page": true,
+        "show_model_mesh": false,
+        "show_model_shadow": true,
+        "show_printable_box": true,
+        "single_instance": false,
+        "slicer_uuid": "9958c091-f5fa-4179-b5cb-edb9e40d0a1a",
+        "sync_user_preset": false,
+        "sys_menu_enabled": "1",
+        "toolkit_size": "100",
+        "units": "0",
+        "use_inches": "0",
+        "use_legacy_3DConnexion": true,
+        "use_perspective_camera": true,
+        "user_mode": "advanced",
+        "version": "01.05.00.61",
+        "window_mainframe": "-8; -8; 1936; 1036; 1",
+        "zoom_view": "none/mouse left"
+    },
+    "arrange": {
+        "enable_rotation_fff": true,
+        "min_object_distance_fff": "2"
+    },
+    "filaments": [
+        "Anker Generic ABS",
+        "Anker Generic ASA",
+        "Anker Generic PA",
+        "Anker Generic PA-CF",
+        "Anker Generic PC",
+        "Anker Generic PETG",
+        "Anker Generic PLA",
+        "Anker Generic PLA-CF",
+        "Anker Generic PVA",
+        "Anker Generic TPU"
+    ],
+    "firstguide": {
+        "finish": true
+    },
+    "header": "OrcaSlicer 1.6.2-beta",
+    "models": [
+        {
+            "model": "Anker M5",
+            "nozzle_diameter": "0.4",
+            "vendor": "Anker"
+        }
+    ],
+    "presets": {
+        "filament_colors": "#FF8000",
+        "filaments": [
+            "Polylite ASA PSM-01_V2.4-350"
+        ],
+        "flush_volumes_matrix": "0.000000",
+        "flush_volumes_vector": "140.000000|140.000000",
+        "machine": "V2.4-350",
+        "process": "0.5mm-0.2mm CASUAL PSM-01_V2.4-350"
+    },
+    "recent": {
+        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Vz-Bureau Pack\\Printhead",
+        "printhost_path": ""
+    }
+}
+# MD5 checksum 403D43EFF57F2D7706BB6E97CCB9BF0D
