@@ -24,7 +24,7 @@
         "Sunlu PETG PSM-01_V2.4-350"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z_ADJUST=0 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.02\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=80"
     ],
     "filament_z_hop": [
         "0.1"
@@ -34,10 +34,10 @@
     "is_custom_defined": "0",
     "name": "Sunlu PETG PSM-01_V2.4-350",
     "nozzle_temperature": [
-        "220"
+        "235"
     ],
     "nozzle_temperature_initial_layer": [
-        "220"
+        "235"
     ],
     "overhang_fan_speed": [
         "35"

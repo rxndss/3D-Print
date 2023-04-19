@@ -8,13 +8,13 @@
         "curr_bed_type": "3",
         "dark_color_mode": "0",
         "developer_mode": false,
-        "download_path": "C:\\Users\\RENDI SAPUTRA\\Downloads",
+        "download_path": "C:\\Users\\Paragon\\Downloads",
         "drop_project_action": true,
         "dump_video": false,
         "installed_networking": "1",
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
-        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Tue_Apr_18/10_33_57#17540#1358",
+        "last_backup_path": "C:\\Users\\Paragon\\AppData\\Local\\Temp/orcaslicer_model/Wed_Apr_19/06_43_31#812#32",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
         "move_view": "none/mouse left",
@@ -53,12 +53,12 @@
         "use_perspective_camera": true,
         "user_mode": "advanced",
         "version": "01.05.00.61",
-        "window_mainframe": "-8; -8; 1936; 1036; 1",
+        "window_mainframe": "-8; -8; 1936; 1024; 1",
         "zoom_view": "none/mouse left"
     },
     "arrange": {
-        "enable_rotation_fff": true,
-        "min_object_distance_fff": "2"
+        "enable_rotation_fff": false,
+        "min_object_distance_fff": "6"
     },
     "filaments": [
         "Anker Generic ABS",
@@ -94,8 +94,8 @@
         "process": "0.5mm-0.2mm CASUAL PSM-01_V2.4-350"
     },
     "recent": {
-        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Vz-Bureau Pack\\Printhead",
+        "last_opened_folder": "C:\\Users\\RS\\Vz-Bureau Printhead\\Stl\\Printhead",
         "printhost_path": ""
     }
 }
-# MD5 checksum 403D43EFF57F2D7706BB6E97CCB9BF0D
+# MD5 checksum CA2F84DC59E26DF70F70D4AF5052B0CE
