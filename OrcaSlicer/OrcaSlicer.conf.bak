@@ -4,32 +4,35 @@
         "associate_step": false,
         "associate_stl": false,
         "backup_interval": "10",
-        "backup_switch": false,
+        "backup_switch": true,
         "curr_bed_type": "3",
         "dark_color_mode": "0",
         "developer_mode": false,
-        "download_path": "C:\\Users\\Paragon\\Downloads",
+        "download_path": "C:\\Users\\RENDI SAPUTRA\\Downloads",
         "drop_project_action": true,
         "dump_video": false,
+        "flush_multiplier": "1.000000",
         "installed_networking": "1",
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
-        "last_backup_path": "C:\\Users\\Paragon\\AppData\\Local\\Temp/orcaslicer_model/Wed_Apr_19/06_43_31#812#32",
+        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Tue_May_30/22_01_45#19872#47",
+        "last_export_path": "C:\\Users\\RENDI SAPUTRA\\Desktop",
+        "max_recent_count": "18",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
         "move_view": "none/mouse left",
         "precise_control": "none/mouse left",
         "preset_folder": "",
-        "print_host_queue_dialog_column_0": "120",
-        "print_host_queue_dialog_column_1": "120",
-        "print_host_queue_dialog_column_2": "120",
-        "print_host_queue_dialog_column_3": "120",
-        "print_host_queue_dialog_column_4": "120",
-        "print_host_queue_dialog_column_5": "336",
-        "print_host_queue_dialog_height": "60",
+        "print_host_queue_dialog_column_0": "100",
+        "print_host_queue_dialog_column_1": "100",
+        "print_host_queue_dialog_column_2": "100",
+        "print_host_queue_dialog_column_3": "100",
+        "print_host_queue_dialog_column_4": "100",
+        "print_host_queue_dialog_column_5": "280",
+        "print_host_queue_dialog_height": "61",
         "print_host_queue_dialog_width": "30",
-        "print_host_queue_dialog_x": "760",
-        "print_host_queue_dialog_y": "379",
+        "print_host_queue_dialog_x": "455",
+        "print_host_queue_dialog_y": "381",
         "privacy_version": "00.00.00.00",
         "region": "Asia-Pacific",
         "rotate_view": "none/mouse left",
@@ -44,6 +47,7 @@
         "show_printable_box": true,
         "single_instance": false,
         "slicer_uuid": "9958c091-f5fa-4179-b5cb-edb9e40d0a1a",
+        "sync_system_preset": true,
         "sync_user_preset": false,
         "sys_menu_enabled": "1",
         "toolkit_size": "100",
@@ -52,13 +56,15 @@
         "use_legacy_3DConnexion": true,
         "use_perspective_camera": true,
         "user_mode": "advanced",
-        "version": "01.05.00.61",
-        "window_mainframe": "-8; -8; 1936; 1024; 1",
+        "version": "01.06.00.66",
+        "window_mainframe": "-8; -8; 1936; 1036; 1",
+        "zoom_to_mouse": false,
         "zoom_view": "none/mouse left"
     },
     "arrange": {
         "enable_rotation_fff": false,
-        "min_object_distance_fff": "6"
+        "min_object_distance_fff": "2",
+        "min_object_distance_fff_seq_print": "60"
     },
     "filaments": [
         "Anker Generic ABS",
@@ -70,32 +76,115 @@
         "Anker Generic PLA",
         "Anker Generic PLA-CF",
         "Anker Generic PVA",
-        "Anker Generic TPU"
+        "Anker Generic TPU",
+        "Arena ABS @Arena X1C",
+        "Arena PC @Arena X1C",
+        "Arena PLA Basic @Arena X1C",
+        "Arena PLA Matte @Arena X1C",
+        "Arena Support W @Arena X1C",
+        "Arena TPU 95A @Arena X1C",
+        "Bambu ABS @BBL X1C",
+        "Bambu PC @BBL X1C",
+        "Bambu PLA Basic @BBL X1C",
+        "Bambu PLA Matte @BBL X1C",
+        "Bambu Support W @BBL X1C",
+        "Bambu TPU 95A @BBL X1C",
+        "Generic PLA",
+        "Generic PLA Silk",
+        "My Generic ABS",
+        "My Generic ASA",
+        "My Generic PA",
+        "My Generic PA-CF",
+        "My Generic PC",
+        "My Generic PETG",
+        "My Generic PLA",
+        "My Generic PLA-CF",
+        "My Generic PVA",
+        "My Generic TPU",
+        "OrcaArena Generic PLA",
+        "OrcaArena Generic PLA Silk",
+        "PolyLite PLA @Arena X1C",
+        "PolyLite PLA @BBL X1C",
+        "PolyTerra PLA @Arena X1C",
+        "PolyTerra PLA @BBL X1C",
+        "Voron Generic ABS",
+        "Voron Generic ASA",
+        "Voron Generic PA",
+        "Voron Generic PA-CF",
+        "Voron Generic PC",
+        "Voron Generic PETG",
+        "Voron Generic PLA",
+        "Voron Generic PLA-CF",
+        "Voron Generic PVA",
+        "Voron Generic TPU",
+        "Vzbot Generic ABS",
+        "Vzbot Generic ASA",
+        "Vzbot Generic PA",
+        "Vzbot Generic PA-CF",
+        "Vzbot Generic PC",
+        "Vzbot Generic PETG",
+        "Vzbot Generic PLA",
+        "Vzbot Generic PLA-CF",
+        "Vzbot Generic PVA",
+        "Vzbot Generic TPU"
     ],
     "firstguide": {
         "finish": true
     },
-    "header": "OrcaSlicer 1.6.2-beta",
+    "header": "OrcaSlicer 1.6.3",
     "models": [
         {
             "model": "Anker M5",
             "nozzle_diameter": "0.4",
             "vendor": "Anker"
+        },
+        {
+            "model": "Generic Klipper Printer",
+            "nozzle_diameter": "0.4",
+            "vendor": "Custom"
+        },
+        {
+            "model": "Orca Arena X1 Carbon",
+            "nozzle_diameter": "0.4",
+            "vendor": "OrcaArena"
+        },
+        {
+            "model": "Voron 2.4 350",
+            "nozzle_diameter": "0.4",
+            "vendor": "Voron"
+        },
+        {
+            "model": "Vzbot 235 AWD",
+            "nozzle_diameter": "0.4",
+            "vendor": "Vzbot"
         }
     ],
     "presets": {
         "filament_colors": "#FF8000",
         "filaments": [
-            "Polylite ASA PSM-01_V2.4-350"
+            "eSun PETG PSM-01_V2.4-350"
         ],
         "flush_volumes_matrix": "0.000000",
         "flush_volumes_vector": "140.000000|140.000000",
-        "machine": "V2.4-350",
+        "machine": "PSM-02_V2.4-350",
         "process": "0.5mm-0.2mm CASUAL PSM-01_V2.4-350"
     },
+    "print": {
+        "bed_leveling": "1",
+        "flow_cali": "1",
+        "timelapse": "1"
+    },
     "recent": {
-        "last_opened_folder": "C:\\Users\\RS\\Vz-Bureau Printhead\\Stl\\Printhead",
-        "printhost_path": ""
+        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\PARAGON\\Customers\\081363493182",
+        "printhost_path": "",
+        "settings_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop"
+    },
+    "recent_projects": {
+        "01": "C:\\Users\\RENDI SAPUTRA\\Desktop\\EM_Calibration.3mf",
+        "02": "C:\\Users\\RENDI SAPUTRA\\Desktop\\12 Gun East India Merchant Hull.3mf",
+        "03": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230526\\Bottle Holder - Part 1.3mf",
+        "04": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230526\\Jig Angle Left.3mf",
+        "05": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Sails.3mf"
     }
 }
-# MD5 checksum CA2F84DC59E26DF70F70D4AF5052B0CE
+# MD5 checksum 4177118AFDA346E10680AC8B16EDAC6D

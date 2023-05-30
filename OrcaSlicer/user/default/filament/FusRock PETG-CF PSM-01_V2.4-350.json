@@ -1,0 +1,58 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#008000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "fan_min_speed": [
+        "23"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "filament_max_volumetric_speed": [
+        "35"
+    ],
+    "filament_settings_id": [
+        "FusRock PETG-CF PSM-01_V2.4-350"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=30"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
+    "filament_z_hop": [
+        "0.1"
+    ],
+    "from": "User",
+    "inherits": "Anker Generic PETG",
+    "is_custom_defined": "0",
+    "name": "FusRock PETG-CF PSM-01_V2.4-350",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "overhang_fan_speed": [
+        "28"
+    ],
+    "pressure_advance": [
+        "0.032"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.0"
+}

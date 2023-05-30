@@ -1,0 +1,76 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#008000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "23"
+    ],
+    "filament_cost": [
+        "288000"
+    ],
+    "filament_density": [
+        "1.07"
+    ],
+    "filament_flow_ratio": [
+        "0.933"
+    ],
+    "filament_max_volumetric_speed": [
+        "55"
+    ],
+    "filament_settings_id": [
+        "Sunlu ASA PSM-01_V2.4-350"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.02\n\nSET_RETRACTION RETRACT_LENGTH=0.4\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=60\nSET_RETRACTION UNRETRACT_SPEED=80"
+    ],
+    "filament_z_hop": [
+        "0.1"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "inherits": "Anker Generic ASA",
+    "is_custom_defined": "0",
+    "name": "Sunlu ASA PSM-01_V2.4-350",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "overhang_fan_speed": [
+        "28"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "pressure_advance": [
+        "0.027"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.0"
+}

@@ -1,0 +1,61 @@
+{
+    "default_filament_colour": [
+        "#008000"
+    ],
+    "enable_overhang_bridge_fan": [
+        "0"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "PolyTerra PLA PSM-01_V2.4-350"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z_ADJUST=0.025 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.02\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=30"
+    ],
+    "filament_z_hop": [
+        "0.2"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "50"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "50"
+    ],
+    "inherits": "Anker Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PolyTerra PLA PSM-01_V2.4-350",
+    "nozzle_temperature": [
+        "190"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "190"
+    ],
+    "overhang_fan_speed": [
+        "50"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "pressure_advance": [
+        "0.027"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.0"
+}

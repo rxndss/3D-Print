@@ -15,16 +15,22 @@
         "35"
     ],
     "fan_min_speed": [
-        "30"
+        "20"
+    ],
+    "filament_cost": [
+        "168000"
+    ],
+    "filament_flow_ratio": [
+        "0.8835"
     ],
     "filament_max_volumetric_speed": [
-        "35"
+        "45"
     ],
     "filament_settings_id": [
         "Sunlu PETG PSM-01_V2.4-350"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=40\nSET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z_ADJUST=-0.005 MOVE=1\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=60\nSET_RETRACTION UNRETRACT_SPEED=80"
     ],
     "filament_z_hop": [
         "0.1"
@@ -34,16 +40,25 @@
     "is_custom_defined": "0",
     "name": "Sunlu PETG PSM-01_V2.4-350",
     "nozzle_temperature": [
-        "235"
+        "240"
     ],
     "nozzle_temperature_initial_layer": [
-        "235"
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
     ],
     "overhang_fan_speed": [
-        "35"
+        "30"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
     ],
     "pressure_advance": [
-        "0.03"
+        "0.037"
     ],
     "slow_down_layer_time": [
         "4"

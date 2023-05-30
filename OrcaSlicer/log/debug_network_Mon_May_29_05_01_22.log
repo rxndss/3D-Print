@@ -1,0 +1,30 @@
+[2023-05-29 05:01:22.211853 +07:00] [I] [T 7700]: init log
+[2023-05-29 05:01:22.212371 +07:00] [I] [T 7700]: Version: 01.06.00.10
+[2023-05-29 05:01:22.212388 +07:00] [I] [T 7700]: Agent: set_cert_dir_name, dir=C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources/cert, name=slicer_base64.cer
+[2023-05-29 05:01:22.212522 +07:00] [I] [T 7700]: set_on_server_connected_fn
+[2023-05-29 05:01:22.212533 +07:00] [I] [T 7700]: set_on_printer_connected_fn
+[2023-05-29 05:01:22.212536 +07:00] [I] [T 7700]: set_get_country_code_fn
+[2023-05-29 05:01:22.212538 +07:00] [I] [T 7700]: set_on_local_connect_fn
+[2023-05-29 05:01:22.212540 +07:00] [I] [T 7700]: set_on_message_fn
+[2023-05-29 05:01:22.212541 +07:00] [I] [T 7700]: set_on_local_message_fn
+[2023-05-29 05:01:22.212575 +07:00] [I] [T 7700]: set host to https://api.bambulab.com/v1
+[2023-05-29 05:01:22.212576 +07:00] [I] [T 7700]: region update iot = https://api.bambulab.com/v1
+[2023-05-29 05:01:22.212577 +07:00] [I] [T 7700]: region update api = https://api.bambulab.com/
+[2023-05-29 05:01:22.212578 +07:00] [I] [T 7700]: region update mqtt = ssl://us.mqtt.bambulab.com:8883
+[2023-05-29 05:01:22.212578 +07:00] [I] [T 7700]: region update tutk = US
+[2023-05-29 05:01:22.212579 +07:00] [I] [T 7700]: region update base domain = bambulab.com
+[2023-05-29 05:01:22.212580 +07:00] [I] [T 7700]: region update environment = 
+[2023-05-29 05:01:22.212581 +07:00] [I] [T 7700]: region update wifi_code = DE
+[2023-05-29 05:01:22.212581 +07:00] [I] [T 7700]: region update design = https://bambulab.com
+[2023-05-29 05:01:22.212585 +07:00] [I] [T 7700]: Agent: load_config
+[2023-05-29 05:01:22.213086 +07:00] [I] [T 7700]: load_user_info
+[2023-05-29 05:01:22.213091 +07:00] [I] [T 7700]: save_user_info
+[2023-05-29 05:01:26.393256 +07:00] [I] [T 7700]: set_on_http_error_fn
+[2023-05-29 05:01:26.393269 +07:00] [I] [T 7700]: ssdp: stop()
+[2023-05-29 05:01:26.404442 +07:00] [I] [T 7700]: SsdpDiscovery:start_ssdp with card number = 2
+[2023-05-29 05:01:26.404563 +07:00] [I] [T 7700]: SsdpDiscovery::start_discover(), create thread 0
+[2023-05-29 05:01:26.404660 +07:00] [I] [T 7700]: SsdpDiscovery::start_discover(), create thread 1
+[2023-05-29 05:07:54.668557 +07:00] [I] [T 7700]: ssdp: stop()
+[2023-05-29 05:07:54.873473 +07:00] [I] [T 7700]: SsdpDiscovery::stop_discover(), join thread 0
+[2023-05-29 05:07:55.075700 +07:00] [I] [T 7700]: SsdpDiscovery::stop_discover(), join thread 1
+[2023-05-29 05:07:55.075727 +07:00] [I] [T 7700]: Agent: save_config

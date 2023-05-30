@@ -488,9 +488,273 @@
             {
                 "ecode": "05004015",
                 "intro": "There is not enough free storage space for the print job. Please format or clean MicroSD card to release available space."
+            },
+            {
+                "ecode": "12008001",
+                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018001",
+                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028001",
+                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038001",
+                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8001",
+                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12008002",
+                "intro": "The cutter is stuck. Please pull out the cutter handle and click the retry button."
+            },
+            {
+                "ecode": "12018002",
+                "intro": "The cutter is stuck. Please pull out the cutter handle and click the retry button."
+            },
+            {
+                "ecode": "12028002",
+                "intro": "The cutter is stuck. Please pull out the cutter handle and click the retry button."
+            },
+            {
+                "ecode": "12038002",
+                "intro": "The cutter is stuck. Please pull out the cutter handle and click the retry button."
+            },
+            {
+                "ecode": "12FF8002",
+                "intro": "The cutter is stuck. Please pull out the cutter handle and click the retry button."
+            },
+            {
+                "ecode": "12008003",
+                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside extruder. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018003",
+                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside extruder. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028003",
+                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside extruder. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038003",
+                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside extruder. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8003",
+                "intro": "Please pull out the filament on the spool holder from the extruder. If an AMS is to be used later, please connect the PTFE tube from the AMS to the extruder and click the the retry button."
+            },
+            {
+                "ecode": "12FFC003",
+                "intro": "Please pull out the filament on the spool holder from the extruder. If an AMS is to be used later, please connect the PTFE tube from the AMS to the extruder and click the the retry button."
+            },
+            {
+                "ecode": "12008004",
+                "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018004",
+                "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028004",
+                "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038004",
+                "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8004",
+                "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12008005",
+                "intro": "Failed to feed the filament. Please load the filament, then click the retry button."
+            },
+            {
+                "ecode": "12018005",
+                "intro": "Failed to feed the filament. Please load the filament and then click the retry button."
+            },
+            {
+                "ecode": "12028005",
+                "intro": "Failed to feed the filament. Please load the filament, then click the retry button."
+            },
+            {
+                "ecode": "12038005",
+                "intro": "Failed to feed the filament. Please load the filament, then click the retry button."
+            },
+            {
+                "ecode": "12FF8005",
+                "intro": "Failed to feed the filament. Please load the filament, then click the retry button."
+            },
+            {
+                "ecode": "12008006",
+                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018006",
+                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028006",
+                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038006",
+                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8006",
+                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered, and then click the retry button."
+            },
+            {
+                "ecode": "12FFC006",
+                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered."
+            },
+            {
+                "ecode": "12008007",
+                "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018007",
+                "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028007",
+                "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038007",
+                "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8007",
+                "intro": "Please observe the nozzle. If the filament has been extruded, click \"Done\"; if it is not, please push the filament forward slightly and then click the retry button."
+            },
+            {
+                "ecode": "12008010",
+                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018010",
+                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028010",
+                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038010",
+                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8010",
+                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12008011",
+                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the retry button."
+            },
+            {
+                "ecode": "12018011",
+                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the retry button."
+            },
+            {
+                "ecode": "12028011",
+                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the retry button."
+            },
+            {
+                "ecode": "12038011",
+                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the retry button."
+            },
+            {
+                "ecode": "12FF8011",
+                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the retry button."
+            },
+            {
+                "ecode": "12008012",
+                "intro": "Failed to get AMS mapping table. Please click the retry button to continue."
+            },
+            {
+                "ecode": "12018012",
+                "intro": "Failed to get AMS mapping table; please click the retry button to continue."
+            },
+            {
+                "ecode": "12028012",
+                "intro": "Failed to get AMS mapping table; please click the retry button to continue."
+            },
+            {
+                "ecode": "12038012",
+                "intro": "Failed to get AMS mapping table; please click the retry button to continue."
+            },
+            {
+                "ecode": "12FF8012",
+                "intro": "Failed to get AMS mapping table; please click the retry button to continue."
+            },
+            {
+                "ecode": "12008013",
+                "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018013",
+                "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028013",
+                "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038013",
+                "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12FF8013",
+                "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12004001",
+                "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
+            },
+            {
+                "ecode": "12014001",
+                "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
+            },
+            {
+                "ecode": "12024001",
+                "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
+            },
+            {
+                "ecode": "12034001",
+                "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
+            },
+            {
+                "ecode": "12FF4001",
+                "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
+            },
+            {
+                "ecode": "12008014",
+                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12018014",
+                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12028014",
+                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "12038014",
+                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
             }
         ],
-        "ver": 202304172130
+        "ver": 202305091930
     },
     "device_hms": {
         "en": [
@@ -524,7 +788,7 @@
             },
             {
                 "ecode": "0300030000020002",
-                "intro": ""
+                "intro": "The speed of the nozzle fan is slow. It may be stuck and need cleaning."
             },
             {
                 "ecode": "0300040000020001",
@@ -2088,7 +2352,7 @@
             },
             {
                 "ecode": "0500030000030022",
-                "intro": "SD card performance degradation has been detected. It may affect print jobs, logs, and video records, Please try to format or change the MicroSD card."
+                "intro": "SD card performance degradation has been detected. It may affect print jobs, logs, and video records. Please try to format or change the MicroSD card."
             },
             {
                 "ecode": "07FF200000020001",
@@ -2105,9 +2369,985 @@
             {
                 "ecode": "0500040000030008",
                 "intro": "The door is detected to be open."
+            },
+            {
+                "ecode": "0500010000030007",
+                "intro": "Unable to record time-lapse photography without MicroSD card inserted."
+            },
+            {
+                "ecode": "1200100000010001",
+                "intro": "The AMS1 Slot1 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1201100000010001",
+                "intro": "The AMS2 Slot1 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1202100000010001",
+                "intro": "The AMS3 Slot1 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1203100000010001",
+                "intro": "The AMS4 Slot1 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1200110000010001",
+                "intro": "The AMS1 Slot2 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1201110000010001",
+                "intro": "The AMS2 Slot2 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1202110000010001",
+                "intro": "The AMS3 Slot2 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1203110000010001",
+                "intro": "The AMS4 Slot2 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1200120000010001",
+                "intro": "The AMS1 Slot3 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1201120000010001",
+                "intro": "The AMS2 Slot3 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1202120000010001",
+                "intro": "The AMS3 Slot3 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1203120000010001",
+                "intro": "The AMS4 Slot3 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1200130000010001",
+                "intro": "The AMS1 Slot4 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1201130000010001",
+                "intro": "The AMS2 Slot4 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1202130000010001",
+                "intro": "The AMS3 Slot4 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1203130000010001",
+                "intro": "The AMS4 Slot4 motor has slipped. The extrusion wheel may be malfunctioning, or the filament may be too thin."
+            },
+            {
+                "ecode": "1200100000020002",
+                "intro": "The AMS1 Slot1 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201100000020002",
+                "intro": "The AMS2 Slot1 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202100000020002",
+                "intro": "The AMS3 Slot1 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203100000020002",
+                "intro": "The AMS4 Slot1 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200110000020002",
+                "intro": "The AMS1 Slot2 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201110000020002",
+                "intro": "The AMS2 Slot2 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202110000020002",
+                "intro": "The AMS3 Slot2 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203110000020002",
+                "intro": "The AMS4 Slot2 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200120000020002",
+                "intro": "The AMS1 Slot3 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201120000020002",
+                "intro": "The AMS2 Slot3 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202120000020002",
+                "intro": "The AMS3 Slot3 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203120000020002",
+                "intro": "The AMS4 Slot3 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200130000020002",
+                "intro": "The AMS1 Slot4 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201130000020002",
+                "intro": "The AMS2 Slot4 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202130000020002",
+                "intro": "The AMS3 Slot4 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203130000020002",
+                "intro": "The AMS4 Slot4 motor is overloaded. The filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200100000010003",
+                "intro": "The AMS1 Slot1 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1201100000010003",
+                "intro": "The AMS2 Slot1 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1202100000010003",
+                "intro": "The AMS3 Slot1 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1203100000010003",
+                "intro": "The AMS4 Slot1 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1200110000010003",
+                "intro": "The AMS1 Slot2 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1201110000010003",
+                "intro": "The AMS2 Slot2 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1202110000010003",
+                "intro": "The AMS3 Slot2 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1203110000010003",
+                "intro": "The AMS4 Slot2 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1200120000010003",
+                "intro": "The AMS1 Slot3 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1201120000010003",
+                "intro": "The AMS2 Slot3 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1202120000010003",
+                "intro": "The AMS3 Slot3 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1203120000010003",
+                "intro": "The AMS4 Slot3 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1200130000010003",
+                "intro": "The AMS1 Slot4 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1201130000010003",
+                "intro": "The AMS2 Slot4 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1202130000010003",
+                "intro": "The AMS3 Slot4 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1203130000010003",
+                "intro": "The AMS4 Slot4 motor torque control is malfunctioning. The current sensor may be faulty."
+            },
+            {
+                "ecode": "1200200000020001",
+                "intro": "AMS1 Slot1 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1201200000020001",
+                "intro": "AMS2 Slot1 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1202200000020001",
+                "intro": "AMS3 Slot1 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1203200000020001",
+                "intro": "AMS4 Slot1 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1200210000020001",
+                "intro": "AMS1 Slot2 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1201210000020001",
+                "intro": "AMS2 Slot2 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1202210000020001",
+                "intro": "AMS3 Slot2 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1203210000020001",
+                "intro": "AMS4 Slot2 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1200220000020001",
+                "intro": "AMS1 Slot3 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1201220000020001",
+                "intro": "AMS2 Slot3 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1202220000020001",
+                "intro": "AMS3 Slot3 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1203220000020001",
+                "intro": "AMS4 Slot3 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1200230000020001",
+                "intro": "AMS1 Slot4 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1201230000020001",
+                "intro": "AMS2 Slot4 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1202230000020001",
+                "intro": "AMS3 Slot4 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1203230000020001",
+                "intro": "AMS4 Slot4 filament has run out; please insert a new filament."
+            },
+            {
+                "ecode": "12FF200000020001",
+                "intro": "Filament at the spool holder has run out; please insert a new filament."
+            },
+            {
+                "ecode": "1200200000020002",
+                "intro": "AMS1 Slot1 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1201200000020002",
+                "intro": "AMS2 Slot1 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1202200000020002",
+                "intro": "AMS3 Slot1 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1203200000020002",
+                "intro": "AMS4 Slot1 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1200210000020002",
+                "intro": "AMS1 Slot2 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1201210000020002",
+                "intro": "AMS2 Slot2 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1202210000020002",
+                "intro": "AMS3 Slot2 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1203210000020002",
+                "intro": "AMS4 Slot2 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1200220000020002",
+                "intro": "AMS1 Slot3 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1201220000020002",
+                "intro": "AMS2 Slot3 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1202220000020002",
+                "intro": "AMS3 Slot3 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1203220000020002",
+                "intro": "AMS4 Slot3 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1200230000020002",
+                "intro": "AMS1 Slot4 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1201230000020002",
+                "intro": "AMS2 Slot4 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1202230000020002",
+                "intro": "AMS3 Slot4 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1203230000020002",
+                "intro": "AMS4 Slot4 is empty; please insert a new filament."
+            },
+            {
+                "ecode": "12FF200000020002",
+                "intro": "Filament on the spool holder is empty; please insert a new filament."
+            },
+            {
+                "ecode": "1200200000020003",
+                "intro": "AMS1 Slot1 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1201200000020003",
+                "intro": "AMS2 Slot1 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1202200000020003",
+                "intro": "AMS3 Slot1 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1203200000020003",
+                "intro": "AMS4 Slot1 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1200210000020003",
+                "intro": "AMS1 Slot2 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1201210000020003",
+                "intro": "AMS2 Slot2 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1202210000020003",
+                "intro": "AMS3 Slot2 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1203210000020003",
+                "intro": "AMS4 Slot2 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1200220000020003",
+                "intro": "AMS1 Slot3 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1201220000020003",
+                "intro": "AMS2 Slot3 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1202220000020003",
+                "intro": "AMS3 Slot3 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1203220000020003",
+                "intro": "AMS4 Slot3 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1200230000020003",
+                "intro": "AMS1 Slot4 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1201230000020003",
+                "intro": "AMS2 Slot4 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1202230000020003",
+                "intro": "AMS3 Slot4 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1203230000020003",
+                "intro": "AMS4 Slot4 filament may be broken in the PTFE tube."
+            },
+            {
+                "ecode": "1200200000020004",
+                "intro": "AMS1 Slot1 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1201200000020004",
+                "intro": "AMS2 Slot1 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1202200000020004",
+                "intro": "AMS3 Slot1 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1203200000020004",
+                "intro": "AMS4 Slot1 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1200210000020004",
+                "intro": "AMS1 Slot2 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1201210000020004",
+                "intro": "AMS2 Slot2 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1202210000020004",
+                "intro": "AMS3 Slot2 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1203210000020004",
+                "intro": "AMS4 Slot2 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1200220000020004",
+                "intro": "AMS1 Slot3 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1201220000020004",
+                "intro": "AMS2 Slot3 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1202220000020004",
+                "intro": "AMS3 Slot3 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1203220000020004",
+                "intro": "AMS4 Slot3 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1200230000020004",
+                "intro": "AMS1 Slot4 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1201230000020004",
+                "intro": "AMS2 Slot4 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1202230000020004",
+                "intro": "AMS3 Slot4 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1203230000020004",
+                "intro": "AMS4 Slot4 filament may be broken in the tool head."
+            },
+            {
+                "ecode": "12FF200000020004",
+                "intro": "Please pull out the filament on the spool holder from the extruder."
+            },
+            {
+                "ecode": "1200200000020005",
+                "intro": "AMS1 Slot1 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1201200000020005",
+                "intro": "AMS2 Slot1 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1202200000020005",
+                "intro": "AMS3 Slot1 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1203200000020005",
+                "intro": "AMS4 Slot1 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1200210000020005",
+                "intro": "AMS1 Slot2 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1201210000020005",
+                "intro": "AMS2 Slot2 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1202210000020005",
+                "intro": "AMS3 Slot2 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1203210000020005",
+                "intro": "AMS4 Slot2 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1200220000020005",
+                "intro": "AMS1 Slot3 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1201220000020005",
+                "intro": "AMS2 Slot3 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1202220000020005",
+                "intro": "AMS3 Slot3 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1203220000020005",
+                "intro": "AMS4 Slot3 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1200230000020005",
+                "intro": "AMS1 Slot4 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1201230000020005",
+                "intro": "AMS2 Slot4 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1202230000020005",
+                "intro": "AMS3 Slot4 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1203230000020005",
+                "intro": "AMS4 Slot4 filament has run out, and purging the old filament went abnormally; please check to see if filament is stuck in the toolhead."
+            },
+            {
+                "ecode": "1200200000030001",
+                "intro": "AMS1 Slot1 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1201200000030001",
+                "intro": "AMS2 Slot1 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1202200000030001",
+                "intro": "AMS3 Slot1 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1203200000030001",
+                "intro": "AMS4 Slot1 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1200210000030001",
+                "intro": "AMS1 Slot2 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1201210000030001",
+                "intro": "AMS2 Slot2 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1202210000030001",
+                "intro": "AMS3 Slot2 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1203210000030001",
+                "intro": "AMS4 Slot2 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1200220000030001",
+                "intro": "AMS1 Slot3 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1201220000030001",
+                "intro": "AMS2 Slot3 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1202220000030001",
+                "intro": "AMS3 Slot3 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1203220000030001",
+                "intro": "AMS4 Slot3 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1200230000030001",
+                "intro": "AMS1 Slot4 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1201230000030001",
+                "intro": "AMS2 Slot4 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1202230000030001",
+                "intro": "AMS3 Slot4 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1203230000030001",
+                "intro": "AMS4 Slot4 filament has run out. Purging the old filament; please wait."
+            },
+            {
+                "ecode": "1200200000030002",
+                "intro": "AMS1 Slot1 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1201200000030002",
+                "intro": "AMS2 Slot1 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1202200000030002",
+                "intro": "AMS3 Slot1 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1203200000030002",
+                "intro": "AMS4 Slot1 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1200210000030002",
+                "intro": "AMS1 Slot2 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1201210000030002",
+                "intro": "AMS2 Slot2 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1202210000030002",
+                "intro": "AMS3 Slot2 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1203210000030002",
+                "intro": "AMS4 Slot2 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1200220000030002",
+                "intro": "AMS1 Slot3 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1201220000030002",
+                "intro": "AMS2 Slot3 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1202220000030002",
+                "intro": "AMS3 Slot3 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1203220000030002",
+                "intro": "AMS4 Slot3 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1200230000030002",
+                "intro": "AMS1 Slot4 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1201230000030002",
+                "intro": "AMS2 Slot4 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1202230000030002",
+                "intro": "AMS3 Slot4 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1203230000030002",
+                "intro": "AMS4 Slot4 filament has run out and automatically switched to the slot with the same filament."
+            },
+            {
+                "ecode": "1200240000020001",
+                "intro": "Filament may be broken in the tool head."
+            },
+            {
+                "ecode": "1200250000020001",
+                "intro": "Failed to extrude the filament and the extruder may be clogged."
+            },
+            {
+                "ecode": "1200300000010001",
+                "intro": "AMS1 Slot1 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1201300000010001",
+                "intro": "AMS2 Slot1 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1202300000010001",
+                "intro": "AMS3 Slot1 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1203300000010001",
+                "intro": "AMS4 Slot1 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1200310000010001",
+                "intro": "AMS1 Slot2 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1201310000010001",
+                "intro": "AMS2 Slot2 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1202310000010001",
+                "intro": "AMS3 Slot2 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1203310000010001",
+                "intro": "AMS4 Slot2 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1200320000010001",
+                "intro": "AMS1 Slot3 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1201320000010001",
+                "intro": "AMS2 Slot3 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1202320000010001",
+                "intro": "AMS3 Slot3 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1203320000010001",
+                "intro": "AMS4 Slot3 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1200330000010001",
+                "intro": "AMS1 Slot4 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1201330000010001",
+                "intro": "AMS2 Slot4 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1202330000010001",
+                "intro": "AMS3 Slot4 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1203330000010001",
+                "intro": "AMS4 Slot4 RFID coil is broken or the RF hardware circuit has an error."
+            },
+            {
+                "ecode": "1200300000020002",
+                "intro": "The RFID-tag on AMS1 Slot1 is damaged."
+            },
+            {
+                "ecode": "1201300000020002",
+                "intro": "The RFID-tag on AMS2 Slot1 is damaged."
+            },
+            {
+                "ecode": "1202300000020002",
+                "intro": "The RFID-tag on AMS3 Slot1 is damaged."
+            },
+            {
+                "ecode": "1203300000020002",
+                "intro": "The RFID-tag on AMS4 Slot1 is damaged."
+            },
+            {
+                "ecode": "1200310000020002",
+                "intro": "The RFID-tag on AMS1 Slot2 is damaged."
+            },
+            {
+                "ecode": "1201310000020002",
+                "intro": "The RFID-tag on AMS2 Slot2 is damaged."
+            },
+            {
+                "ecode": "1202310000020002",
+                "intro": "The RFID-tag on AMS3 Slot2 is damaged."
+            },
+            {
+                "ecode": "1203310000020002",
+                "intro": "The RFID-tag on AMS4 Slot2 is damaged."
+            },
+            {
+                "ecode": "1200320000020002",
+                "intro": "The RFID-tag on AMS1 Slot3 is damaged."
+            },
+            {
+                "ecode": "1201320000020002",
+                "intro": "The RFID-tag on AMS2 Slot3 is damaged."
+            },
+            {
+                "ecode": "1202320000020002",
+                "intro": "The RFID-tag on AMS3 Slot3 is damaged."
+            },
+            {
+                "ecode": "1203320000020002",
+                "intro": "The RFID-tag on AMS4 Slot3 is damaged."
+            },
+            {
+                "ecode": "1200330000020002",
+                "intro": "The RFID-tag on AMS1 Slot4 is damaged."
+            },
+            {
+                "ecode": "1201330000020002",
+                "intro": "The RFID-tag on AMS2 Slot4 is damaged."
+            },
+            {
+                "ecode": "1202330000020002",
+                "intro": "The RFID-tag on AMS3 Slot4 is damaged."
+            },
+            {
+                "ecode": "1203330000020002",
+                "intro": "The RFID-tag on AMS4 Slot4 is damaged."
+            },
+            {
+                "ecode": "1200300000030003",
+                "intro": "AMS1 Slot1 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1201300000030003",
+                "intro": "AMS2 Slot1 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1202300000030003",
+                "intro": "AMS3 Slot1 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1203300000030003",
+                "intro": "AMS4 Slot1 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1200310000030003",
+                "intro": "AMS1 Slot2 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1201310000030003",
+                "intro": "AMS2 Slot2 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1202310000030003",
+                "intro": "AMS3 Slot2 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1203310000030003",
+                "intro": "AMS4 Slot2 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1200320000030003",
+                "intro": "AMS1 Slot3 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1201320000030003",
+                "intro": "AMS2 Slot3 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1202320000030003",
+                "intro": "AMS3 Slot3 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1203320000030003",
+                "intro": "AMS4 Slot3 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1200330000030003",
+                "intro": "AMS1 Slot4 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1201330000030003",
+                "intro": "AMS2 Slot4 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1202330000030003",
+                "intro": "AMS3 Slot4 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1203330000030003",
+                "intro": "AMS4 Slot4 RFID cannot be read because of a structural error."
+            },
+            {
+                "ecode": "1200300000010004",
+                "intro": "RFID cannot be read because of an encryption chip failure in AMS1."
+            },
+            {
+                "ecode": "1201300000010004",
+                "intro": "RFID cannot be read because of an encryption chip failure in AMS2."
+            },
+            {
+                "ecode": "1202300000010004",
+                "intro": "RFID cannot be read because of an encryption chip failure in AMS3."
+            },
+            {
+                "ecode": "1203300000010004",
+                "intro": "RFID cannot be read because of an encryption chip failure in AMS4."
+            },
+            {
+                "ecode": "1200450000020001",
+                "intro": "The filament cutter sensor is malfunctioning. Please check whether the connector is properly plugged in."
+            },
+            {
+                "ecode": "1200450000020002",
+                "intro": "The filament cutter's cutting distance is too large. The X motor may lose steps."
+            },
+            {
+                "ecode": "1200450000020003",
+                "intro": "The filament cutter handle has not released. The handle or blade may be stuck."
+            },
+            {
+                "ecode": "1200500000020001",
+                "intro": "AMS1 communication is abnormal; please check the connection cable."
+            },
+            {
+                "ecode": "1201500000020001",
+                "intro": "AMS2 communication is abnormal; please check the connection cable."
+            },
+            {
+                "ecode": "1202500000020001",
+                "intro": "AMS3 communication is abnormal; please check the connection cable."
+            },
+            {
+                "ecode": "1203500000020001",
+                "intro": "AMS4 communication is abnormal; please check the connection cable."
+            },
+            {
+                "ecode": "1200510000030001",
+                "intro": "AMS is disabled; please load filament from spool holder."
+            },
+            {
+                "ecode": "1200700000010001",
+                "intro": "AMS1 Filament speed and length error: The slot 1 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1201700000010001",
+                "intro": "AMS2 Filament speed and length error: The slot 1 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1202700000010001",
+                "intro": "AMS3 Filament speed and length error: The slot 1 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1203700000010001",
+                "intro": "AMS4 Filament speed and length error: The slot 1 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1200710000010001",
+                "intro": "AMS1 Filament speed and length error: The slot 2 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1201710000010001",
+                "intro": "AMS2 Filament speed and length error: The slot 2 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1202710000010001",
+                "intro": "AMS3 Filament speed and length error: The slot 2 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1203710000010001",
+                "intro": "AMS4 Filament speed and length error: The slot 2 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1200720000010001",
+                "intro": "AMS1 Filament speed and length error: The slot 3 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1201720000010001",
+                "intro": "AMS2 Filament speed and length error: The slot 3 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1202720000010001",
+                "intro": "AMS3 Filament speed and length error: The slot 3 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1203720000010001",
+                "intro": "AMS4 Filament speed and length error: The slot 3 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1200730000010001",
+                "intro": "AMS1 Filament speed and length error: The slot 4 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1201730000010001",
+                "intro": "AMS2 Filament speed and length error: The slot 4 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1202730000010001",
+                "intro": "AMS3 Filament speed and length error: The slot 4 filament odometry may be faulty."
+            },
+            {
+                "ecode": "1203730000010001",
+                "intro": "AMS4 Filament speed and length error: The slot 4 filament odometry may be faulty."
+            },
+            {
+                "ecode": "12FF200000020005",
+                "intro": "Filament may be broken in the tool head."
+            },
+            {
+                "ecode": "12FF200000020006",
+                "intro": "Failed to extrude the filament and the extruder may be clogged."
             }
         ],
-        "ver": 202304172130
+        "ver": 202305091930
     },
-    "version": "202304172130"
+    "version": "202305091930"
 }
