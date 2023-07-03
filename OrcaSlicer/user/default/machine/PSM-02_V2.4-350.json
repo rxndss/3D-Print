@@ -2,7 +2,9 @@
     "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\GitHub\\\\3D-Print\\\\SuperSlicer\\\\VORON V2.4\\\\bed_model.stl",
     "before_layer_change_gcode": ";SET_VELOCITY_LIMIT ACCEL=30000\n;TIMELAPSE_TAKE_FRAME\nG92 E0",
     "change_filament_gcode": "PAUSE",
-    "extruder_clearance_radius": "55",
+    "extruder_clearance_height_to_lid": "472",
+    "extruder_clearance_height_to_rod": "47",
+    "extruder_clearance_radius": "77",
     "fan_speedup_time": "1",
     "from": "User",
     "gcode_flavor": "klipper",
@@ -18,15 +20,15 @@
         "5000"
     ],
     "machine_max_acceleration_retracting": [
-        "8000",
+        "35000",
         "5000"
     ],
     "machine_max_acceleration_x": [
-        "30000",
+        "35000",
         "5000"
     ],
     "machine_max_acceleration_y": [
-        "30000",
+        "35000",
         "5000"
     ],
     "machine_max_acceleration_z": [
@@ -64,16 +66,10 @@
     "machine_pause_gcode": "PAUSE",
     "machine_start_gcode": "M104 S0\nM140 S0\n_PRINT_START PRINT_PROFILE=CASUAL BED_TEMPERATURE=[bed_temperature_initial_layer_single] EXTRUDER_TEMPERATURE=[nozzle_temperature_initial_layer] CHAMBER_TEMPERATURE=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
     "max_layer_height": [
-        "0.32"
-    ],
-    "min_layer_height": [
-        "0.12"
+        "0.36"
     ],
     "name": "PSM-02_V2.4-350",
-    "nozzle_diameter": [
-        "0.5"
-    ],
-    "print_host": "192.168.0.103",
+    "print_host": "psm-02.local",
     "printable_area": [
         "0x0",
         "350x0",

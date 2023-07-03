@@ -1,0 +1,507 @@
+2023-06-29 02:31:32.809072[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::Update_dark_mode_flag: switch the current dark mode status to 0 
+2023-06-29 02:31:32.810081[Thread 0x00002cd4]:last app version {1.6.0}, current version {1.6.0}
+2023-06-29 02:31:32.820582[Thread 0x00002cd4]:begin to show the splash screen...
+2023-06-29 02:31:32.881118[Thread 0x00002cd4]:loading systen presets...
+2023-06-29 02:31:32.883648[Thread 0x00002cd4]:[BBL Updater]:Checking whether the profile from resource is newer
+2023-06-29 02:31:32.883648[Thread 0x00002cd4]:Installing 3 bundles from resources ...
+2023-06-29 02:31:32.897151[Thread 0x00002cd4]:[BBL Updater]:Performing 12 updates
+2023-06-29 02:31:32.897151[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker.json)
+2023-06-29 02:31:32.903671[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\process)
+2023-06-29 02:31:32.903671[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\process"
+2023-06-29 02:31:32.915068[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\filament)
+2023-06-29 02:31:32.915068[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\filament"
+2023-06-29 02:31:33.032042[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\machine)
+2023-06-29 02:31:33.032042[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\machine"
+2023-06-29 02:31:33.053026[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom.json)
+2023-06-29 02:31:33.059224[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\process)
+2023-06-29 02:31:33.059224[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\process"
+2023-06-29 02:31:33.158516[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\filament)
+2023-06-29 02:31:33.158516[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\filament"
+2023-06-29 02:31:33.281470[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\machine)
+2023-06-29 02:31:33.281470[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\machine"
+2023-06-29 02:31:33.317917[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa.json)
+2023-06-29 02:31:33.324796[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\process)
+2023-06-29 02:31:33.324796[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\process"
+2023-06-29 02:31:33.343483[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\filament)
+2023-06-29 02:31:33.343483[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\filament"
+2023-06-29 02:31:33.423534[Thread 0x00002cd4]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\machine)
+2023-06-29 02:31:33.423534[Thread 0x00002cd4]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Prusa\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Prusa\machine"
+2023-06-29 02:31:33.481904[Thread 0x00002cd4]:Slic3r::NetworkAgent::initialize_network_module, successfully loaded library C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\plugins/bambu_networking.dll, module 00007FF86EEB0000
+2023-06-29 02:31:33.481904[Thread 0x00002cd4]:Slic3r::NetworkAgent::get_network_function, can not find function bambu_network_get_profile_3mf
+2023-06-29 02:31:33.481904[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::on_init_network: on_init_network, load dll ok
+2023-06-29 02:31:33.481904[Thread 0x00002cd4]:get_network_agent_version=01.06.00.10
+2023-06-29 02:31:33.481904[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::on_init_network: on_init_network, compatibility version
+2023-06-29 02:31:33.509926[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::on_init_network, create network agent...
+2023-06-29 02:31:33.509926[Thread 0x00002cd4]:Slic3r::NetworkAgent::NetworkAgent, this 0000021DB7443D20, network_agent=0000021DB7443D80, create_agent_ptr=00007FF86EF93B00
+2023-06-29 02:31:33.512000[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::init_networking_callbacks: enter, m_agent=0000021DB7443D20
+2023-06-29 02:31:33.512000[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::init_networking_callbacks: exit, m_agent=0000021DB7443D20
+2023-06-29 02:31:33.515036[Thread 0x00002cd4]:preset_folder: set to empty
+2023-06-29 02:31:33.516044[Thread 0x00002cd4]:Slic3r::PresetBundle::load_presets enter, substitution_rule 3, preferred printer_model_id 
+2023-06-29 02:31:33.516044[Thread 0x00002cd4]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/Anker.json, got description:  "Anker configurations"
+2023-06-29 02:31:33.523118[Thread 0x00002cd4]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/Custom.json, got description:  "My configurations"
+2023-06-29 02:31:33.534207[Thread 0x00002cd4]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/Prusa.json, got description:  "Prusa configurations"
+2023-06-29 02:31:33.811278[Thread 0x00002cd4]:Preset incompatibla, not loading: PSM-TEST
+2023-06-29 02:31:33.811278[Thread 0x00002cd4]:update_compatibility for all presets enter
+2023-06-29 02:31:33.811278[Thread 0x00002cd4]:update_compatibility for all presets exit
+2023-06-29 02:31:33.811278[Thread 0x00002cd4]:update_compatibility for all presets enter
+2023-06-29 02:31:33.811278[Thread 0x00002cd4]:update_compatibility for all presets exit
+2023-06-29 02:31:33.812291[Thread 0x00002cd4]:update_compatibility for all presets enter
+2023-06-29 02:31:33.812291[Thread 0x00002cd4]:update_compatibility for all presets exit
+2023-06-29 02:31:33.812291[Thread 0x00002cd4]:Slic3r::PresetBundle::load_presets finished, returned substitutions 0
+2023-06-29 02:31:33.812291[Thread 0x00002cd4]:create the main window
+2023-06-29 02:31:34.094627[Thread 0x00002cd4]:WebView::CreateWebView: file:C:/Program%20Files/OrcaSlicer_V1.6.3_Win64/resources/web/homepage/index.html
+2023-06-29 02:31:34.107180[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-06-29 02:31:34.107180[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-06-29 02:31:34.811975[Thread 0x00002cd4]:Slic3r::BackgroundSlicingProcess::select_technology: change the printer technology from  to  
+2023-06-29 02:31:34.972119[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DB9BF38F0
+2023-06-29 02:31:35.102687[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000000000000000, new_panel 0000021DB9C2B6D0
+2023-06-29 02:31:36.889049[Thread 0x00002cd4]:ImageGrid::SetStatus: No printers.
+2023-06-29 02:31:36.909855[Thread 0x00002cd4]:monitor: show_status = 4
+2023-06-29 02:31:36.992610[Thread 0x00002cd4]:Slic3r::GUI::Sidebar::load_ams_list: 0 items
+2023-06-29 02:31:37.051659[Thread 0x00002cd4]:WebView::CreateWebView: 
+2023-06-29 02:31:37.057352[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-06-29 02:31:37.057352[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-06-29 02:31:37.057352[Thread 0x00002cd4]:WebView::CreateWebView: file:C:/Program%20Files/OrcaSlicer_V1.6.3_Win64/resources/web/model/index.html
+2023-06-29 02:31:37.073568[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-06-29 02:31:37.073568[Thread 0x00002cd4]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-06-29 02:31:37.157170[Thread 0x00002cd4]:Slic3r::GUI::GCodeViewer::reset: current result id 0 
+2023-06-29 02:31:37.502818[Thread 0x00002cd4]:Unable to load bed model: C:\Users\RENDI SAPUTRA\Documents\GitHub\3D-Print\SuperSlicer\VORON V2.4\bed_model.stl
+2023-06-29 02:31:37.502818[Thread 0x00002cd4]:Slic3r::GUI::Bed3D::set_shape:current position {0,0}, new position {0, 0}
+2023-06-29 02:31:37.546287[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+2023-06-29 02:31:37.546287[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::reset_size:after size: plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:31:37.546287[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-06-29 02:31:37.546287[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:31:37.546287[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:31:37.547297[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-06-29 02:31:37.566717[Thread 0x00004240]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230526\Bottle Holder - Part 1.3mf
+2023-06-29 02:31:37.566717[Thread 0x000027e8]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\12 Gun East India Merchant Hull.3mf
+2023-06-29 02:31:37.566717[Thread 0x00003a3c]:Unable to open the fileC:\Users\Paragon\Downloads\Compressed\fifties-house-model_files\ukfiftiesdetachedhouse.3mf
+2023-06-29 02:31:37.566717[Thread 0x00002cd4]:Unable to open the fileC:\Users\Paragon\Downloads\Compressed\classic-transport-truck-model_files\Truck.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001158]:Unable to open the fileC:\Users\Paragon\Downloads\Compressed\house-model_files_3\house whit suports.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001808]:Unable to open the fileC:\Users\RS\EM_Calibration.3mf
+2023-06-29 02:31:37.566717[Thread 0x00000640]:Unable to open the fileC:\Users\RENDI SAPUTRA\Documents\Documents\3DP\Calibration\EM Calibration\EM_Calibration.3mf
+2023-06-29 02:31:37.566717[Thread 0x0000066c]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230531\PSM-01.3mf
+2023-06-29 02:31:37.566717[Thread 0x00004598]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\SAN Table Name Tag\Print\Print.3mf
+2023-06-29 02:31:37.566717[Thread 0x00002d64]:Unable to open the fileC:\Users\RS\Models\EM Calibration\em_calibration.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001398]:Unable to open the fileC:\Users\RS\EM Calibration\EM_Calibration.3mf
+2023-06-29 02:31:37.566717[Thread 0x00002e64]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230608\OrcaSlicer.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001808]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\EM_Calibration.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001158]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\Sails.3mf
+2023-06-29 02:31:37.566717[Thread 0x00001398]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230526\Jig Angle Left.3mf
+2023-06-29 02:31:37.568090[Thread 0x00003a3c]:Unable to open the fileC:\Users\RENDI SAPUTRA\Documents\Documents\3DP\Models\12 Gun East India Merchant\Merchant Bowsprit with Sail (Whole).3mf
+2023-06-29 02:31:37.784720[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 1, enable= 0 
+2023-06-29 02:31:37.784720[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:31:37.784720[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:31:37.865056[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:37.912419[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:37.923543[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:37.923543[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:37.929678[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:37.939453[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:37.939453[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:37.941512[Thread 0x00002cd4]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-06-29 02:31:37.941512[Thread 0x00002cd4]:Unable to load bed model: C:\Users\RENDI SAPUTRA\Documents\GitHub\3D-Print\SuperSlicer\VORON V2.4\bed_model.stl
+2023-06-29 02:31:37.943016[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:31:37.966680[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:37.976965[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:37.995233[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:38.019817[Thread 0x00002cd4]:main frame firstly shown
+2023-06-29 02:31:38.493033[Thread 0x00002cd4]:finished the gui app init
+2023-06-29 02:31:38.598700[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnNavigationRequest: 
+2023-06-29 02:31:38.613447[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:31:38.613447[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:31:38.613447[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:31:38.613447[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DB9BF38F0
+2023-06-29 02:31:38.614613[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:31:38.616873[Thread 0x00002cd4]:Slic3r::Print::apply, got print_diff 94, object_diff 23, region_diff 36, set status to APPLY_STATUS_CHANGED
+2023-06-29 02:31:38.617994[Thread 0x00002cd4]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-06-29 02:31:38.622145[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 1, m_support_used 1
+2023-06-29 02:31:38.622145[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-06-29 02:31:38.622145[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:31:38.622145[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:31:38.622145[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:31:38.623150[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnDocumentLoaded: 
+2023-06-29 02:31:38.623150[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::is_compatibility_version: m_networking_compatible=1
+2023-06-29 02:31:38.623150[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::ShowNetpluginTip: bValid=1, nShow=0
+2023-06-29 02:31:38.645910[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, begin load_gl_resources
+2023-06-29 02:31:38.764471[Thread 0x00002cd4]:select view3D
+2023-06-29 02:31:38.764471[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000000000000000, new_panel 0000021DB9C2B6D0
+2023-06-29 02:31:38.775883[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: successfully, exit
+2023-06-29 02:31:38.778165[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, start to init opengl
+2023-06-29 02:31:38.790919[Thread 0x00002cd4]:Found Framebuffer Type ARB.
+2023-06-29 02:31:38.790919[Thread 0x00002cd4]:got opengl version 4.6.0 NVIDIA 536.23, glsl version 4.60 NVIDIA, vendor NVIDIA Corporation
+2023-06-29 02:31:38.995550[Thread 0x00002cd4]:Slic3r::GUI::OpenGLManager::init_glnot AMD driver.
+2023-06-29 02:31:38.995550[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, finished init opengl
+2023-06-29 02:31:38.996550[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init enter
+2023-06-29 02:31:38.996550[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init: before m_layers_editing init
+2023-06-29 02:31:38.997624[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init: before gizmo init
+2023-06-29 02:31:41.038192[Thread 0x00002cd4]:init_occt_fonts start
+2023-06-29 02:31:41.039197[Thread 0x00002cd4]:init_occt_fonts end
+2023-06-29 02:31:41.526743[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init: before _init_toolbars
+2023-06-29 02:31:41.566548[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::_init_assemble_view_toolbar: enter,  m_assemble_view_toolbar.is_enabled=true
+2023-06-29 02:31:41.566548[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::_init_assemble_view_toolbar: Finished Successfully
+2023-06-29 02:31:41.584155[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init: finish _init_toolbars
+2023-06-29 02:31:41.588622[Thread 0x00002cd4]:Slic3r::GUI::GLCanvas3D::init: finish m_selection
+2023-06-29 02:31:41.588622[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, finished init canvas3D
+2023-06-29 02:31:41.873568[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, finished init imgui frame
+2023-06-29 02:31:41.873568[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, start to render a first frame for test
+2023-06-29 02:31:42.184931[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, finished rendering a first frame for test
+2023-06-29 02:31:42.243957[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::post_init, end load_gl_resources
+2023-06-29 02:31:42.258080[Thread 0x00002cd4]:before check_updates
+2023-06-29 02:31:42.258080[Thread 0x00002cd4]:after check_updates
+2023-06-29 02:31:42.294545[Thread 0x00002cd4]:delete log file over 30, filename: debug_Tue_Jun_20_11_35_16_11564.log.0
+2023-06-29 02:31:42.294545[Thread 0x00002cd4]:delete log file over 30, filename: debug_network_Tue_Jun_20_11_35_16.log
+2023-06-29 02:31:42.294545[Thread 0x00002cd4]:finished post_init
+2023-06-29 02:31:42.303603[Thread 0x00002cd4]:select view3D
+2023-06-29 02:31:42.303603[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000021DB9C2B6D0, new_panel 0000021DB9C2B6D0
+2023-06-29 02:31:42.303603[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-06-29 02:31:42.355428[Thread 0x00002cd4]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB WorkingSet: 215MB; PrivateBytes: 255MB; Pagefile(peak): 255MB(255MB)
+2023-06-29 02:31:42.356704[Thread 0x00002cd4]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-06-29 02:31:42.356704[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:31:42.356704[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:31:42.358906[Thread 0x00002cd4]:Slic3r::BackgroundSlicingProcess::stop, enter
+2023-06-29 02:31:42.366375[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:31:42.416605[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:31:42.477252[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-06-29 02:31:42.477252[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:31:42.477252[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:31:42.480352[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:42.490918[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:42.505083[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:42.505083[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:42.507681[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:42.515969[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:42.515969[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-06-29 02:31:42.516999[Thread 0x00002cd4]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-06-29 02:31:42.516999[Thread 0x00002cd4]:Unable to load bed model: C:\Users\RENDI SAPUTRA\Documents\GitHub\3D-Print\SuperSlicer\VORON V2.4\bed_model.stl
+2023-06-29 02:31:42.516999[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:31:42.524172[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:42.532466[Thread 0x00002cd4]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-06-29 02:31:42.548200[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:31:42.587395[Thread 0x00002cd4]:Undo / Redo snapshot taken: New Project, Undo / Redo stack memory: 0MB WorkingSet: 215MB; PrivateBytes: 255MB; Pagefile(peak): 255MB(255MB)
+2023-06-29 02:31:42.588120[Thread 0x00002cd4]:model 0000006E60FCED50, id 32, backup_path empty, set to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32
+2023-06-29 02:31:42.589609[Thread 0x00002cd4]:create /3D/Objects in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32"
+2023-06-29 02:31:42.590633[Thread 0x00002cd4]:create /Metadata in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32"
+2023-06-29 02:31:42.590633[Thread 0x00002cd4]:create /lock.txt in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32"
+2023-06-29 02:31:42.591620[Thread 0x00002cd4]:Slic3r::Model::set_backup_path, model 0000021DB9BA7040, id 7, set backup to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32
+2023-06-29 02:31:42.591620[Thread 0x00002cd4]:create missing sub_pathC:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32//Auxiliaries
+2023-06-29 02:31:42.608151[Thread 0x00002cd4]:select view3D
+2023-06-29 02:31:42.608151[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000021DB9C2B6D0, new_panel 0000021DB9C2B6D0
+2023-06-29 02:31:42.608151[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-06-29 02:31:42.662949[Thread 0x00002cd4]:select view3D
+2023-06-29 02:31:42.672435[Thread 0x000019f4]:[BBL Updater]: sync_config Syncing configuration cache
+2023-06-29 02:31:42.676202[Thread 0x000019f4]:[BBL Updater]: sync_resources get preferred setting version for app version OrcaSlicer, url: https://api.bambulab.com/v1/iot-service/api/slicer/resource, current_version_str 01.06.00.10, check_patch 1
+2023-06-29 02:31:42.702513[Thread 0x000019f4]:[BBL Updater]: sync_resources request_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource?slicer/plugins/cloud=01.06.00.00
+2023-06-29 02:31:43.540148[Thread 0x00002cd4]:Slic3r::GUI::GUI_App::is_compatibility_version: m_networking_compatible=1
+2023-06-29 02:31:43.541134[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::ShowNetpluginTip: bValid=1, nShow=0
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:31:43.547149[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:31:43.548136[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnTitleChanged: homepage
+2023-06-29 02:31:43.557215[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnNavigationComplete: 
+2023-06-29 02:31:43.560640[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnScriptMessage: {"sequence_id":1687980699,"command":"get_login_info"}
+2023-06-29 02:31:43.560640[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnScriptMessage Create Timer
+2023-06-29 02:31:43.563845[Thread 0x00000f08]:HMS: check_hms_info current version = 202306271200
+2023-06-29 02:31:43.565925[Thread 0x00002cd4]:Slic3r::GUI::WebViewPanel::OnScriptMessage: {"sequence_id":1687980699,"command":"get_recent_projects"}
+2023-06-29 02:31:43.587152[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:31:43.587152[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:31:43.587152[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:31:43.587152[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:31:43.588657[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:31:43.588657[Thread 0x00002cd4]:Slic3r::Print::apply, got print_diff 94, object_diff 23, region_diff 36, set status to APPLY_STATUS_CHANGED
+2023-06-29 02:31:43.588657[Thread 0x00002cd4]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-06-29 02:31:43.589672[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 1, m_support_used 1
+2023-06-29 02:31:43.589672[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-06-29 02:31:43.589672[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:31:43.589672[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:31:43.589672[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:31:44.090841[Thread 0x000019f4]:[BBL Updater]: request_resources, body={"message":"success","code":null,"error":null,"software":{"type":null,"version":"01.06.02.04","description":"This is a major release (V1.6.2) mainly adds some features, improvements, and fixes based on user feedback.\nNew Features:\n1. Add gcode path conflict check;\n2. Support ext spool for X1C/X1;\n3. Support height range modifier, users can add several height range modifiers to apply different settings;\n4. Advanced cut with connectors;\n5. Support gcode sequential view, it will display when moving a single step;\n6. Support sinking and only slice model part above hot bed;\n\nImprovements:\n1. Improve the slicing speed of complex models;\n2. New default Mouse zooming and added a setting in Preferences;\n3. Support editing text after the text reloaded from 3mf;\n4. Slow down for overhang now works with Arachne Wall generator;\n5. Add back the customized post-processing scripts;\n6. Improve the smoothness of tree supports;\n7. Add two support interface patterns (grid & rectilinear interlaced). Both patterns are stronger than the others and support large overhangs better;\n8. Retain the most recent print settings for bed leveling, flow calibration, and timelapse to streamline the user experience;\n9. Popup a warning when attempting to send a print job to a printer with a mismatched printer model;\n10. Update the default style of tree support to \"Tree Hybrid\". This is to ensure a high success rate for printing ordinary models;\n11. Improve support necessity check. Warnings will now only be issued for floating parts or long floating cantilevers;\n12. Reduce possible toolhead shake in smooth timelapse video;\n13. Device media files can now be organized and grouped by year or month for easier navigation and file management;\n14. Allow configuring the number of the recently opened models in preference;\n15. Allow remembering user actions for unsaved changes when closing a project;\n16. Support fuzzy skin for \"All walls\" including both inner and outer walls;\n17. Support to configure whether to automatically update system presets;\n18. Support Italian;\n19. Optimize the humidity icon for AMS;\nBug Fixes:\n1. Fixed hang issue when generating infill;\nFixed slicing hang issue at 5% for some models;\nFixed an issue that \"The system may have run out of memory, or a bug may have occurred\" at 5%;\nFxied an issue with floating layer when set z hop to be 0 for multi-color printing;\nFixed a problem with text going down in all buttons on macOS;\nFixed an issue with the object list name edit box floating above the window on macOS;\nFixed an issue where text in the object list name edit box overlapped in common, night mode on macOS;\nFixed an issue with the default file name of a crash recovery item being replaced with a.3mf when saved as;\nFixed automatic expansion of filament preset area after one-click sync with AMS;\nFixed an issue where the color was not synchronized in the parameter support material selection list after changing the material color;\nFixed the scrolling position of the device media file list after switching months and years;\nFixed Double-clicking on a 3mf file on macOS and not starting Studio, or starting Studio on another instance;\nFixed some problems with user preset imports and exports;\nFixed Crash recovery function not taking effect on the Linux platform;\nFixed the Linux platform selection drop-down box does not disappear;\nAdjust the dark mode color of the object list on Windows platform;\nFixed issue with icons in infill pattern;\nOptimized the processing of double-click events on some widgets;\nFixed an issue where user presets were not loaded the first time Upgrade Studio started;\nA slicing error with support interface;\nFixed some problems with text;\nFixed a problem with SVG imports;\nFixed crash while using MontionLine pattern on the top surface for some cases;","url":"https://public-cdn.bambulab.com/upgrade/studio/software/01.06.02.04/Bambu_Studio_win-v01.06.02.04.exe","force_update":false},"guide":null,"resources":[{"type":"slicer/plugins/cloud","version":"01.06.00.10","description":"","url":"https://public-cdn.bambulab.com/upgrade/studio/plugins/01.06.00.10/win_01.06.00.10.zip","force_update":false}]}
+2023-06-29 02:31:44.093415[Thread 0x000019f4]:[BBL Updater]: get type slicer/plugins/cloud, version 01.06.00.10, url https://public-cdn.bambulab.com/upgrade/studio/plugins/01.06.00.10/win_01.06.00.10.zip
+2023-06-29 02:31:44.093415[Thread 0x000019f4]:[BBL Updater]: online version=1.6.0.10, current_version=1.6.0.10, no need to download
+2023-06-29 02:31:44.900538[Thread 0x00000f08]:HMS: check_hms_info latest version = 202306270400
+2023-06-29 02:31:44.900538[Thread 0x00000f08]:HMS: check_hms_info need download new hms info = true
+2023-06-29 02:31:44.900538[Thread 0x00000f08]:hms: download url = https://e.bambulab.com/query.php?lang=en
+2023-06-29 02:31:45.257169[Thread 0x00002cd4]:select view3D
+2023-06-29 02:31:45.257169[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000021DB9C2B6D0, new_panel 0000021DB9C2B6D0
+2023-06-29 02:31:45.257169[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-06-29 02:31:47.800313[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-06-29 02:31:47.801319[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-06-29 02:31:49.791913[Thread 0x00002cd4]:Slic3r::GUI::PlaterDropTarget::OnDropFiles: drag 1 files into app
+2023-06-29 02:31:49.818562[Thread 0x00002cd4]:Slic3r::GUI::Plater::load_files: normal_paths 1, gcode_paths 0
+2023-06-29 02:31:49.818562[Thread 0x00002cd4]:Undo / Redo snapshot taken: Load File: untitled-EXT_Gardan.stl, Undo / Redo stack memory: 0MB WorkingSet: 223MB; PrivateBytes: 260MB; Pagefile(peak): 260MB(262MB)
+2023-06-29 02:31:49.818562[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::load_files: load_model 1, load_config 0, input_files size 1
+2023-06-29 02:31:49.856719[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::load_files: load file "untitled-EXT_Gardan.stl"
+2023-06-29 02:31:49.872830[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::load_files: is_project_file 0, type_3mf 0
+2023-06-29 02:31:57.799803[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-06-29 02:32:07.795853[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-06-29 02:32:17.794134[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-06-29 02:32:27.797513[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-06-29 02:32:37.794633[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-06-29 02:32:47.792953[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-06-29 02:32:57.791154[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-06-29 02:32:59.803707[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-06-29 02:32:59.803707[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-06-29 02:32:59.803707[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-06-29 02:32:59.803707[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-06-29 02:33:07.802862[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-06-29 02:33:07.802862[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-06-29 02:33:10.484378[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::load_files:3548import 3mf IMPORT_LOAD_MODEL_OBJECTS 
+2023-06-29 02:33:10.563305[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::add_instance: plate 0 , m_ready_for_slice changes to 0
+2023-06-29 02:33:10.563305[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:13.530272[Thread 0x00003884]:process_task{ type:AddObject, id:1, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32, object:58, extra:1}
+2023-06-29 02:33:13.530272[Thread 0x00003884]:Slic3r::_BBS_3MF_Exporter::_add_model_file_to_archive:5735, filename 3D/Objects/untitled-EXT_Gardan.stl_1.model, m_split_model 0,  sub_model 1
+2023-06-29 02:33:13.530272[Thread 0x00003884]:bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+2023-06-29 02:33:15.134375[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:15.134375[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::object_list_changed: can_slice 0, model_fits= 0, export_in_progress 0, has_printable_instances 0 
+2023-06-29 02:33:15.134375[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:15.134375[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:15.134375[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::load_files:3583import 3mf IMPORT_LOAD_MODEL_OBJECTS 
+2023-06-29 02:33:15.271769[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:15.271769[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:15.309547[Thread 0x00002cd4]:select view3D
+2023-06-29 02:33:15.309547[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000021DB9C2B6D0, new_panel 0000021DB9C2B6D0
+2023-06-29 02:33:15.309547[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-06-29 02:33:15.931837[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:15.931837[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::Print::apply 1153: new model objects added.
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 0, m_support_used 1
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:15.960057[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:22.334406[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: enter, hover_id 0, plate_index 0, action 0
+2023-06-29 02:33:22.334406[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 0, m_support_used 1
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::Plater::validate_current_plate: validate err=, warning=, model_fits 0
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11543: after apply, invalidated= 0, previous result_valid 0 
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: will set can_slice to false, has_printable_instances 0
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11698: return 0
+2023-06-29 02:33:22.366290[Thread 0x00002cd4]:Undo / Redo snapshot taken: Selection-Remove All!, Undo / Redo stack memory: 0MB WorkingSet: 2,132MB; PrivateBytes: 3,510MB; Pagefile(peak): 3,510MB(4,425MB)
+2023-06-29 02:33:22.857301[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: enter, hover_id 0, plate_index 0, action 0
+2023-06-29 02:33:22.857301[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 0, m_support_used 1
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::Plater::validate_current_plate: validate err=, warning=, model_fits 0
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11543: after apply, invalidated= 0, previous result_valid 0 
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: will set can_slice to false, has_printable_instances 0
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:22.892520[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11698: return 0
+2023-06-29 02:33:23.628095[Thread 0x00002cd4]:Undo / Redo snapshot taken: Arrange, Undo / Redo stack memory: 0MB WorkingSet: 2,129MB; PrivateBytes: 3,506MB; Pagefile(peak): 3,506MB(4,425MB)
+2023-06-29 02:33:23.643602[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:23.643602[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:23.643602[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::postprocess_bed_index_for_current_plate: can not be arranged inside plate!
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::rebuild_plates_after_arrangement:before rebuild, plates count 1, recycle_plates 0
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::rebuild_plates_after_arrangement:after rebuild, plates count 1
+2023-06-29 02:33:23.659373[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:24.176734[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:24.441878[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: enter, hover_id 0, plate_index 0, action 0
+2023-06-29 02:33:24.441878[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 0, m_support_used 1
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::Plater::validate_current_plate: validate err=, warning=, model_fits 1
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11543: after apply, invalidated= 0, previous result_valid 0 
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: will set can_slice to false, has_printable_instances 0
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:24.469114[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11698: return 0
+2023-06-29 02:33:24.735895[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:24.735895[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 335, 270}, got 0 printable istances
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 1, apply_status 0, m_support_used 1
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:24.751910[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Unable to load bed model: C:\Users\RENDI SAPUTRA\Documents\GitHub\3D-Print\SuperSlicer\VORON V2.4\bed_model.stl
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::Bed3D::set_shape:current position {0,0}, new position {0, 0}
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::reset_size:before size: plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::reset_size:after size: plate_width 600, plate_depth 600, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 600, plate_depth 600, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 335, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {720,0,0}, plate_width 600, plate_depth 600, plate_height 270
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:33.438847[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:33:33.445401[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:33:33.445401[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:33:33.454925[Thread 0x00002cd4]:put_other_changes
+2023-06-29 02:33:33.454925[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:33.454925[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:33.980525[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 0 printable istances
+2023-06-29 02:33:33.980525[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:34.007608[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 0 printable istances
+2023-06-29 02:33:34.007608[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:34.007608[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::Print::apply, got print_diff 1, object_diff 0, region_diff 0, set status to APPLY_STATUS_CHANGED
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 2, apply_status 1, m_support_used 1
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:34.008624[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:35.614773[Thread 0x00002cd4]:Undo / Redo snapshot taken: Arrange, Undo / Redo stack memory: 0MB WorkingSet: 2,082MB; PrivateBytes: 3,456MB; Pagefile(peak): 3,456MB(4,425MB)
+2023-06-29 02:33:35.615774[Thread 0x00002cd4]:Slic3r::GUI::ArrangeJob::prepare_partplate: no instances in current plate!
+2023-06-29 02:33:35.638845[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:35.638845[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::rebuild_plates_after_arrangement:before rebuild, plates count 1, recycle_plates 0
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::rebuild_plates_after_arrangement:after rebuild, plates count 1
+2023-06-29 02:33:35.639824[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:36.155792[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:36.156839[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-06-29 02:33:36.691175[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 0 printable istances
+2023-06-29 02:33:36.691175[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 0 printable istances
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 2, apply_status 0, m_support_used 1
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:36.713261[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:37.060540[Thread 0x00002cd4]:Undo / Redo snapshot taken: Selection-Add!, Undo / Redo stack memory: 0MB WorkingSet: 2,082MB; PrivateBytes: 3,456MB; Pagefile(peak): 3,456MB(4,425MB)
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Undo / Redo snapshot taken: Move Object, Undo / Redo stack memory: 0MB WorkingSet: 2,082MB; PrivateBytes: 3,456MB; Pagefile(peak): 3,456MB(4,425MB)
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::add_instance: plate 0 , m_ready_for_slice changes to 1
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:33:38.454245[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:33:38.918941[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: enter, hover_id 0, plate_index 0, action 0
+2023-06-29 02:33:38.918941[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:38.950573[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 1 printable istances
+2023-06-29 02:33:38.950573[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:38.998285[Thread 0x00002cd4]:Slic3r::Print::apply 1391: found print object changed.
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 3, apply_status 1, m_support_used 1
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::Plater::validate_current_plate: validate err=, warning=, model_fits 1
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11543: after apply, invalidated= 1, previous result_valid 0 
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id: will set can_slice to true
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Slic3r::GUI::Plater::select_plate_by_hover_id 11698: return 0
+2023-06-29 02:33:39.294699[Thread 0x00002cd4]:Undo / Redo snapshot taken: Selection-Remove All!, Undo / Redo stack memory: 0MB WorkingSet: 2,082MB; PrivateBytes: 3,456MB; Pagefile(peak): 3,456MB(4,425MB)
+2023-06-29 02:33:39.412670[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 1 printable istances
+2023-06-29 02:33:39.412670[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 1 printable istances
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 3, apply_status 0, m_support_used 1
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:39.444806[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:47.992668[Thread 0x00002cd4]:Undo / Redo snapshot taken: Selection-Add!, Undo / Redo stack memory: 0MB WorkingSet: 2,006MB; PrivateBytes: 3,381MB; Pagefile(peak): 3,381MB(4,425MB)
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Undo / Redo snapshot taken: Move Object, Undo / Redo stack memory: 0MB WorkingSet: 1,998MB; PrivateBytes: 3,372MB; Pagefile(peak): 3,372MB(4,425MB)
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_states: plate 0 , m_ready_for_slice changes to 1
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:33:48.726514[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:33:49.283314[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 1 printable istances
+2023-06-29 02:33:49.283314[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {600, 600, 270}, got 1 printable istances
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 0000021DBF793B80
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::Print::apply, Line 1019: enter
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::Print::apply 1575: finished,  this 0000021DB9C06420, m_modified_count 4, apply_status 1, m_support_used 1
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process: validate err=, warning=
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-06-29 02:33:49.318437[Thread 0x00002cd4]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-06-29 02:33:50.128216[Thread 0x00002cd4]:Undo / Redo snapshot taken: Repairing model object, Undo / Redo stack memory: 0MB WorkingSet: 1,981MB; PrivateBytes: 3,355MB; Pagefile(peak): 3,355MB(4,425MB)
+2023-06-29 02:34:09.659152[Thread 0x00003884]:process_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:process_ui_task{ type:AddObject, id:1, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32, object:58, extra:1}
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::GUI::Plater::export_3mf: path=C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32/.3mf, backup=1, export_plate_idx=-1, SaveStrategy=69748
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::store_to_3mf_structure: plate 0, gcode_filename=, with_slice_info=1, slice_valid 0, object item count 1.
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::GUI::PartPlateList::store_to_3mf_structure:stored 1 plates!
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5145,before open zip writer, m_skip_static 1, m_save_gcode 1, m_use_loaded_id 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5171, before add _add_content_types_file_to_archive
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5185,before add thumbnails, count 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5186,top&&pick thumbnails, count 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5297,before add calibration thumbnails, count 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5320,before add calibration boundingbox, count 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5337, before add models
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_add_model_file_to_archive:5735, filename C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Thu_Jun_29/02_31_42#17172#32/.3mf.tmp, m_split_model 1,  sub_model 0
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= Application, value = BambuStudio-01.06.00.66
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= CopyRight, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= CreationDate, value = 2023-06-28
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= Description, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= Designer, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= DesignerCover, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= DesignerUserId, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= License, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= ModificationDate, value = 2023-06-28
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= Origin, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:bbs_3mf: save key= Title, value = 
+2023-06-29 02:34:09.738984[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5395, before add custom gcodes
+2023-06-29 02:34:09.743498[Thread 0x00002cd4]:Slic3r::_BBS_3MF_Exporter::_save_model_to_file:5406, before add project_settings
+2023-06-29 02:34:09.755515[Thread 0x00002cd4]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDIS~1\Ap

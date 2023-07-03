@@ -1,0 +1,67 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#FF8000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "13"
+    ],
+    "filament_cost": [
+        "148000"
+    ],
+    "filament_flow_ratio": [
+        "0.8924"
+    ],
+    "filament_max_volumetric_speed": [
+        "60"
+    ],
+    "filament_settings_id": [
+        "Sunlu ABS"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z=-0.055\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\nSET_RETRACTION RETRACT_LENGTH=0.5\nSET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\nSET_RETRACTION RETRACT_SPEED=60\nSET_RETRACTION UNRETRACT_SPEED=80"
+    ],
+    "filament_z_hop": [
+        "0.1"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "Anker Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Sunlu ABS",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "overhang_fan_speed": [
+        "25"
+    ],
+    "pressure_advance": [
+        "0.03"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.4.4.0"
+}

@@ -1,0 +1,31 @@
+[2023-07-03 15:10:28.902979 +07:00] [I] [T 11148]: init log
+[2023-07-03 15:10:28.903242 +07:00] [I] [T 11148]: Version: 01.06.00.10
+[2023-07-03 15:10:28.903248 +07:00] [I] [T 11148]: Agent: set_cert_dir_name, dir=C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources/cert, name=slicer_base64.cer
+[2023-07-03 15:10:28.903299 +07:00] [I] [T 11148]: set_on_server_connected_fn
+[2023-07-03 15:10:28.903303 +07:00] [I] [T 11148]: set_on_printer_connected_fn
+[2023-07-03 15:10:28.903304 +07:00] [I] [T 11148]: set_get_country_code_fn
+[2023-07-03 15:10:28.903305 +07:00] [I] [T 11148]: set_on_local_connect_fn
+[2023-07-03 15:10:28.903306 +07:00] [I] [T 11148]: set_on_message_fn
+[2023-07-03 15:10:28.903307 +07:00] [I] [T 11148]: set_on_local_message_fn
+[2023-07-03 15:10:28.903322 +07:00] [I] [T 11148]: set host to https://api.bambulab.com/v1
+[2023-07-03 15:10:28.903322 +07:00] [I] [T 11148]: region update iot = https://api.bambulab.com/v1
+[2023-07-03 15:10:28.903323 +07:00] [I] [T 11148]: region update api = https://api.bambulab.com/
+[2023-07-03 15:10:28.903323 +07:00] [I] [T 11148]: region update mqtt = ssl://us.mqtt.bambulab.com:8883
+[2023-07-03 15:10:28.903324 +07:00] [I] [T 11148]: region update tutk = US
+[2023-07-03 15:10:28.903324 +07:00] [I] [T 11148]: region update base domain = bambulab.com
+[2023-07-03 15:10:28.903325 +07:00] [I] [T 11148]: region update environment = 
+[2023-07-03 15:10:28.903325 +07:00] [I] [T 11148]: region update wifi_code = DE
+[2023-07-03 15:10:28.903325 +07:00] [I] [T 11148]: region update design = https://bambulab.com
+[2023-07-03 15:10:28.903327 +07:00] [I] [T 11148]: Agent: load_config
+[2023-07-03 15:10:28.907125 +07:00] [I] [T 11148]: load_user_info
+[2023-07-03 15:10:28.907132 +07:00] [I] [T 11148]: save_user_info
+[2023-07-03 15:10:36.629733 +07:00] [I] [T 11148]: set_on_http_error_fn
+[2023-07-03 15:10:36.630447 +07:00] [I] [T 11148]: ssdp: stop()
+[2023-07-03 15:10:36.638572 +07:00] [I] [T 11148]: SsdpDiscovery:start_ssdp with card number = 2
+[2023-07-03 15:10:36.638895 +07:00] [I] [T 11148]: SsdpDiscovery::start_discover(), create thread 0
+[2023-07-03 15:10:36.638959 +07:00] [I] [T 11148]: SsdpDiscovery::start_discover(), create thread 1
+[2023-07-03 15:25:28.288552 +07:00] [I] [T 11148]: stop_subscribe, machine = , module = app
+[2023-07-03 22:45:18.115177 +07:00] [I] [T 11148]: ssdp: stop()
+[2023-07-03 22:45:18.321567 +07:00] [I] [T 11148]: SsdpDiscovery::stop_discover(), join thread 0
+[2023-07-03 22:45:18.523663 +07:00] [I] [T 11148]: SsdpDiscovery::stop_discover(), join thread 1
+[2023-07-03 22:45:18.524078 +07:00] [I] [T 11148]: Agent: save_config

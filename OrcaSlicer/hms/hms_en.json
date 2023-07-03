@@ -79,7 +79,7 @@
             },
             {
                 "ecode": "03008006",
-                "intro": "Build plate localization marker is not found, or the current build plate is not the same as in G-code. Please stop the print job and replace the build plate. You can also tap \"Resume\" to force resuming the print job."
+                "intro": "Build plate localization marker is not found, Please stop the print job and relocate the build plate. You can also tap \"Resume\" to force resuming the print job."
             },
             {
                 "ecode": "05004001",
@@ -423,7 +423,7 @@
             },
             {
                 "ecode": "07FF8007",
-                "intro": "Please observe the nozzle. If the filament has been extruded, click \"Done\"; if it is not,please push the filament forward slightly and then click \"Retry\"."
+                "intro": "Please observe the nozzle. If the filament has been extruded, click \"Done\"; if it is not, please push the filament forward slightly and then click \"Retry\"."
             },
             {
                 "ecode": "07FF8010",
@@ -752,9 +752,117 @@
             {
                 "ecode": "12038014",
                 "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+            },
+            {
+                "ecode": "05004016",
+                "intro": "The MicroSD Card is write-protected. Please replace the MicroSD Card."
+            },
+            {
+                "ecode": "05004017",
+                "intro": "Binding failed. Please retry or restart the printer and retry."
+            },
+            {
+                "ecode": "05004018",
+                "intro": "Binding configuration information parsing failed,  please try again."
+            },
+            {
+                "ecode": "05004019",
+                "intro": "The printer has already been bound. Please unbind it and try again."
+            },
+            {
+                "ecode": "0500401A",
+                "intro": "Cloud access failed. Possible reasons include network instability caused by interference, inability to access the internet, or router firewall configuration restrictions. You can try moving the printer closer to the router or checking the router configuration and then try again."
+            },
+            {
+                "ecode": "0500401B",
+                "intro": "Cloud response is invalid. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "0500401C",
+                "intro": "Cloud access is rejected. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "0500401D",
+                "intro": "Cloud access failed, which may be caused by network instability due to interference. You can try moving the printer closer to the router before you try again."
+            },
+            {
+                "ecode": "0500401E",
+                "intro": "Cloud response is invalid. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "0500401F",
+                "intro": "Authorization timed out. Please make sure that your phone or PC has access to the internet, and ensure that the Bambu Studio/Bambu Handy APP is running in the foreground during the binding operation."
+            },
+            {
+                "ecode": "05004020",
+                "intro": "Cloud access rejected. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004021",
+                "intro": "Cloud access failed, which may be caused by network instability due to interference. You can try moving the printer closer to the router before you try again."
+            },
+            {
+                "ecode": "05004022",
+                "intro": "Cloud response is invalid. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004023",
+                "intro": "Cloud access rejected. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004024",
+                "intro": "Cloud access failed. Possible reasons include network instability caused by interference, inability to access the internet, or router firewall configuration restrictions. You can try moving the printer closer to the router or checking the router configuration before you try again."
+            },
+            {
+                "ecode": "05004025",
+                "intro": "Cloud response is invalid. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004026",
+                "intro": "Cloud access rejected. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004027",
+                "intro": "Cloud access failed; this may be caused by network instability due to interference. You can try moving the printer closer to the router before you try again."
+            },
+            {
+                "ecode": "05004028",
+                "intro": "Cloud response is invalid. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "05004029",
+                "intro": "Cloud access is rejected. If you have tried multiple times and are still failing, please contact customer service."
+            },
+            {
+                "ecode": "0500402A",
+                "intro": "Failed to connect to the router, which may be caused by wireless interference or being too far away from the router. Please try again or move the printer closer to the router and try again."
+            },
+            {
+                "ecode": "0500402B",
+                "intro": "Router connection failed due to incorrect password. Please check the password and try again."
+            },
+            {
+                "ecode": "0500402C",
+                "intro": "Failed to obtain IP address, which may be caused by wireless interference resulting in data transmission failure or DHCP address pool of the router being full. Please move the printer closer to the router and try again. If the issue persists, please check router settings to see whether the IP addresses have been exhausted."
+            },
+            {
+                "ecode": "03008011",
+                "intro": "The current build plate is not the same as in G-code. Please stop the print job and replace the build plate. You can also tap \"Resume\" to force resuming the print job."
+            },
+            {
+                "ecode": "03008012",
+                "intro": ""
+            },
+            {
+                "ecode": "03008013",
+                "intro": "Printing was paused by the user. You can tap \"Resume\" to resume the print job."
+            },
+            {
+                "ecode": "0500402D",
+                "intro": "System exception."
             }
         ],
-        "ver": 202305091930
+        "ver": 202307031430
     },
     "device_hms": {
         "en": [
@@ -788,7 +896,7 @@
             },
             {
                 "ecode": "0300030000020002",
-                "intro": "The speed of the nozzle fan is slow. It may be stuck and need cleaning."
+                "intro": ""
             },
             {
                 "ecode": "0300040000020001",
@@ -1196,7 +1304,7 @@
             },
             {
                 "ecode": "0700300000020002",
-                "intro": "The RFID-tag on AMS1 Slot1 is damaged."
+                "intro": "The RFID-tag on AMS1 Slot1 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0700300000030003",
@@ -1212,7 +1320,7 @@
             },
             {
                 "ecode": "0700310000020002",
-                "intro": "The RFID-tag on AMS1 Slot2 is damaged."
+                "intro": "The RFID-tag on AMS1 Slot2 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0700310000030003",
@@ -1220,11 +1328,11 @@
             },
             {
                 "ecode": "0700320000020002",
-                "intro": "The RFID-tag on AMS1 Slot3 is damaged."
+                "intro": "The RFID-tag on AMS1 Slot3 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0700330000020002",
-                "intro": "The RFID-tag on AMS1 Slot4 is damaged."
+                "intro": "The RFID-tag on AMS1 Slot4 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0700350000010001",
@@ -1380,7 +1488,7 @@
             },
             {
                 "ecode": "0701300000020002",
-                "intro": "The RFID-tag on AMS2 Slot1 is damaged."
+                "intro": "The RFID-tag on AMS2 Slot1 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0701300000030003",
@@ -1396,7 +1504,7 @@
             },
             {
                 "ecode": "0701310000020002",
-                "intro": "The RFID-tag on AMS2 Slot2 is damaged."
+                "intro": "The RFID-tag on AMS2 Slot2 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0701310000030003",
@@ -1404,11 +1512,11 @@
             },
             {
                 "ecode": "0701320000020002",
-                "intro": "The RFID-tag on AMS2 Slot3 is damaged."
+                "intro": "The RFID-tag on AMS2 Slot3 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0701330000020002",
-                "intro": "The RFID-tag on AMS2 Slot4 is damaged."
+                "intro": "The RFID-tag on AMS2 Slot4 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0701350000010001",
@@ -1540,7 +1648,7 @@
             },
             {
                 "ecode": "0702300000020002",
-                "intro": "The RFID-tag on AMS3 Slot1 is damaged."
+                "intro": "The RFID-tag on AMS3 Slot1 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0702300000030003",
@@ -1556,7 +1664,7 @@
             },
             {
                 "ecode": "0702310000020002",
-                "intro": "The RFID-tag on AMS3 Slot2 is damaged."
+                "intro": "The RFID-tag on AMS3 Slot2 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0702310000030003",
@@ -1564,11 +1672,11 @@
             },
             {
                 "ecode": "0702320000020002",
-                "intro": "The RFID-tag on AMS3 Slot3 is damaged."
+                "intro": "The RFID-tag on AMS3 Slot3 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0702330000020002",
-                "intro": "The RFID-tag on AMS3 Slot4 is damaged."
+                "intro": "The RFID-tag on AMS3 Slot4 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0702350000010001",
@@ -1700,7 +1808,7 @@
             },
             {
                 "ecode": "0703300000020002",
-                "intro": "The RFID-tag on AMS4 Slot1 is damaged."
+                "intro": "The RFID-tag on AMS4 Slot1 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0703300000030003",
@@ -1716,7 +1824,7 @@
             },
             {
                 "ecode": "0703310000020002",
-                "intro": "The RFID-tag on AMS4 Slot2 is damaged."
+                "intro": "The RFID-tag on AMS4 Slot2 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0703310000030003",
@@ -1724,11 +1832,11 @@
             },
             {
                 "ecode": "0703320000020002",
-                "intro": "The RFID-tag on AMS4 Slot3 is damaged."
+                "intro": "The RFID-tag on AMS4 Slot3 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0703330000020002",
-                "intro": "The RFID-tag on AMS4 Slot4 is damaged."
+                "intro": "The RFID-tag on AMS4 Slot4 is damaged or the it's content cannot be identified."
             },
             {
                 "ecode": "0703350000010001",
@@ -2352,7 +2460,7 @@
             },
             {
                 "ecode": "0500030000030022",
-                "intro": "SD card performance degradation has been detected. It may affect print jobs, logs, and video records. Please try to format or change the MicroSD card."
+                "intro": "MicroSD Card performance degradation has been detected. It may affect print jobs, logs, and video records. Please try to format or change the MicroSD card."
             },
             {
                 "ecode": "07FF200000020001",
@@ -3345,9 +3453,145 @@
             {
                 "ecode": "12FF200000020006",
                 "intro": "Failed to extrude the filament and the extruder may be clogged."
+            },
+            {
+                "ecode": "0C0003000002000F",
+                "intro": "Parts skip setted before first layer inspection, the inspection will not be supported for the current print job."
+            },
+            {
+                "ecode": "0500040000020010",
+                "intro": "The RFID-tag on AMS1 Slot1 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020011",
+                "intro": "The RFID-tag on AMS1 Slot2 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020012",
+                "intro": "The RFID-tag on AMS1 Slot3 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020014",
+                "intro": "The RFID-tag on AMS2 Slot1 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020015",
+                "intro": "The RFID-tag on AMS2 Slot2 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020016",
+                "intro": "The RFID-tag on AMS2 Slot3 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020017",
+                "intro": "The RFID-tag on AMS2 Slot4 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020018",
+                "intro": "The RFID-tag on AMS3 Slot1 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020019",
+                "intro": "The RFID-tag on AMS3 Slot2 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001A",
+                "intro": "The RFID-tag on AMS3 Slot3 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001B",
+                "intro": "The RFID-tag on AMS3 Slot4 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001C",
+                "intro": "The RFID-tag on AMS4 Slot1 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001D",
+                "intro": "The RFID-tag on AMS4 Slot2 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001E",
+                "intro": "The RFID-tag on AMS4 Slot3 cannot be identified."
+            },
+            {
+                "ecode": "050004000002001F",
+                "intro": "The RFID-tag on AMS4 Slot4 cannot be identified."
+            },
+            {
+                "ecode": "0500040000020013",
+                "intro": "The RFID-tag on AMS1 Slot4 cannot be identified."
+            },
+            {
+                "ecode": "12FF800000020001",
+                "intro": "The filament on the spool holder may be tangled or stuck."
+            },
+            {
+                "ecode": "1200800000020001",
+                "intro": "AMS1 Slot1 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200810000020001",
+                "intro": "AMS1 Slot2 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200820000020001",
+                "intro": "AMS1 Slot3 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1200830000020001",
+                "intro": "AMS1 Slot4 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201800000020001",
+                "intro": "AMS2 Slot1 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201810000020001",
+                "intro": "AMS2 Slot2 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201820000020001",
+                "intro": "AMS2 Slot3 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1201830000020001",
+                "intro": "AMS2 Slot4 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202800000020001",
+                "intro": "AMS3 Slot1 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202810000020001",
+                "intro": "AMS3 Slot2 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202820000020001",
+                "intro": "AMS3 Slot3 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1202830000020001",
+                "intro": "AMS3 Slot4 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203800000020001",
+                "intro": "AMS4 Slot1 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203810000020001",
+                "intro": "AMS4 Slot2 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203820000020001",
+                "intro": "AMS4 Slot3 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "1203830000020001",
+                "intro": "AMS4 Slot4 filament may be tangled or stuck."
             }
         ],
-        "ver": 202305091930
+        "ver": 202307031430
     },
-    "version": "202305091930"
+    "version": "202307031430"
 }
