@@ -1,0 +1,9 @@
+{
+    "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\GitHub\\\\3D-Print\\\\SuperSlicer (Temporary Closed)\\\\VORON V2.4\\\\bed_model.stl",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "MyKlipper 0.4 nozzle - Copy",
+    "printer_settings_id": "MyKlipper 0.4 nozzle - Copy",
+    "version": "1.6.0.0"
+}

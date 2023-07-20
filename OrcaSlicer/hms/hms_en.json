@@ -79,7 +79,7 @@
             },
             {
                 "ecode": "03008006",
-                "intro": "Build plate localization marker is not found, Please stop the print job and relocate the build plate. You can also tap \"Resume\" to force resuming the print job."
+                "intro": "Build plate localization marker was not found. Please stop the print job and find the build plate. You can also tap \"Resume\" to force-resume the print job."
             },
             {
                 "ecode": "05004001",
@@ -547,11 +547,11 @@
             },
             {
                 "ecode": "12FF8003",
-                "intro": "Please pull out the filament on the spool holder from the extruder. If an AMS is to be used later, please connect the PTFE tube from the AMS to the extruder and click the the retry button."
+                "intro": "Remove external filament from extruder. Then, connect the PTFE tube to coupler and click \"Retry\" if using an AMS for the next print."
             },
             {
                 "ecode": "12FFC003",
-                "intro": "Please pull out the filament on the spool holder from the extruder. If an AMS is to be used later, please connect the PTFE tube from the AMS to the extruder and click the the retry button."
+                "intro": "Remove external filament from extruder. Then, connect the PTFE tube to coupler and click \"Retry\" if using an AMS for the next print."
             },
             {
                 "ecode": "12008004",
@@ -635,7 +635,7 @@
             },
             {
                 "ecode": "12FF8007",
-                "intro": "Please observe the nozzle. If the filament has been extruded, click \"Done\"; if it is not, please push the filament forward slightly and then click the retry button."
+                "intro": "Check nozzle. Click \"Done\" if filament was extruded, otherwise push filament forward slightly and click \"Retry.\""
             },
             {
                 "ecode": "12008010",
@@ -739,19 +739,19 @@
             },
             {
                 "ecode": "12008014",
-                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+                "intro": "Failed to check the filament position of all slots. After troubleshooting, click \"Retry.\""
             },
             {
                 "ecode": "12018014",
-                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+                "intro": "Failed to check the filament position of all slots. After troubleshooting, click \"Retry.\""
             },
             {
                 "ecode": "12028014",
-                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+                "intro": "Failed to check the filament position of all slots. After troubleshooting, click \"Retry.\""
             },
             {
                 "ecode": "12038014",
-                "intro": "Failed to check the initial filament position of all slots; please remove the filament in the tool head. After troubleshooting, click the retry button."
+                "intro": "Failed to check the filament position of all slots. After troubleshooting, click \"Retry.\""
             },
             {
                 "ecode": "05004016",
@@ -847,7 +847,7 @@
             },
             {
                 "ecode": "03008011",
-                "intro": "The current build plate is not the same as in G-code. Please stop the print job and replace the build plate. You can also tap \"Resume\" to force resuming the print job."
+                "intro": "The current build plate is not the same as in G-code. Please stop the print job and replace the build plate. You can also tap \"Resume\" to force-resume the print job."
             },
             {
                 "ecode": "03008012",
@@ -860,9 +860,13 @@
             {
                 "ecode": "0500402D",
                 "intro": "System exception."
+            },
+            {
+                "ecode": "0C00800A",
+                "intro": "The detected build plate is not the same as in G-code."
             }
         ],
-        "ver": 202307031430
+        "ver": 202307151700
     },
     "device_hms": {
         "en": [
@@ -3591,7 +3595,7 @@
                 "intro": "AMS4 Slot4 filament may be tangled or stuck."
             }
         ],
-        "ver": 202307031430
+        "ver": 202307151700
     },
-    "version": "202307031430"
+    "version": "202307151700"
 }

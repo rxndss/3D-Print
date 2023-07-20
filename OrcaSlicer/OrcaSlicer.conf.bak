@@ -1,12 +1,15 @@
 {
+    "access_code": {
+        "00M09A342400095": "8a136771"
+    },
     "app": {
-        "associate_3mf": false,
-        "associate_step": false,
-        "associate_stl": false,
+        "associate_3mf": true,
+        "associate_step": true,
+        "associate_stl": true,
         "backup_interval": "10",
         "backup_switch": true,
         "curr_bed_type": "3",
-        "dark_color_mode": "0",
+        "dark_color_mode": "1",
         "developer_mode": false,
         "download_path": "C:\\Users\\RENDI SAPUTRA\\Downloads",
         "drop_project_action": true,
@@ -16,8 +19,9 @@
         "installed_networking": "1",
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
-        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Mon_Jul_03/15_10_36#21240#32",
-        "last_export_path": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\PARAGON\\Customers\\Ricky Angga Pratama",
+        "language": "en_GB",
+        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Tue_Jul_18/05_10_41#13928#78",
+        "last_export_path": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP",
         "max_recent_count": "18",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
@@ -37,6 +41,8 @@
         "privacy_version": "00.00.00.00",
         "region": "Asia-Pacific",
         "rotate_view": "none/mouse left",
+        "save_preset_choise": "",
+        "save_project_choise": "",
         "severity_level": "info",
         "show_build_edgets": false,
         "show_daily_tips": true,
@@ -50,7 +56,7 @@
         "single_instance": false,
         "slicer_uuid": "9958c091-f5fa-4179-b5cb-edb9e40d0a1a",
         "sync_system_preset": true,
-        "sync_user_preset": false,
+        "sync_user_preset": true,
         "sys_menu_enabled": "1",
         "toolkit_size": "100",
         "units": "0",
@@ -68,6 +74,11 @@
         "min_object_distance_fff": "3",
         "min_object_distance_fff_seq_print": "60"
     },
+    "bbl_machine": {
+        "bed_leveling": false,
+        "flow_cali": false,
+        "timelapse": false
+    },
     "filaments": [
         "Anker Generic ABS",
         "Anker Generic ASA",
@@ -79,20 +90,45 @@
         "Anker Generic PLA-CF",
         "Anker Generic PVA",
         "Anker Generic TPU",
-        "Arena ABS @Arena X1C",
-        "Arena PC @Arena X1C",
-        "Arena PLA Basic @Arena X1C",
-        "Arena PLA Matte @Arena X1C",
-        "Arena Support W @Arena X1C",
-        "Arena TPU 95A @Arena X1C",
+        "Bambu ABS @BBL P1P",
+        "Bambu ABS @BBL P1P 0.2 nozzle",
         "Bambu ABS @BBL X1C",
+        "Bambu ABS @BBL X1C 0.2 nozzle",
+        "Bambu ABS @BBL X1C 0.8 nozzle",
+        "Bambu PA-CF @BBL P1P",
+        "Bambu PA-CF @BBL X1C",
+        "Bambu PAHT-CF @BBL P1P",
+        "Bambu PAHT-CF @BBL X1C",
+        "Bambu PC @BBL P1P",
+        "Bambu PC @BBL P1P 0.2 nozzle",
         "Bambu PC @BBL X1C",
+        "Bambu PC @BBL X1C 0.2 nozzle",
+        "Bambu PC @BBL X1C 0.6 nozzle",
+        "Bambu PC @BBL X1C 0.8 nozzle",
+        "Bambu PETG Basic @BBL X1C",
+        "Bambu PETG Basic @BBL X1C 0.2 nozzle",
+        "Bambu PETG Basic @BBL X1C 0.8 nozzle",
+        "Bambu PETG-CF @BBL P1P",
+        "Bambu PETG-CF @BBL X1C",
+        "Bambu PLA Basic @BBL P1P",
+        "Bambu PLA Basic @BBL P1P 0.2 nozzle",
+        "Bambu PLA Basic @BBL X1",
         "Bambu PLA Basic @BBL X1C",
-        "Bambu PLA Matte @BBL X1C",
+        "Bambu PLA Basic @BBL X1C 0.2 nozzle",
+        "Bambu PLA Basic @BBL X1C 0.8 nozzle",
+        "Bambu PLA Silk @BBL P1P",
+        "Bambu PLA Silk @BBL P1P 0.2 nozzle",
+        "Bambu PLA Silk @BBL X1",
+        "Bambu PLA Silk @BBL X1C",
+        "Bambu PLA Silk @BBL X1C 0.2 nozzle",
+        "Bambu Support W @BBL P1P",
+        "Bambu Support W @BBL P1P 0.2 nozzle",
+        "Bambu Support W @BBL X1",
         "Bambu Support W @BBL X1C",
+        "Bambu Support W @BBL X1C 0.2 nozzle",
+        "Bambu TPU 95A @BBL P1P",
+        "Bambu TPU 95A @BBL X1",
         "Bambu TPU 95A @BBL X1C",
-        "Generic PLA",
-        "Generic PLA Silk",
         "My Generic ABS",
         "My Generic ASA",
         "My Generic PA",
@@ -103,42 +139,20 @@
         "My Generic PLA-CF",
         "My Generic PVA",
         "My Generic TPU",
-        "OrcaArena Generic PLA",
-        "OrcaArena Generic PLA Silk",
         "PolyLite PLA @Arena X1C",
+        "PolyLite PLA @Arena X1C 0.2 nozzle",
+        "PolyLite PLA @BBL P1P",
+        "PolyLite PLA @BBL P1P 0.2 nozzle",
+        "PolyLite PLA @BBL X1",
         "PolyLite PLA @BBL X1C",
+        "PolyLite PLA @BBL X1C 0.2 nozzle",
         "PolyTerra PLA @Arena X1C",
+        "PolyTerra PLA @Arena X1C 0.2 nozzle",
+        "PolyTerra PLA @BBL P1P",
+        "PolyTerra PLA @BBL P1P 0.2 nozzle",
+        "PolyTerra PLA @BBL X1",
         "PolyTerra PLA @BBL X1C",
-        "Prusa Generic ABS",
-        "Prusa Generic ASA",
-        "Prusa Generic PA",
-        "Prusa Generic PA-CF",
-        "Prusa Generic PC",
-        "Prusa Generic PETG",
-        "Prusa Generic PLA",
-        "Prusa Generic PLA-CF",
-        "Prusa Generic PVA",
-        "Prusa Generic TPU",
-        "Voron Generic ABS",
-        "Voron Generic ASA",
-        "Voron Generic PA",
-        "Voron Generic PA-CF",
-        "Voron Generic PC",
-        "Voron Generic PETG",
-        "Voron Generic PLA",
-        "Voron Generic PLA-CF",
-        "Voron Generic PVA",
-        "Voron Generic TPU",
-        "Vzbot Generic ABS",
-        "Vzbot Generic ASA",
-        "Vzbot Generic PA",
-        "Vzbot Generic PA-CF",
-        "Vzbot Generic PC",
-        "Vzbot Generic PETG",
-        "Vzbot Generic PLA",
-        "Vzbot Generic PLA-CF",
-        "Vzbot Generic PVA",
-        "Vzbot Generic TPU"
+        "PolyTerra PLA @BBL X1C 0.2 nozzle"
     ],
     "firstguide": {
         "finish": true
@@ -151,9 +165,14 @@
             "vendor": "Anker"
         },
         {
-            "model": "Prusa MK3S",
+            "model": "Bambu Lab X1 Carbon",
             "nozzle_diameter": "0.4",
-            "vendor": "Prusa"
+            "vendor": "BBL"
+        },
+        {
+            "model": "Generic Klipper Printer",
+            "nozzle_diameter": "0.4",
+            "vendor": "Custom"
         }
     ],
     "mouse_device:LOGITECH::UNKNOWN": {
@@ -167,42 +186,28 @@
     "presets": {
         "filament_colors": "#FF8000",
         "filaments": [
-            "Sunlu PETG (Dark Color)"
+            "My Generic PETG"
         ],
         "flush_volumes_matrix": "0.000000",
         "flush_volumes_vector": "140.000000|140.000000",
-        "machine": "PSM-02_V2.4-350",
-        "process": "0.4mm-0.2mm CASUAL PSM-01_V2.4-350"
+        "machine": "MyKlipper 0.4 nozzle - Copy",
+        "process": "0.20mm Standard @MyKlipper"
     },
     "print": {
-        "bed_leveling": "1",
-        "flow_cali": "1",
-        "timelapse": "1"
+        "bed_leveling": "0",
+        "flow_cali": "0",
+        "timelapse": "0"
     },
     "recent": {
-        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Maket Sample",
+        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop",
         "printhost_path": "",
-        "settings_folder": "C:\\Users\\RS\\EM Calibration"
+        "settings_folder": "C:\\Users\\RS\\Models\\classic-transport-truck-model_files"
     },
     "recent_projects": {
-        "01": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\PARAGON\\Customers\\Ricky Angga Pratama\\RYE Trigg new 1.3mf",
-        "02": "C:\\Users\\Paragon\\Downloads\\Compressed\\classic-transport-truck-model_files\\Truck.3mf",
-        "03": "C:\\Users\\Paragon\\Downloads\\Compressed\\house-model_files_3\\house whit suports.3mf",
-        "04": "C:\\Users\\Paragon\\Downloads\\Compressed\\fifties-house-model_files\\ukfiftiesdetachedhouse.3mf",
-        "05": "C:\\Users\\RS\\EM Calibration\\EM_Calibration.3mf",
-        "06": "C:\\Users\\RS\\Models\\EM Calibration\\em_calibration.3mf",
-        "07": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\PARAGON\\Customers\\Ilham\\230615\\RELL 70 MM 16MM model ke 2 03 .3mf",
-        "08": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP\\Calibration\\EM Calibration\\EM_Calibration.3mf",
-        "09": "C:\\Users\\RENDI SAPUTRA\\Desktop\\EM_Calibration.3mf",
-        "10": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP\\Models\\12 Gun East India Merchant\\Merchant Bowsprit with Sail (Whole).3mf",
-        "11": "C:\\Users\\RENDI SAPUTRA\\Desktop\\12 Gun East India Merchant Hull.3mf",
-        "12": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230608\\OrcaSlicer.3mf",
-        "13": "C:\\Users\\RENDI SAPUTRA\\Desktop\\SAN Table Name Tag\\Print\\Print.3mf",
-        "14": "C:\\Users\\RS\\EM_Calibration.3mf",
-        "15": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230531\\PSM-01.3mf",
-        "16": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\PARAGON\\Customers\\Naufal Alman\\12 Gun East India Merchant Hull.3mf",
-        "17": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230526\\Bottle Holder - Part 1.3mf",
-        "18": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230526\\Jig Angle Left.3mf"
+        "01": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP\\EM Calibration.3mf"
+    },
+    "user_access_code": {
+        "00M09A342400095": ""
     }
 }
-# MD5 checksum 616F86EFF53D1B22BF8BD12E46078432
+# MD5 checksum B8AC2A4AED8479AEB04A815EB71AA2B3

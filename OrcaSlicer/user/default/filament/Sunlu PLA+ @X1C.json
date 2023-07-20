@@ -1,0 +1,67 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "55"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "55"
+    ],
+    "filament_cost": [
+        "198000"
+    ],
+    "filament_deretraction_speed": [
+        "20"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_retraction_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "Sunlu PLA+ @X1C"
+    ],
+    "filament_type": [
+        "PLA+"
+    ],
+    "filament_wipe": [
+        "1"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "filament_z_hop_types": [
+        "Normal Lift"
+    ],
+    "from": "User",
+    "inherits": "Bambu PLA Basic @BBL X1C",
+    "is_custom_defined": "0",
+    "name": "Sunlu PLA+ @X1C",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "235"
+    ],
+    "nozzle_temperature_range_low": [
+        "210"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "pressure_advance": [
+        "0.0175"
+    ],
+    "temperature_vitrification": [
+        "60"
+    ],
+    "version": "1.6.0.3"
+}
