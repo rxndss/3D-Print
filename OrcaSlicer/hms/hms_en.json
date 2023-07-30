@@ -407,11 +407,11 @@
             },
             {
                 "ecode": "07FF8003",
-                "intro": "Please remove the external filament from the extruder. If an AMS is to be used later, please connect the PTFE tube to the coupler and click the \"retry\" button."
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler and click the \"retry\" button."
             },
             {
                 "ecode": "07FF8004",
-                "intro": "Failed to pull back the filament from the toolhead to AMS. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"retry\" button."
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
             },
             {
                 "ecode": "07FF8005",
@@ -866,7 +866,7 @@
                 "intro": "The detected build plate is not the same as in G-code."
             }
         ],
-        "ver": 202307151700
+        "ver": 202307272230
     },
     "device_hms": {
         "en": [
@@ -3593,9 +3593,121 @@
             {
                 "ecode": "1203830000020001",
                 "intro": "AMS4 Slot4 filament may be tangled or stuck."
+            },
+            {
+                "ecode": "0300170000010001",
+                "intro": "The speed of the hotend fan is too slow or stopped. It may be stuck or the connector may not be plugged in properly."
+            },
+            {
+                "ecode": "0300170000020002",
+                "intro": "The speed of the hotend fan is slow. It may be stuck and need cleaning."
+            },
+            {
+                "ecode": "0300900000010001",
+                "intro": "Chamber heating failed. The chamber heater may be failing to blow hot air."
+            },
+            {
+                "ecode": "0300900000010002",
+                "intro": "Chamber heating failed. The hatch may not be closed, or the ambient temperature may be too low."
+            },
+            {
+                "ecode": "0300900000010003",
+                "intro": "Chamber heating failed. The temperature of power supply may be too high."
+            },
+            {
+                "ecode": "0300900000010004",
+                "intro": "Chamber heating failed. The speed of the heating fan is too low."
+            },
+            {
+                "ecode": "0300900000010005",
+                "intro": "Chamber heating failed. The thermal resistance is too high."
+            },
+            {
+                "ecode": "0300910000010001",
+                "intro": "The temperature of chamber heater 1 is abnormal. The heater may have a short circuit."
+            },
+            {
+                "ecode": "0300910000010002",
+                "intro": "The temperature of chamber heater 1 is abnormal. The heater may have an open circuit or the thermal fuse may have taken effect."
+            },
+            {
+                "ecode": "0300910000010003",
+                "intro": "The temperature of chamber heater 1 is abnormal. The heater is over temperature."
+            },
+            {
+                "ecode": "0300910000010006",
+                "intro": "The temperature of chamber heater 1 is abnormal. The sensor may have a short circuit."
+            },
+            {
+                "ecode": "0300910000010007",
+                "intro": "The temperature of chamber heater 1 is abnormal. The sensor may have an open circuit."
+            },
+            {
+                "ecode": "0300910000010008",
+                "intro": "Chamber heater 1 failed to rise to target temperature."
+            },
+            {
+                "ecode": "0300920000010001",
+                "intro": "The temperature of chamber heater 2 is abnormal. The heater may have a short circuit."
+            },
+            {
+                "ecode": "0300920000010002",
+                "intro": "The temperature of chamber heater 2 is abnormal. The heater may have an open circuit or the thermal fuse may be in effect."
+            },
+            {
+                "ecode": "0300920000010003",
+                "intro": "The temperature of chamber heater 2 is abnormal. The heater is over temperature."
+            },
+            {
+                "ecode": "0300920000010006",
+                "intro": "The temperature of chamber heater 2 is abnormal. The sensor may have a short circuit."
+            },
+            {
+                "ecode": "0300920000010007",
+                "intro": "The temperature of chamber heater 2 is abnormal. The sensor may have an open circuit."
+            },
+            {
+                "ecode": "0300920000010008",
+                "intro": "Chamber heater 2 failed to rise to target temperature."
+            },
+            {
+                "ecode": "0300930000010001",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor may have a short circuit."
+            },
+            {
+                "ecode": "0300930000010002",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor may have an open circuit."
+            },
+            {
+                "ecode": "0300930000010003",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor at the air outlet may have a short circuit."
+            },
+            {
+                "ecode": "0300930000010004",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor at the air outlet may have an open circuit."
+            },
+            {
+                "ecode": "0300930000010005",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor at the air inlet may have a short circuit."
+            },
+            {
+                "ecode": "0300930000010006",
+                "intro": "Chamber temperature is abnormal. The chamber heater's temperature sensor at the air inlet may have an open circuit."
+            },
+            {
+                "ecode": "0300930000010007",
+                "intro": "Chamber temperature is abnormal. The temperature sensor at the power supply may have a short circuit."
+            },
+            {
+                "ecode": "0300930000010008",
+                "intro": "Chamber temperature is abnormal. The temperature sensor at power supply may have an open circuit."
+            },
+            {
+                "ecode": "0500030000010023",
+                "intro": "The CTC module is malfunctioning. Please restart the device."
             }
         ],
-        "ver": 202307151700
+        "ver": 202307272230
     },
-    "version": "202307151700"
+    "version": "202307272230"
 }

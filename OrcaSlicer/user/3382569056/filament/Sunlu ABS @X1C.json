@@ -3,10 +3,10 @@
         "1"
     ],
     "eng_plate_temp": [
-        "100"
+        "110"
     ],
     "eng_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "fan_min_speed": [
         "50"
@@ -14,11 +14,23 @@
     "filament_cost": [
         "148000"
     ],
+    "filament_deretraction_speed": [
+        "30"
+    ],
     "filament_flow_ratio": [
         "0.93"
     ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_retraction_speed": [
+        "30"
+    ],
     "filament_settings_id": [
         "Sunlu ABS @X1C"
+    ],
+    "filament_z_hop": [
+        "0.4"
     ],
     "from": "User",
     "inherits": "Bambu ABS @BBL X1C",

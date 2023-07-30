@@ -1,4 +1,10 @@
 {
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
     "eng_plate_temp": [
         "80"
     ],
@@ -11,8 +17,11 @@
     "filament_deretraction_speed": [
         "20"
     ],
-    "filament_retract_when_changing_layer": [
-        "0"
+    "filament_flow_ratio": [
+        "0.912"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
     ],
     "filament_retraction_length": [
         "0.8"
@@ -23,16 +32,16 @@
     "filament_settings_id": [
         "Sunlu PETG @X1C"
     ],
-    "filament_wipe": [
-        "1"
+    "filament_start_gcode": [
+        "; filament start gcode\nM106 P3 S255"
     ],
     "filament_z_hop": [
-        "0.1"
-    ],
-    "filament_z_hop_types": [
-        "Spiral Lift"
+        "0.2"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
     "hot_plate_temp": [
         "80"
     ],
@@ -53,6 +62,9 @@
     ],
     "nozzle_temperature_range_low": [
         "230"
+    ],
+    "pressure_advance": [
+        "0.028"
     ],
     "temperature_vitrification": [
         "80"

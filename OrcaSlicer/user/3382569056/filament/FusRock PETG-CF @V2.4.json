@@ -1,0 +1,85 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "27"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "filament_density": [
+        "1.25"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "21"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_retraction_speed": [
+        "40"
+    ],
+    "filament_settings_id": [
+        "FusRock PETG-CF @V2.4"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+    ],
+    "filament_type": [
+        "PETG-CF"
+    ],
+    "filament_z_hop": [
+        "0.2"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "inherits": "My Generic ABS",
+    "is_custom_defined": "0",
+    "name": "FusRock PETG-CF @V2.4",
+    "nozzle_temperature": [
+        "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "overhang_fan_speed": [
+        "35"
+    ],
+    "pressure_advance": [
+        "0.0275"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "temperature_vitrification": [
+        "80"
+    ],
+    "version": "1.6.0.0"
+}

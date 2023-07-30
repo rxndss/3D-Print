@@ -1,0 +1,891 @@
+2023-07-28 14:30:19.498550[Thread 0x00000594]:Slic3r::GUI::GUI_App::Update_dark_mode_flag: switch the current dark mode status to 1 
+2023-07-28 14:30:19.499813[Thread 0x00000594]:last app version {1.6.0}, current version {1.6.0}
+2023-07-28 14:30:19.526038[Thread 0x00000594]:begin to show the splash screen...
+2023-07-28 14:30:19.581263[Thread 0x00000594]:loading systen presets...
+2023-07-28 14:30:19.583365[Thread 0x00000594]:[BBL Updater]:Checking whether the profile from resource is newer
+2023-07-28 14:30:19.584040[Thread 0x00000594]:Installing 3 bundles from resources ...
+2023-07-28 14:30:19.623686[Thread 0x00000594]:[BBL Updater]:Performing 12 updates
+2023-07-28 14:30:19.623686[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker.json)
+2023-07-28 14:30:19.629222[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\process)
+2023-07-28 14:30:19.629222[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\process"
+2023-07-28 14:30:19.642258[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\filament)
+2023-07-28 14:30:19.642258[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\filament"
+2023-07-28 14:30:19.762545[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\machine)
+2023-07-28 14:30:19.762545[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Anker\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Anker\machine"
+2023-07-28 14:30:19.780726[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL.json)
+2023-07-28 14:30:19.787833[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\process)
+2023-07-28 14:30:19.787833[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\process"
+2023-07-28 14:30:20.149211[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\filament)
+2023-07-28 14:30:20.149211[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\filament"
+2023-07-28 14:30:20.775554[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\filament\P1P" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\filament\P1P"
+2023-07-28 14:30:21.122640[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\machine)
+2023-07-28 14:30:21.122640[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\BBL\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\BBL\machine"
+2023-07-28 14:30:21.258239[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom.json -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom.json)
+2023-07-28 14:30:21.266000[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\process -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\process)
+2023-07-28 14:30:21.266000[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\process" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\process"
+2023-07-28 14:30:21.354236[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\filament -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\filament)
+2023-07-28 14:30:21.354236[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\filament" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\filament"
+2023-07-28 14:30:21.475453[Thread 0x00000594]:	Update(C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\machine -> C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\machine)
+2023-07-28 14:30:21.475453[Thread 0x00000594]:copy_directory_recursively "C:\Program Files\OrcaSlicer_V1.6.3_Win64\resources\profiles\Custom\machine" -> "C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system\Custom\machine"
+2023-07-28 14:30:21.538580[Thread 0x00000594]:Slic3r::NetworkAgent::initialize_network_module, successfully loaded library C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\plugins/bambu_networking.dll, module 00007FFD91CF0000
+2023-07-28 14:30:21.540517[Thread 0x00000594]:Slic3r::NetworkAgent::get_network_function, can not find function bambu_network_get_profile_3mf
+2023-07-28 14:30:21.540517[Thread 0x00000594]:Slic3r::GUI::GUI_App::on_init_network: on_init_network, load dll ok
+2023-07-28 14:30:21.540517[Thread 0x00000594]:get_network_agent_version=01.06.00.10
+2023-07-28 14:30:21.541254[Thread 0x00000594]:Slic3r::GUI::GUI_App::on_init_network: on_init_network, compatibility version
+2023-07-28 14:30:21.545259[Thread 0x00000594]:Slic3r::GUI::GUI_App::on_init_network, create network agent...
+2023-07-28 14:30:21.545259[Thread 0x00000594]:Slic3r::NetworkAgent::NetworkAgent, this 000001E67EE88690, network_agent=000001E67EE88430, create_agent_ptr=00007FFD91DD3B00
+2023-07-28 14:30:21.548575[Thread 0x00000594]:Slic3r::GUI::GUI_App::init_networking_callbacks: enter, m_agent=000001E67EE88690
+2023-07-28 14:30:21.549411[Thread 0x00000594]:Slic3r::GUI::GUI_App::init_networking_callbacks: exit, m_agent=000001E67EE88690
+2023-07-28 14:30:21.557189[Thread 0x00000594]:Slic3r::PresetBundle::load_presets enter, substitution_rule 3, preferred printer_model_id 
+2023-07-28 14:30:21.559731[Thread 0x00000594]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/Anker.json, got description:  "Anker configurations"
+2023-07-28 14:30:21.572165[Thread 0x00000594]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/BBL.json, got description:  "the initial version of BBL configurations"
+2023-07-28 14:30:21.620630[Thread 0x00000594]:Slic3r::PresetBundle::load_vendor_configs_from_json: parse C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\system/Custom.json, got description:  "My configurations"
+2023-07-28 14:30:21.784331[Thread 0x00000594]:Preset already present, not loading: Generic ABS
+2023-07-28 14:30:21.991680[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:30:21.991680[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:30:21.991680[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:30:21.992683[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:30:21.993744[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:30:21.993744[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:30:21.993744[Thread 0x00000594]:Slic3r::PresetBundle::load_presets finished, returned substitutions 0
+2023-07-28 14:30:21.994746[Thread 0x00000594]:start_sync_service...
+2023-07-28 14:30:21.994746[Thread 0x00000594]:create the main window
+2023-07-28 14:30:22.358652[Thread 0x00000594]:WebView::CreateWebView: file:C:/Program%20Files/OrcaSlicer_V1.6.3_Win64/resources/web/homepage/index.html?lang=en_GB
+2023-07-28 14:30:22.418103[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-07-28 14:30:22.418103[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-07-28 14:30:22.817723[Thread 0x00000594]:Slic3r::BackgroundSlicingProcess::select_technology: change the printer technology from  to  
+2023-07-28 14:30:22.920864[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E60089C4E0
+2023-07-28 14:30:23.031068[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000000000000000, new_panel 000001E6008BF010
+2023-07-28 14:30:24.627358[Thread 0x00000594]:ImageGrid::SetStatus: No printers.
+2023-07-28 14:30:24.638580[Thread 0x00000594]:monitor: show_status = 4
+2023-07-28 14:30:24.698040[Thread 0x00000594]:Slic3r::GUI::Sidebar::load_ams_list: 0 items
+2023-07-28 14:30:24.746151[Thread 0x00000594]:WebView::CreateWebView: 
+2023-07-28 14:30:24.747188[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-07-28 14:30:24.747188[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-07-28 14:30:24.747188[Thread 0x00000594]:WebView::CreateWebView: file:C:/Program%20Files/OrcaSlicer_V1.6.3_Win64/resources/web/model/index.html?lang=en_GB
+2023-07-28 14:30:24.751208[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): begin to add script message handler for wx.
+2023-07-28 14:30:24.751208[Thread 0x00000594]:WebView::CreateWebView::<lambda_d267bc161d88cbbcd7e0ff787f1edc22>::operator (): finished add script message handler for wx.
+2023-07-28 14:30:24.763442[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 0 
+2023-07-28 14:30:24.764948[Thread 0x00000594]:Slic3r::GUI::Bed3D::set_shape:current position {0,0}, new position {0, 0}
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlateList::reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlateList::reset_size:after size: plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:30:24.767532[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:30:24.768582[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:30:24.768582[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:30:24.768582[Thread 0x00000594]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-07-28 14:30:24.793148[Thread 0x00000594]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230716\Penyangga Hood Rev 2.3mf
+2023-07-28 14:30:24.794302[Thread 0x00001570]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\Project LAKSANA\I. Miniatur Legacy SR3 XHD 65cm\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\Production\SLA\SLA.3mf
+2023-07-28 14:30:24.794302[Thread 0x00004e48]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\EM Calibration.3mf
+2023-07-28 14:30:24.793148[Thread 0x00000828]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230710\230710.3mf
+2023-07-28 14:30:24.794302[Thread 0x00002e00]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\Project LAKSANA\I. Miniatur Legacy SR3 XHD 65cm\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\Production\FDM\Exterior Only.3mf
+2023-07-28 14:30:24.794302[Thread 0x000046c8]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230707\Adjusment T - Left - Front.3mf
+2023-07-28 14:30:24.794302[Thread 0x0000366c]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\230712\230712.3mf
+2023-07-28 14:30:24.794302[Thread 0x00004820]:Unable to open the fileC:\Users\RENDI SAPUTRA\Desktop\Project LAKSANA\I. Miniatur Legacy SR3 XHD 65cm\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\Production\FDM\jok.3mf
+2023-07-28 14:30:24.794302[Thread 0x000030a4]:Unable to open the fileC:\Users\RENDI SAPUTRA\Documents\Documents\3DP\EM Calibration.3mf
+2023-07-28 14:30:24.958951[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 1, enable= 0 
+2023-07-28 14:30:24.958951[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_slice_status: m_slice_select 1, enable= 1 
+2023-07-28 14:30:24.958951[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2023-07-28 14:30:24.975163[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:24.993861[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:25.001458[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:25.001458[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:25.005487[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:25.013218[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:25.013218[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:25.014766[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:30:25.014766[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:30:25.032065[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:25.039349[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:25.054548[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:25.068367[Thread 0x00000594]:main frame firstly shown
+2023-07-28 14:30:25.437506[Thread 0x00000594]:finished the gui app init
+2023-07-28 14:30:25.484108[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnNavigationRequest: 
+2023-07-28 14:30:25.540121[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, begin load_gl_resources
+2023-07-28 14:30:25.592930[Thread 0x00000594]:select view3D
+2023-07-28 14:30:25.592930[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 0000000000000000, new_panel 000001E6008BF010
+2023-07-28 14:30:25.599173[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: successfully, exit
+2023-07-28 14:30:25.601312[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, start to init opengl
+2023-07-28 14:30:25.608832[Thread 0x00000594]:Found Framebuffer Type ARB.
+2023-07-28 14:30:25.608832[Thread 0x00000594]:got opengl version 4.6.0 NVIDIA 536.67, glsl version 4.60 NVIDIA, vendor NVIDIA Corporation
+2023-07-28 14:30:25.712918[Thread 0x00000594]:Slic3r::GUI::OpenGLManager::init_glnot AMD driver.
+2023-07-28 14:30:25.712918[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, finished init opengl
+2023-07-28 14:30:25.714444[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init enter
+2023-07-28 14:30:25.714444[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init: before m_layers_editing init
+2023-07-28 14:30:25.714444[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init: before gizmo init
+2023-07-28 14:30:27.503216[Thread 0x00000594]:init_occt_fonts start
+2023-07-28 14:30:27.504217[Thread 0x00000594]:init_occt_fonts end
+2023-07-28 14:30:27.828081[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init: before _init_toolbars
+2023-07-28 14:30:27.853142[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::_init_assemble_view_toolbar: enter,  m_assemble_view_toolbar.is_enabled=true
+2023-07-28 14:30:27.854150[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::_init_assemble_view_toolbar: Finished Successfully
+2023-07-28 14:30:27.868581[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init: finish _init_toolbars
+2023-07-28 14:30:27.869905[Thread 0x00000594]:Slic3r::GUI::GLCanvas3D::init: finish m_selection
+2023-07-28 14:30:27.869905[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, finished init canvas3D
+2023-07-28 14:30:28.119191[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, finished init imgui frame
+2023-07-28 14:30:28.119191[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, start to render a first frame for test
+2023-07-28 14:30:28.434895[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, finished rendering a first frame for test
+2023-07-28 14:30:28.464206[Thread 0x00000594]:Slic3r::GUI::GUI_App::post_init, end load_gl_resources
+2023-07-28 14:30:28.479061[Thread 0x00000594]:before check_updates
+2023-07-28 14:30:28.479061[Thread 0x00000594]:after check_updates
+2023-07-28 14:30:28.501418[Thread 0x00000594]:delete log file over 30, filename: debug_Sun_Jul_23_20_41_57_20536.log.0
+2023-07-28 14:30:28.501418[Thread 0x00000594]:delete log file over 30, filename: debug_network_Mon_Jul_24_10_06_21.log
+2023-07-28 14:30:28.501418[Thread 0x00000594]:finished post_init
+2023-07-28 14:30:28.507780[Thread 0x00000594]:select view3D
+2023-07-28 14:30:28.507780[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 000001E6008BF010, new_panel 000001E6008BF010
+2023-07-28 14:30:28.507780[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-07-28 14:30:28.535858[Thread 0x00000594]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB WorkingSet: 176MB; PrivateBytes: 221MB; Pagefile(peak): 221MB(221MB)
+2023-07-28 14:30:28.536861[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:30:28.536861[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:30:28.536861[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:30:28.536861[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:30:28.536861[Thread 0x00000594]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-07-28 14:30:28.537968[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:30:28.537968[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:30:28.537968[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E608C4F5D0
+2023-07-28 14:30:28.537968[Thread 0x00000594]:Slic3r::BackgroundSlicingProcess::stop, enter
+2023-07-28 14:30:28.539551[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:30:28.566463[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:30:28.591569[Thread 0x00000594]:Slic3r::GUI::Plater::priv::object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-07-28 14:30:28.591569[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:30:28.591569[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:30:28.591569[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:28.600624[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:28.615179[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:28.615179[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:28.617198[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:28.623360[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:28.623360[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:30:28.624373[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:30:28.624373[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:30:28.631528[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:28.640079[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:30:28.655196[Thread 0x00000594]:put_other_changes
+2023-07-28 14:30:28.656213[Thread 0x00000594]:Undo / Redo snapshot taken: New Project, Undo / Redo stack memory: 0MB WorkingSet: 176MB; PrivateBytes: 221MB; Pagefile(peak): 221MB(221MB)
+2023-07-28 14:30:28.656213[Thread 0x00000594]:model 00000085424EEF20, id 47, backup_path empty, set to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47
+2023-07-28 14:30:28.656213[Thread 0x00000594]:create /3D/Objects in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47"
+2023-07-28 14:30:28.657205[Thread 0x00000594]:create /Metadata in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47"
+2023-07-28 14:30:28.657205[Thread 0x00000594]:create /lock.txt in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47"
+2023-07-28 14:30:28.657205[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, set backup to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47
+2023-07-28 14:30:28.657205[Thread 0x00000594]:create missing sub_pathC:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47//Auxiliaries
+2023-07-28 14:30:28.681986[Thread 0x00000594]:select view3D
+2023-07-28 14:30:28.681986[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 000001E6008BF010, new_panel 000001E6008BF010
+2023-07-28 14:30:28.681986[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-07-28 14:30:28.707646[Thread 0x00000594]:select view3D
+2023-07-28 14:30:28.713601[Thread 0x00004f80]:[BBL Updater]: sync_config Syncing configuration cache
+2023-07-28 14:30:28.714633[Thread 0x00004f80]:[BBL Updater]: sync_resources get preferred setting version for app version OrcaSlicer, url: https://api.bambulab.com/v1/iot-service/api/slicer/resource, current_version_str 01.06.00.10, check_patch 1
+2023-07-28 14:30:28.715614[Thread 0x00004f80]:[BBL Updater]: sync_resources request_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource?slicer/plugins/cloud=01.06.00.00
+2023-07-28 14:30:28.990110[Thread 0x00000594]:Slic3r::GUI::GUI_App::is_compatibility_version: m_networking_compatible=1
+2023-07-28 14:30:28.990110[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::ShowNetpluginTip: bValid=1, nShow=0
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:30:28.999399[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:30:29.000408[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnDocumentLoaded: 
+2023-07-28 14:30:29.000408[Thread 0x00000594]:Slic3r::GUI::GUI_App::is_compatibility_version: m_networking_compatible=1
+2023-07-28 14:30:29.000408[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::ShowNetpluginTip: bValid=1, nShow=0
+2023-07-28 14:30:29.010068[Thread 0x00000f48]:HMS: check_hms_info current version = 202307260200
+2023-07-28 14:30:29.014485[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnTitleChanged: homepage
+2023-07-28 14:30:29.070624[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnScriptMessage: {"sequence_id":1690529429,"command":"get_login_info"}
+2023-07-28 14:30:29.070624[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnScriptMessage Create Timer
+2023-07-28 14:30:29.070624[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnScriptMessage: {"sequence_id":1690529429,"command":"get_recent_projects"}
+2023-07-28 14:30:29.081877[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::OnNavigationComplete: 
+2023-07-28 14:30:29.126232[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:30:29.126232[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:30:29.126232[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:30:29.126232[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E608C4F5D0
+2023-07-28 14:30:29.127244[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:30:29.128237[Thread 0x00000594]:Slic3r::Print::apply, got print_diff 84, object_diff 9, region_diff 22, set status to APPLY_STATUS_CHANGED
+2023-07-28 14:30:29.128237[Thread 0x00000594]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-07-28 14:30:29.129237[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 1, apply_status 1, m_support_used 0
+2023-07-28 14:30:29.129237[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-07-28 14:30:29.129237[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:30:29.129237[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:30:29.130237[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:30:29.327858[Thread 0x00004f80]:[BBL Updater]: request_resources, body={"message":"success","code":null,"error":null,"software":{"type":null,"version":"01.06.02.04","description":"This is a major release (V1.6.2) mainly adds some features, improvements, and fixes based on user feedback.\nNew Features:\n1. Add gcode path conflict check;\n2. Support ext spool for X1C/X1;\n3. Support height range modifier, users can add several height range modifiers to apply different settings;\n4. Advanced cut with connectors;\n5. Support gcode sequential view, it will display when moving a single step;\n6. Support sinking and only slice model part above hot bed;\n\nImprovements:\n1. Improve the slicing speed of complex models;\n2. New default Mouse zooming and added a setting in Preferences;\n3. Support editing text after the text reloaded from 3mf;\n4. Slow down for overhang now works with Arachne Wall generator;\n5. Add back the customized post-processing scripts;\n6. Improve the smoothness of tree supports;\n7. Add two support interface patterns (grid & rectilinear interlaced). Both patterns are stronger than the others and support large overhangs better;\n8. Retain the most recent print settings for bed leveling, flow calibration, and timelapse to streamline the user experience;\n9. Popup a warning when attempting to send a print job to a printer with a mismatched printer model;\n10. Update the default style of tree support to \"Tree Hybrid\". This is to ensure a high success rate for printing ordinary models;\n11. Improve support necessity check. Warnings will now only be issued for floating parts or long floating cantilevers;\n12. Reduce possible toolhead shake in smooth timelapse video;\n13. Device media files can now be organized and grouped by year or month for easier navigation and file management;\n14. Allow configuring the number of the recently opened models in preference;\n15. Allow remembering user actions for unsaved changes when closing a project;\n16. Support fuzzy skin for \"All walls\" including both inner and outer walls;\n17. Support to configure whether to automatically update system presets;\n18. Support Italian;\n19. Optimize the humidity icon for AMS;\nBug Fixes:\n1. Fixed hang issue when generating infill;\nFixed slicing hang issue at 5% for some models;\nFixed an issue that \"The system may have run out of memory, or a bug may have occurred\" at 5%;\nFxied an issue with floating layer when set z hop to be 0 for multi-color printing;\nFixed a problem with text going down in all buttons on macOS;\nFixed an issue with the object list name edit box floating above the window on macOS;\nFixed an issue where text in the object list name edit box overlapped in common, night mode on macOS;\nFixed an issue with the default file name of a crash recovery item being replaced with a.3mf when saved as;\nFixed automatic expansion of filament preset area after one-click sync with AMS;\nFixed an issue where the color was not synchronized in the parameter support material selection list after changing the material color;\nFixed the scrolling position of the device media file list after switching months and years;\nFixed Double-clicking on a 3mf file on macOS and not starting Studio, or starting Studio on another instance;\nFixed some problems with user preset imports and exports;\nFixed Crash recovery function not taking effect on the Linux platform;\nFixed the Linux platform selection drop-down box does not disappear;\nAdjust the dark mode color of the object list on Windows platform;\nFixed issue with icons in infill pattern;\nOptimized the processing of double-click events on some widgets;\nFixed an issue where user presets were not loaded the first time Upgrade Studio started;\nA slicing error with support interface;\nFixed some problems with text;\nFixed a problem with SVG imports;\nFixed crash while using MontionLine pattern on the top surface for some cases;","url":"https://public-cdn.bambulab.com/upgrade/studio/software/01.06.02.04/Bambu_Studio_win-v01.06.02.04.exe","force_update":false},"guide":null,"resources":[{"type":"slicer/plugins/cloud","version":"01.06.00.10","description":"","url":"https://public-cdn.bambulab.com/upgrade/studio/plugins/01.06.00.10/win_01.06.00.10.zip","force_update":false}]}
+2023-07-28 14:30:29.327858[Thread 0x00004f80]:[BBL Updater]: get type slicer/plugins/cloud, version 01.06.00.10, url https://public-cdn.bambulab.com/upgrade/studio/plugins/01.06.00.10/win_01.06.00.10.zip
+2023-07-28 14:30:29.327858[Thread 0x00004f80]:[BBL Updater]: online version=1.6.0.10, current_version=1.6.0.10, no need to download
+2023-07-28 14:30:30.149375[Thread 0x00000f48]:HMS: check_hms_info latest version = 202307271430
+2023-07-28 14:30:30.149375[Thread 0x00000f48]:HMS: check_hms_info need download new hms info = true
+2023-07-28 14:30:30.149375[Thread 0x00000f48]:hms: download url = https://e.bambulab.com/query.php?lang=en
+2023-07-28 14:30:34.846679[Thread 0x00000594]:command_get_version
+2023-07-28 14:30:34.973810[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-07-28 14:30:34.973810[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:1}
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::NetworkAgent::get_user_presets : network_agent=000001E67EE88430, ret=0, setting_id count=49
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::PresetBundle::load_user_presets enter, substitution_rule 1, preset toltal count 49
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::PresetBundle::load_user_presets print's selected_idx 20, selected_name 0.20mm Standard @Anker
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::PresetBundle::load_user_presets filament's selected_idx 8, selected_name Anker Generic PA
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::PresetBundle::load_user_presets printers's selected_idx 16, selected_name PSM-01_V2-350
+2023-07-28 14:30:37.117285[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:30:37.117285[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Found the Preset locally: #EXO Prusament PC-CF
+2023-07-28 14:30:37.117285[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset #EXO Prusament PC-CF's update_time is eqaul or newer, cloud  update_time 1685821130, local update_time 1685821130
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: #EXO Sunlu PA
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset #EXO Sunlu PA's update_time is eqaul or newer, cloud  update_time 1686975714, local update_time 1690068531
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: #EXO Sunlu PC
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset #EXO Sunlu PC's update_time is eqaul or newer, cloud  update_time 1688536254, local update_time 1689986504
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: #EXO eSun PA-CF
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset #EXO eSun PA-CF's update_time is eqaul or newer, cloud  update_time 1685821163, local update_time 1690068541
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: #SUP PolyDissolve PVA @V2
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset #SUP PolyDissolve PVA @V2's update_time is eqaul or newer, cloud  update_time 1689984558, local update_time 1689984558
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: 0.4mm-0.2mm @K3
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset 0.4mm-0.2mm @K3's update_time is eqaul or newer, cloud  update_time 1690018145, local update_time 1690018145
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: 0.4mm-0.2mm @X1C
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset 0.4mm-0.2mm @X1C's update_time is eqaul or newer, cloud  update_time 1690194917, local update_time 1690194917
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: 0.5mm-0.2mm @V2
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset 0.5mm-0.2mm @V2's update_time is eqaul or newer, cloud  update_time 1690452450, local update_time 1690452450
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: CR TPU @V2
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset CR TPU @V2's update_time is eqaul or newer, cloud  update_time 1689984583, local update_time 1689984583
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: FusRock PETG-CF @V2
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset FusRock PETG-CF @V2's update_time is eqaul or newer, cloud  update_time 1689987791, local update_time 1689987791
+2023-07-28 14:30:37.118305[Thread 0x00000594]:Found the Preset locally: Generic ABS
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-01_V2-350
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-01_V2-350's update_time is eqaul or newer, cloud  update_time 1690076160, local update_time 1690076160
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-01_V2.4-350
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-01_V2.4-350's update_time is eqaul or newer, cloud  update_time 1690099672, local update_time 1690099672
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-02_V2-350
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-02_V2-350's update_time is eqaul or newer, cloud  update_time 1690278250, local update_time 1690278250
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-02_V2.4-350
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-02_V2.4-350's update_time is eqaul or newer, cloud  update_time 1690099680, local update_time 1690099680
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-03_K3-180
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-03_K3-180's update_time is eqaul or newer, cloud  update_time 1690099687, local update_time 1690099687
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PSM-06_X1C-250
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PSM-06_X1C-250's update_time is eqaul or newer, cloud  update_time 1689657602, local update_time 1689657602
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PolyLite PETG @X1C
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PolyLite PETG @X1C's update_time is eqaul or newer, cloud  update_time 1690161300, local update_time 1690161300
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PolyTerra PLA @V2
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PolyTerra PLA @V2's update_time is eqaul or newer, cloud  update_time 1689937275, local update_time 1689937275
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: PolyTerra PLA @X1C
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset PolyTerra PLA @X1C's update_time is eqaul or newer, cloud  update_time 1690200887, local update_time 1690200887
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Found the Preset locally: Polylite ASA @V2
+2023-07-28 14:30:37.119318[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Polylite ASA @V2's update_time is eqaul or newer, cloud  update_time 1690068571, local update_time 1690068571
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Polylite PETG @V2
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Polylite PETG @V2's update_time is eqaul or newer, cloud  update_time 1689942092, local update_time 1689942092
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu ABS @V2
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu ABS @V2's update_time is eqaul or newer, cloud  update_time 1690087944, local update_time 1690087944
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu ABS @X1C
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu ABS @X1C's update_time is eqaul or newer, cloud  update_time 1690074025, local update_time 1690074025
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu ASA @V2
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu ASA @V2's update_time is eqaul or newer, cloud  update_time 1690068589, local update_time 1690068589
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu PETG @K3
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PETG @K3's update_time is eqaul or newer, cloud  update_time 1690018004, local update_time 1690018004
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu PETG @V2
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PETG @V2's update_time is eqaul or newer, cloud  update_time 1690456909, local update_time 1690456909
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu PETG @X1C
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PETG @X1C's update_time is eqaul or newer, cloud  update_time 1690148782, local update_time 1690148782
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu PLA+ @V2
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PLA+ @V2's update_time is eqaul or newer, cloud  update_time 1690068606, local update_time 1690068606
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Found the Preset locally: Sunlu PLA+ @X1C
+2023-07-28 14:30:37.120322[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PLA+ @X1C's update_time is eqaul or newer, cloud  update_time 1689818699, local update_time 1689818699
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Found the Preset locally: Sunlu PLA+ Silk @V2
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset Sunlu PLA+ Silk @V2's update_time is eqaul or newer, cloud  update_time 1690068611, local update_time 1690068611
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Found the Preset locally: eSun ABS @V2
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset eSun ABS @V2's update_time is eqaul or newer, cloud  update_time 1689937564, local update_time 1689937564
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Found the Preset locally: eSun ABS+ @V2
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset eSun ABS+ @V2's update_time is eqaul or newer, cloud  update_time 1689937519, local update_time 1689937519
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Found the Preset locally: eSun PETG @V2
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset eSun PETG @V2's update_time is eqaul or newer, cloud  update_time 1689975796, local update_time 1689975796
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Found the Preset locally: eSun PETG @X1C
+2023-07-28 14:30:37.121409[Thread 0x00000594]:Slic3r::PresetCollection::load_user_presetpreset eSun PETG @X1C's update_time is eqaul or newer, cloud  update_time 1690277777, local update_time 1690277777
+2023-07-28 14:30:37.121409[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:30:37.121409[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:30:37.122417[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\process\0.4mm-0.2mm @K3.json
+2023-07-28 14:30:37.124989[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\process\0.4mm-0.2mm @X1C.json
+2023-07-28 14:30:37.128071[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\process\0.5mm-0.2mm @V2.json
+2023-07-28 14:30:37.131109[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\process\LAKSANA @X1C.json
+2023-07-28 14:30:37.134863[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\process\NEW 0.4mm-0.2mm @V2.json
+2023-07-28 14:30:37.137870[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\#EXO Prusament PC-CF.json
+2023-07-28 14:30:37.139321[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\#EXO Sunlu PA.json
+2023-07-28 14:30:37.141438[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\#EXO Sunlu PC.json
+2023-07-28 14:30:37.142447[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\#EXO eSun PA-CF.json
+2023-07-28 14:30:37.144446[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\#SUP PolyDissolve PVA @V2.json
+2023-07-28 14:30:37.146448[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\CR TPU @V2.json
+2023-07-28 14:30:37.148448[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\FusRock PETG-CF @V2.json
+2023-07-28 14:30:37.151457[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\LAKSANA.json
+2023-07-28 14:30:37.153489[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\PolyLite PETG @X1C.json
+2023-07-28 14:30:37.156700[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\PolyTerra PLA.json
+2023-07-28 14:30:37.158754[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\PolyTerra PLA @V2.json
+2023-07-28 14:30:37.160756[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\PolyTerra PLA @X1C.json
+2023-07-28 14:30:37.165019[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Polylite ASA.json
+2023-07-28 14:30:37.167331[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Polylite ASA @V2.json
+2023-07-28 14:30:37.170348[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Polylite PETG.json
+2023-07-28 14:30:37.172400[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Polylite PETG @V2.json
+2023-07-28 14:30:37.175595[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu ABS.json
+2023-07-28 14:30:37.177595[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu ABS @V2.json
+2023-07-28 14:30:37.178842[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu ABS @X1C.json
+2023-07-28 14:30:37.182360[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu ASA.json
+2023-07-28 14:30:37.184375[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu ASA @V2.json
+2023-07-28 14:30:37.187409[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PETG (Dark Color).json
+2023-07-28 14:30:37.191781[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PETG (Light Color).json
+2023-07-28 14:30:37.192788[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PETG @K3.json
+2023-07-28 14:30:37.194808[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PETG @V2.json
+2023-07-28 14:30:37.197877[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PETG @X1C.json
+2023-07-28 14:30:37.200935[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PLA+.json
+2023-07-28 14:30:37.203106[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PLA+ @V2.json
+2023-07-28 14:30:37.205159[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PLA+ @X1C.json
+2023-07-28 14:30:37.208197[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PLA+ Silk.json
+2023-07-28 14:30:37.210222[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\Sunlu PLA+ Silk @V2.json
+2023-07-28 14:30:37.213239[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun ABS.json
+2023-07-28 14:30:37.214755[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun ABS @V2.json
+2023-07-28 14:30:37.217797[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun ABS+.json
+2023-07-28 14:30:37.219851[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun ABS+ @V2.json
+2023-07-28 14:30:37.221872[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun PETG @V2.json
+2023-07-28 14:30:37.223897[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\filament\eSun PETG @X1C.json
+2023-07-28 14:30:37.225897[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-01_V2-350.json
+2023-07-28 14:30:37.229087[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-01_V2.4-350.json
+2023-07-28 14:30:37.231113[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-02_V2-350.json
+2023-07-28 14:30:37.234264[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-02_V2.4-350.json
+2023-07-28 14:30:37.236487[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-03_K3-180.json
+2023-07-28 14:30:37.249053[Thread 0x00000594]:Slic3r::ConfigBase::save_to_json:1337, saved config to C:\Users\RENDI SAPUTRA\AppData\Roaming\OrcaSlicer\user\3382569056\machine\PSM-06_X1C-250.json
+2023-07-28 14:30:37.775900[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:30:37.775900[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:30:37.775900[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:30:37.775900[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E608C4F5D0
+2023-07-28 14:30:37.778920[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:30:37.778920[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 1, apply_status 0, m_support_used 0
+2023-07-28 14:30:37.778920[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-07-28 14:30:37.778920[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:30:37.779926[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:30:37.779926[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:30:39.400838[Thread 0x00003974]:Slic3r::NetworkAgent::request_setting_id : network_agent=000001E67EE88430, name=#EXO Prusament PC-CF, http_code=409, ret.setting_id=
+2023-07-28 14:30:41.697618[Thread 0x00003974]:Slic3r::NetworkAgent::request_setting_id : network_agent=000001E67EE88430, name=#EXO Sunlu PA, http_code=409, ret.setting_id=
+2023-07-28 14:30:42.285729[Thread 0x00003974]:Slic3r::NetworkAgent::request_setting_id : network_agent=000001E67EE88430, name=#EXO Sunlu PC, http_code=409, ret.setting_id=
+2023-07-28 14:30:42.889694[Thread 0x00003974]:Slic3r::NetworkAgent::request_setting_id : network_agent=000001E67EE88430, name=#EXO eSun PA-CF, http_code=409, ret.setting_id=
+2023-07-28 14:30:44.960681[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-07-28 14:30:44.960681[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:2}
+2023-07-28 14:30:54.964246[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-07-28 14:30:54.964246[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:3}
+2023-07-28 14:31:04.971827[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-07-28 14:31:04.971827[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:4}
+2023-07-28 14:31:14.970798[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-07-28 14:31:14.970798[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:5}
+2023-07-28 14:31:24.963919[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-07-28 14:31:24.963919[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:6}
+2023-07-28 14:31:34.973118[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-07-28 14:31:34.973118[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:7}
+2023-07-28 14:31:44.967766[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-07-28 14:31:44.968742[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:8}
+2023-07-28 14:31:54.972878[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-07-28 14:31:54.973403[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:9}
+2023-07-28 14:32:04.966145[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-07-28 14:32:04.966145[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:10}
+2023-07-28 14:32:14.966799[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-07-28 14:32:14.966799[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:11}
+2023-07-28 14:32:24.969556[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-07-28 14:32:24.969556[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:12}
+2023-07-28 14:32:25.159777[Thread 0x00000594]:select view3D
+2023-07-28 14:32:25.159777[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 000001E6008BF010, new_panel 000001E6008BF010
+2023-07-28 14:32:25.159777[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-07-28 14:32:32.913617[Thread 0x00000594]:select preset, name PSM-01_V2.4-350, delete_current 0
+2023-07-28 14:32:32.913617[Thread 0x00000594]:select machine, technology_changed 0, canceled 0
+2023-07-28 14:32:32.913617[Thread 0x00000594]:before delete action, canceled 0, delete_current 0
+2023-07-28 14:32:32.913617[Thread 0x00000594]:successfully delete, will update compatibility
+2023-07-28 14:32:32.913617[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:32:32.914618[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:32:32.914618[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:32:32.914618[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:32:32.914618[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:32.914618[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:32:32.915809[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:32:32.924978[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:32:32.924978[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:32:32.924978[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:32.952378[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:32:32.959372[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:32.997943[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:32.997943[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:32:32.997943[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:32:32.997943[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:33.000936[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:33.007553[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:33.007553[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:33.015601[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:33.015601[Thread 0x00000594]:select preset, exit
+2023-07-28 14:32:33.024588[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:33.024588[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:32:33.025599[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:33.025599[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:33.025599[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:33.025599[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:33.537136[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:32:33.537136[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:32:33.538115[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:32:33.538115[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E608C4F5D0
+2023-07-28 14:32:33.539133[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::Print::apply, got print_diff 25, object_diff 1, region_diff 7, set status to APPLY_STATUS_CHANGED
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 2, apply_status 1, m_support_used 0
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:32:33.540134[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:32:34.969976[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:13}
+2023-07-28 14:32:34.978973[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:13}
+2023-07-28 14:32:44.967367[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-07-28 14:32:44.967367[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:14}
+2023-07-28 14:32:48.665772[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, remove previous backup C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47
+2023-07-28 14:32:48.665772[Thread 0x00000594]:remove_backup C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47, true
+2023-07-28 14:32:48.665772[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, set backup to 
+2023-07-28 14:32:48.665772[Thread 0x00002edc]:process_task{ type:RemoveBackup, id:7, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47, object:0, extra:1}
+2023-07-28 14:32:48.667772[Thread 0x00000594]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB WorkingSet: 186MB; PrivateBytes: 224MB; Pagefile(peak): 224MB(226MB)
+2023-07-28 14:32:48.668771[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:32:48.668771[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:32:48.668771[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:32:48.668771[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:32:48.668771[Thread 0x00000594]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-07-28 14:32:48.670779[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:32:48.670779[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:32:48.670779[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E609760C30
+2023-07-28 14:32:48.670779[Thread 0x00000594]:Slic3r::BackgroundSlicingProcess::stop, enter
+2023-07-28 14:32:48.671291[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:32:48.698303[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:32:48.728397[Thread 0x00000594]:Slic3r::GUI::Plater::priv::object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-07-28 14:32:48.728397[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:48.728397[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:48.728397[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:48.735652[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:48.780630[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:48.780630[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:48.783667[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:48.790879[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:48.790879[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:32:48.790879[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:32:48.791896[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:32:48.799570[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:48.809305[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:32:48.823901[Thread 0x00000594]:put_other_changes
+2023-07-28 14:32:48.824931[Thread 0x00000594]:Undo / Redo snapshot taken: New Project, Undo / Redo stack memory: 0MB WorkingSet: 186MB; PrivateBytes: 224MB; Pagefile(peak): 224MB(226MB)
+2023-07-28 14:32:48.824931[Thread 0x00000594]:model 00000085424EE7B0, id 53, backup_path empty, set to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53
+2023-07-28 14:32:48.824931[Thread 0x00000594]:create /3D/Objects in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53"
+2023-07-28 14:32:48.825967[Thread 0x00000594]:create /Metadata in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53"
+2023-07-28 14:32:48.825967[Thread 0x00000594]:create /lock.txt in "C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53"
+2023-07-28 14:32:48.825967[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, set backup to C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53
+2023-07-28 14:32:48.825967[Thread 0x00000594]:create missing sub_pathC:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53//Auxiliaries
+2023-07-28 14:32:48.851168[Thread 0x00000594]:select view3D
+2023-07-28 14:32:48.851168[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: current_panel 000001E6008BF010, new_panel 000001E6008BF010
+2023-07-28 14:32:48.851168[Thread 0x00000594]:Slic3r::GUI::Plater::priv::set_current_panel: the same panel, exit
+2023-07-28 14:32:48.878464[Thread 0x00000594]:select view3D
+2023-07-28 14:32:48.880656[Thread 0x00000594]:process_ui_task{ type:RemoveBackup, id:7, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47, object:0, extra:1}
+2023-07-28 14:32:48.881681[Thread 0x00000594]:process_ui_task: remove all of backup path C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_30_28#3312#47
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:32:48.881681[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:32:49.301434[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:32:49.301434[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:32:49.301434[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:32:49.301434[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E609760C30
+2023-07-28 14:32:49.301434[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::Print::apply, got print_diff 83, object_diff 9, region_diff 21, set status to APPLY_STATUS_CHANGED
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 1, apply_status 1, m_support_used 0
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:32:49.302444[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:32:54.962513[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:16}
+2023-07-28 14:32:54.963515[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:16}
+2023-07-28 14:33:04.960534[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:17}
+2023-07-28 14:33:04.960534[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:17}
+2023-07-28 14:33:14.973230[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:18}
+2023-07-28 14:33:14.973230[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:18}
+2023-07-28 14:33:24.970098[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:19}
+2023-07-28 14:33:24.970098[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:19}
+2023-07-28 14:33:34.966428[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:20}
+2023-07-28 14:33:34.966428[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:20}
+2023-07-28 14:33:44.972484[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:21}
+2023-07-28 14:33:44.972484[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:21}
+2023-07-28 14:33:54.963885[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:22}
+2023-07-28 14:33:54.963885[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:22}
+2023-07-28 14:34:04.974327[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:23}
+2023-07-28 14:34:04.974327[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:23}
+2023-07-28 14:34:14.975313[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:24}
+2023-07-28 14:34:14.975313[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:24}
+2023-07-28 14:34:24.963840[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:25}
+2023-07-28 14:34:24.964850[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:25}
+2023-07-28 14:34:34.963380[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:26}
+2023-07-28 14:34:34.963380[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:26}
+2023-07-28 14:34:44.965959[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:27}
+2023-07-28 14:34:44.965959[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:27}
+2023-07-28 14:34:54.964300[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:28}
+2023-07-28 14:34:54.964300[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:28}
+2023-07-28 14:35:04.963268[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:29}
+2023-07-28 14:35:04.963268[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:29}
+2023-07-28 14:35:14.973511[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:30}
+2023-07-28 14:35:14.973511[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:30}
+2023-07-28 14:35:24.960456[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:31}
+2023-07-28 14:35:24.960456[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:31}
+2023-07-28 14:35:34.967321[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:32}
+2023-07-28 14:35:34.967321[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:32}
+2023-07-28 14:35:44.973084[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:33}
+2023-07-28 14:35:44.973084[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:33}
+2023-07-28 14:35:54.969821[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:34}
+2023-07-28 14:35:54.969821[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:34}
+2023-07-28 14:36:04.964113[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:35}
+2023-07-28 14:36:04.964113[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:35}
+2023-07-28 14:36:14.973756[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:36}
+2023-07-28 14:36:14.973756[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:36}
+2023-07-28 14:36:24.973131[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:37}
+2023-07-28 14:36:24.973131[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:37}
+2023-07-28 14:36:34.969136[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:38}
+2023-07-28 14:36:34.969136[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:38}
+2023-07-28 14:36:44.972416[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:39}
+2023-07-28 14:36:44.972416[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:39}
+2023-07-28 14:36:54.961997[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:40}
+2023-07-28 14:36:54.961997[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:40}
+2023-07-28 14:37:04.971857[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:41}
+2023-07-28 14:37:04.971857[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:41}
+2023-07-28 14:37:14.967803[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:42}
+2023-07-28 14:37:14.967803[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:42}
+2023-07-28 14:37:24.959853[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:43}
+2023-07-28 14:37:24.959853[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:43}
+2023-07-28 14:37:34.973153[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:44}
+2023-07-28 14:37:34.973153[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:44}
+2023-07-28 14:37:44.962070[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:45}
+2023-07-28 14:37:44.962070[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:45}
+2023-07-28 14:37:54.970693[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:46}
+2023-07-28 14:37:54.970693[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:46}
+2023-07-28 14:38:04.969573[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:47}
+2023-07-28 14:38:04.969573[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:47}
+2023-07-28 14:38:14.972159[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:48}
+2023-07-28 14:38:14.972159[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:48}
+2023-07-28 14:38:24.966698[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:49}
+2023-07-28 14:38:24.966698[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:49}
+2023-07-28 14:38:34.972508[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:50}
+2023-07-28 14:38:34.972508[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:50}
+2023-07-28 14:38:44.963742[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:51}
+2023-07-28 14:38:44.963742[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:51}
+2023-07-28 14:38:54.971333[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:52}
+2023-07-28 14:38:54.971333[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:52}
+2023-07-28 14:39:04.972367[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:53}
+2023-07-28 14:39:04.972367[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:53}
+2023-07-28 14:39:14.966515[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:54}
+2023-07-28 14:39:14.967532[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:54}
+2023-07-28 14:39:24.967408[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:55}
+2023-07-28 14:39:24.967408[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:55}
+2023-07-28 14:39:34.960922[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:56}
+2023-07-28 14:39:34.960922[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:56}
+2023-07-28 14:39:44.964106[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:57}
+2023-07-28 14:39:44.964106[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:57}
+2023-07-28 14:39:54.964225[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:58}
+2023-07-28 14:39:54.964225[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:58}
+2023-07-28 14:40:04.971303[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:59}
+2023-07-28 14:40:04.971303[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:59}
+2023-07-28 14:40:14.965971[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:60}
+2023-07-28 14:40:14.965971[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:60}
+2023-07-28 14:40:24.970271[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:61}
+2023-07-28 14:40:24.970271[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:61}
+2023-07-28 14:40:34.962586[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:62}
+2023-07-28 14:40:34.963628[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:62}
+2023-07-28 14:40:44.960741[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:63}
+2023-07-28 14:40:44.960741[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:63}
+2023-07-28 14:40:54.973017[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:64}
+2023-07-28 14:40:54.973017[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:64}
+2023-07-28 14:41:04.971601[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:65}
+2023-07-28 14:41:04.971601[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:65}
+2023-07-28 14:41:14.973512[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:66}
+2023-07-28 14:41:14.973512[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:66}
+2023-07-28 14:41:24.972954[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:67}
+2023-07-28 14:41:24.972954[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:67}
+2023-07-28 14:41:34.973324[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:68}
+2023-07-28 14:41:34.973324[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:68}
+2023-07-28 14:41:44.969973[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:69}
+2023-07-28 14:41:44.969973[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:69}
+2023-07-28 14:41:54.969378[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:70}
+2023-07-28 14:41:54.969378[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:70}
+2023-07-28 14:42:04.968270[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:71}
+2023-07-28 14:42:04.968270[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:71}
+2023-07-28 14:42:14.959844[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:72}
+2023-07-28 14:42:14.959844[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:72}
+2023-07-28 14:42:24.973883[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:73}
+2023-07-28 14:42:24.973883[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:73}
+2023-07-28 14:42:34.972005[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:74}
+2023-07-28 14:42:34.972005[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:74}
+2023-07-28 14:42:44.972085[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:75}
+2023-07-28 14:42:44.972085[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:75}
+2023-07-28 14:42:54.962392[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:76}
+2023-07-28 14:42:54.962392[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:76}
+2023-07-28 14:43:04.972578[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:77}
+2023-07-28 14:43:04.972578[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:77}
+2023-07-28 14:43:14.964792[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:78}
+2023-07-28 14:43:14.964792[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:78}
+2023-07-28 14:43:24.969750[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:79}
+2023-07-28 14:43:24.969750[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:79}
+2023-07-28 14:43:34.970325[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:80}
+2023-07-28 14:43:34.970325[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:80}
+2023-07-28 14:43:44.960752[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:81}
+2023-07-28 14:43:44.960752[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:81}
+2023-07-28 14:43:54.972971[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:82}
+2023-07-28 14:43:54.973831[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:82}
+2023-07-28 14:44:04.960592[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:83}
+2023-07-28 14:44:04.960592[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:83}
+2023-07-28 14:44:14.960328[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:84}
+2023-07-28 14:44:14.960328[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:84}
+2023-07-28 14:44:24.973823[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:85}
+2023-07-28 14:44:24.973823[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:85}
+2023-07-28 14:44:34.961904[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:86}
+2023-07-28 14:44:34.961904[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:86}
+2023-07-28 14:44:44.962616[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:87}
+2023-07-28 14:44:44.962616[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:87}
+2023-07-28 14:44:54.960520[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:88}
+2023-07-28 14:44:54.960520[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:88}
+2023-07-28 14:45:04.965056[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:89}
+2023-07-28 14:45:04.965056[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:89}
+2023-07-28 14:45:14.967317[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:90}
+2023-07-28 14:45:14.967317[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:90}
+2023-07-28 14:45:19.610329[Thread 0x00000594]:studio is inactive, stop to subscribe
+2023-07-28 14:45:24.970808[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:91}
+2023-07-28 14:45:24.970808[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:91}
+2023-07-28 14:45:34.970067[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:92}
+2023-07-28 14:45:34.970067[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:92}
+2023-07-28 14:45:44.966183[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:93}
+2023-07-28 14:45:44.966183[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:93}
+2023-07-28 14:45:54.966859[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:94}
+2023-07-28 14:45:54.966859[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:94}
+2023-07-28 14:46:04.966672[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:95}
+2023-07-28 14:46:04.966672[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:95}
+2023-07-28 14:46:14.963865[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:96}
+2023-07-28 14:46:14.963865[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:96}
+2023-07-28 14:46:24.972704[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:97}
+2023-07-28 14:46:24.972704[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:97}
+2023-07-28 14:46:34.963346[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:98}
+2023-07-28 14:46:34.963346[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:98}
+2023-07-28 14:46:44.960984[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:99}
+2023-07-28 14:46:44.960984[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:99}
+2023-07-28 14:46:54.961074[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:100}
+2023-07-28 14:46:54.961074[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:100}
+2023-07-28 14:47:04.963524[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:101}
+2023-07-28 14:47:04.963524[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:101}
+2023-07-28 14:47:14.972136[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:102}
+2023-07-28 14:47:14.972136[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:102}
+2023-07-28 14:47:24.963291[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:103}
+2023-07-28 14:47:24.963291[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:103}
+2023-07-28 14:47:34.968312[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:104}
+2023-07-28 14:47:34.968312[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:104}
+2023-07-28 14:47:44.964831[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:105}
+2023-07-28 14:47:44.964831[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:105}
+2023-07-28 14:47:54.971910[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:106}
+2023-07-28 14:47:54.971910[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:106}
+2023-07-28 14:48:04.967885[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:107}
+2023-07-28 14:48:04.967885[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:107}
+2023-07-28 14:48:14.973869[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:108}
+2023-07-28 14:48:14.973869[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:108}
+2023-07-28 14:48:24.968587[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:109}
+2023-07-28 14:48:24.968587[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:109}
+2023-07-28 14:48:34.972639[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:110}
+2023-07-28 14:48:34.972639[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:110}
+2023-07-28 14:48:44.963310[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:111}
+2023-07-28 14:48:44.963310[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:111}
+2023-07-28 14:48:54.965771[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:112}
+2023-07-28 14:48:54.965771[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:112}
+2023-07-28 14:49:04.964350[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:113}
+2023-07-28 14:49:04.964576[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:113}
+2023-07-28 14:49:14.972727[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:114}
+2023-07-28 14:49:14.972727[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:114}
+2023-07-28 14:49:24.974748[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:115}
+2023-07-28 14:49:24.974748[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:115}
+2023-07-28 14:49:34.959991[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:116}
+2023-07-28 14:49:34.959991[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:116}
+2023-07-28 14:49:44.960067[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:117}
+2023-07-28 14:49:44.960067[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:117}
+2023-07-28 14:49:54.959320[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:118}
+2023-07-28 14:49:54.959320[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:118}
+2023-07-28 14:50:04.974056[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:119}
+2023-07-28 14:50:04.974056[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:119}
+2023-07-28 14:50:14.974993[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:120}
+2023-07-28 14:50:14.975045[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:120}
+2023-07-28 14:50:24.971112[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:121}
+2023-07-28 14:50:24.971112[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:121}
+2023-07-28 14:50:34.972270[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:122}
+2023-07-28 14:50:34.972270[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:122}
+2023-07-28 14:50:44.961218[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:123}
+2023-07-28 14:50:44.962265[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:123}
+2023-07-28 14:50:54.961471[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:124}
+2023-07-28 14:50:54.961471[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:124}
+2023-07-28 14:51:04.963990[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:125}
+2023-07-28 14:51:04.963990[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:125}
+2023-07-28 14:51:14.965532[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:126}
+2023-07-28 14:51:14.965532[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:126}
+2023-07-28 14:51:24.962023[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:127}
+2023-07-28 14:51:24.962023[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:127}
+2023-07-28 14:51:34.966120[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:128}
+2023-07-28 14:51:34.966120[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:128}
+2023-07-28 14:51:44.968050[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:129}
+2023-07-28 14:51:44.968050[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:129}
+2023-07-28 14:51:54.965898[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:130}
+2023-07-28 14:51:54.965898[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:130}
+2023-07-28 14:52:04.964091[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:131}
+2023-07-28 14:52:04.964091[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:131}
+2023-07-28 14:52:14.967998[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:132}
+2023-07-28 14:52:14.967998[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:132}
+2023-07-28 14:52:24.974530[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:133}
+2023-07-28 14:52:24.974530[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:133}
+2023-07-28 14:52:25.460379[Thread 0x00000594]:select preset, name PSM-01_V2.4-350, delete_current 0
+2023-07-28 14:52:25.460379[Thread 0x00000594]:select machine, technology_changed 0, canceled 0
+2023-07-28 14:52:25.460379[Thread 0x00000594]:before delete action, canceled 0, delete_current 0
+2023-07-28 14:52:25.460379[Thread 0x00000594]:successfully delete, will update compatibility
+2023-07-28 14:52:25.460379[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:52:25.460379[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:52:25.460379[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:52:25.460379[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:52:25.460379[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:52:25.469025[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:52:25.469025[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:52:25.469025[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:52:25.506893[Thread 0x00000594]:put_other_changes
+2023-07-28 14:52:25.561484[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:52:25.561484[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: enter
+2023-07-28 14:52:25.561484[Thread 0x00000594]:Slic3r::GUI::Tab::apply_config_from_cache: exit, was_applied=0
+2023-07-28 14:52:25.561484[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:52:25.563496[Thread 0x00000594]:put_other_changes
+2023-07-28 14:52:25.571594[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:52:25.571594[Thread 0x00000594]:put_other_changes
+2023-07-28 14:52:25.581912[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:52:25.581912[Thread 0x00000594]:select preset, exit
+2023-07-28 14:52:25.590899[Thread 0x00000594]:put_other_changes
+2023-07-28 14:52:25.590899[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:52:26.078655[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:52:26.078655[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:52:26.078655[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:52:26.078655[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E609760C30
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 1, apply_status 0, m_support_used 0
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=0
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:52:26.079660[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:52:34.969801[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:134}
+2023-07-28 14:52:34.969801[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:134}
+2023-07-28 14:52:44.961169[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:135}
+2023-07-28 14:52:44.961169[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:135}
+2023-07-28 14:52:54.963839[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:136}
+2023-07-28 14:52:54.964547[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:136}
+2023-07-28 14:53:04.962075[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:137}
+2023-07-28 14:53:04.962075[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:137}
+2023-07-28 14:53:14.971219[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:138}
+2023-07-28 14:53:14.971219[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:138}
+2023-07-28 14:53:24.960248[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:139}
+2023-07-28 14:53:24.961293[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:139}
+2023-07-28 14:53:34.966109[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:140}
+2023-07-28 14:53:34.966109[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:140}
+2023-07-28 14:53:44.959712[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:141}
+2023-07-28 14:53:44.959712[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:141}
+2023-07-28 14:53:54.973773[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:142}
+2023-07-28 14:53:54.973773[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:142}
+2023-07-28 14:54:04.970300[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:143}
+2023-07-28 14:54:04.970300[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:143}
+2023-07-28 14:54:14.963085[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:144}
+2023-07-28 14:54:14.963085[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:144}
+2023-07-28 14:54:24.964547[Thread 0x00002edc]:process_task{ type:Backup, id:0, path:, object:0, extra:145}
+2023-07-28 14:54:24.964547[Thread 0x00000594]:process_ui_task{ type:Backup, id:0, path:, object:0, extra:145}
+2023-07-28 14:54:33.795591[Thread 0x00000594]:Slic3r::GUI::GUI_App::persist_window_geometry::<lambda_354f211198432b522c91c09832c23fc0>::operator (): received wxEVT_CLOSE_WINDOW, trigger save for window_mainframe
+2023-07-28 14:54:33.819197[Thread 0x00000594]:Slic3r::GUI::MainFrame::{ctor}::<lambda_2f40053293028420f4d98ca0565e39a9>::operator (): mainframe received close_widow event
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, remove previous backup C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53
+2023-07-28 14:54:33.820191[Thread 0x00000594]:remove_backup C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53, true
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Slic3r::Model::set_backup_path, model 000001E600837390, id 7, set backup to 
+2023-07-28 14:54:33.820191[Thread 0x00002edc]:process_task{ type:RemoveBackup, id:7, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53, object:0, extra:1}
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB WorkingSet: 170MB; PrivateBytes: 223MB; Pagefile(peak): 223MB(268MB)
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:54:33.820191[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:54:33.821194[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:54:33.821194[Thread 0x00000594]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+2023-07-28 14:54:33.822192[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: plate_id 1, before, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:54:33.822192[Thread 0x00000594]:Slic3r::GUI::PartPlate::set_pos_and_size: with_instance_move 0, after, origin {420,0,0}, plate_width 350, plate_depth 350, plate_height 270
+2023-07-28 14:54:33.822192[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E60975F4C0
+2023-07-28 14:54:33.822192[Thread 0x00000594]:Slic3r::BackgroundSlicingProcess::stop, enter
+2023-07-28 14:54:33.824192[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:54:33.855336[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:54:33.884953[Thread 0x00000594]:Slic3r::GUI::Plater::priv::object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2023-07-28 14:54:33.884953[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:54:33.884953[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:54:33.884953[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:54:33.891492[Thread 0x00000594]:put_other_changes
+2023-07-28 14:54:33.938155[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:54:33.938155[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:54:33.940168[Thread 0x00000594]:put_other_changes
+2023-07-28 14:54:33.947235[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:54:33.947235[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: enter
+2023-07-28 14:54:33.947235[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:54:33.948241[Thread 0x00000594]:Slic3r::GUI::Preview::load_print_as_fff 654: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2023-07-28 14:54:33.956281[Thread 0x00000594]:put_other_changes
+2023-07-28 14:54:33.967997[Thread 0x00000594]:Slic3r::GUI::Tab::load_current_preset: exit
+2023-07-28 14:54:33.981961[Thread 0x00000594]:Slic3r::GUI::MainFrame::shutdownMainFrame::shutdown enter
+2023-07-28 14:54:34.024786[Thread 0x00000594]:GUI_App::shutdown enter
+2023-07-28 14:54:34.024786[Thread 0x00000594]:preset_folder: set to empty
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: 0.4mm-0.2mm @X1C
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: LAKSANA @X1C
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: NEW 0.4mm-0.2mm @V2
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: #EXO eSun PA-CF
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: #EXO Prusament PC-CF
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: #EXO Sunlu PA
+2023-07-28 14:54:34.025787[Thread 0x00000594]:Preset already present, not loading: #EXO Sunlu PC
+2023-07-28 14:54:34.027786[Thread 0x00000594]:Preset already present, not loading: eSun ABS+
+2023-07-28 14:54:34.027786[Thread 0x00000594]:Preset already present, not loading: eSun ABS
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Generic ABS
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: LAKSANA
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Polylite ASA
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Polylite PETG
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: PolyTerra PLA
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu ABS @X1C
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu ABS
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu ASA
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PETG (Dark Color)
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PETG (Light Color)
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PETG @X1C
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PLA+ @X1C
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PLA+ Silk
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: Sunlu PLA+
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: PSM-01_V2.4-350
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: PSM-02_V2.4-350
+2023-07-28 14:54:34.028786[Thread 0x00000594]:Preset already present, not loading: PSM-06_X1C-250
+2023-07-28 14:54:34.028786[Thread 0x00000594]:update_compatibility for all presets enter
+2023-07-28 14:54:34.028786[Thread 0x00000594]:update_compatibility for all presets exit
+2023-07-28 14:54:34.531093[Thread 0x00000594]:Slic3r::NetworkAgent::~NetworkAgent, this 000001E67EE88690, network_agent=000001E67EE88430, destroy_agent_ptr=00007FFD91DD3DD0, ret 0
+2023-07-28 14:54:34.531093[Thread 0x00000594]:GUI_App::shutdown exit
+2023-07-28 14:54:34.531093[Thread 0x00000594]:Slic3r::GUI::MainFrame::shutdownMainFrame::shutdown exit
+2023-07-28 14:54:34.531093[Thread 0x00000594]:Slic3r::GUI::MainFrame::{ctor}::<lambda_2f40053293028420f4d98ca0565e39a9>::operator (): mainframe finished process close_widow event
+2023-07-28 14:54:34.531093[Thread 0x00000594]:process_ui_task{ type:RemoveBackup, id:7, path:C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53, object:0, extra:1}
+2023-07-28 14:54:34.532100[Thread 0x00000594]:process_ui_task: remove all of backup path C:\Users\RENDIS~1\AppData\Local\Temp/orcaslicer_model/Fri_Jul_28/14_32_48#3312#53
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::get_enable_print_status: m_print_select 4, enable= 0 
+2023-07-28 14:54:34.532100[Thread 0x00000594]:Slic3r::GUI::MainFrame::update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2023-07-28 14:54:34.545295[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:54:34.545295[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2023-07-28 14:54:34.545295[Thread 0x00000594]:Slic3r::Model::update_print_volume_state, print_volume {0, 0, 0} to {350, 350, 270}, got 0 printable istances
+2023-07-28 14:54:34.546301[Thread 0x00000594]:Slic3r::GUI::PartPlateList::get_current_slice_result:m_current_plate 0, current_plate 000001E60975F4C0
+2023-07-28 14:54:34.547302[Thread 0x00000594]:Slic3r::Print::apply, Line 1019: enter
+2023-07-28 14:54:34.547302[Thread 0x00000594]:Slic3r::Print::apply, got print_diff 83, object_diff 9, region_diff 21, set status to APPLY_STATUS_CHANGED
+2023-07-28 14:54:34.547302[Thread 0x00000594]:Slic3r::Print::apply 1075: found full_config_diff changed.
+2023-07-28 14:54:34.547302[Thread 0x00000594]:Slic3r::Print::apply 1575: finished,  this 000001E60089C4E0, m_modified_count 1, apply_status 1, m_support_used 0
+2023-07-28 14:54:34.548515[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process: background process apply result=1
+2023-07-28 14:54:34.548515[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4521: background data valid, return_state=0
+2023-07-28 14:54:34.548515[Thread 0x00000594]:Slic3r::GUI::Plater::priv::update_background_process, Line 4564: exit, return_state=0
+2023-07-28 14:54:34.548515[Thread 0x00000594]:Slic3r::GUI::Plater::priv::restart_background_process, Line 4602: not started
+2023-07-28 14:54:34.593692[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::~WebViewPanel Start
+2023-07-28 14:54:34.594692[Thread 0x00000594]:Slic3r::GUI::WebViewPanel::~WebViewPanel End
+2023-07-28 14:54:34.658032[Thread 0x00000594]:Slic3r::GUI::PrinterWebView::~PrinterWebView Start
+2023-07-28 14:54:34.658032[Thread 0x00000594]:Slic3r::GUI::PrinterWebView::~PrinterWebView End
+2023-07-28 14:54:34.689939[Thread 0x00000594]:Slic3r::BackgroundSlicingProcess::stop, enter
+2023-07-28 14:54:34.689939[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:54:34.689939[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2023-07-28 14:54:34.689939[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:54:34.689939[Thread 0x00000594]:Slic3r::GUI::PartPlate::update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2023-07-28 14:54:34.728619[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 0 
+2023-07-28 14:54:34.730630[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 4294967295 
+2023-07-28 14:54:34.731639[Thread 0x00000594]:Slic3r::GUI::GCodeViewer::reset: current result id 0 
+2023-07-28 14:54:34.749082[Thread 0x00000594]:Slic3r::GUI::GUI_App::~GUI_App: enter
+2023-07-28 14:54:34.749082[Thread 0x00000594]:Slic3r::GUI::GUI_App::~GUI_App: destroy app_config
+2023-07-28 14:54:34.749082[Thread 0x00000594]:Slic3r::GUI::GUI_App::~GUI_App: destroy preset_bundle
+2023-07-28 14:54:34.756138[Thread 0x00000594]:Slic3r::GUI::GUI_App::~GUI_App: destroy preset updater
+2023-07-28 14:54:34.756138[Thread 0x00000594]:Slic3r::GUI::GUI_App::~GUI_App: exit

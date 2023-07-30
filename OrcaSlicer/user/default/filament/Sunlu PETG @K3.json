@@ -1,0 +1,58 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "168000"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode"
+    ],
+    "filament_flow_ratio": [
+        "0.95324"
+    ],
+    "filament_max_volumetric_speed": [
+        "25"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_settings_id": [
+        "Sunlu PETG @K3"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode"
+    ],
+    "filament_z_hop": [
+        "0.2"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "inherits": "My Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Sunlu PETG @K3",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "overhang_fan_speed": [
+        "50"
+    ],
+    "pressure_advance": [
+        "0.038"
+    ],
+    "version": "1.6.0.0"
+}

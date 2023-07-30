@@ -3,19 +3,25 @@
         "1"
     ],
     "eng_plate_temp": [
-        "55"
+        "50"
     ],
     "eng_plate_temp_initial_layer": [
-        "55"
+        "50"
     ],
     "filament_cost": [
         "198000"
     ],
+    "filament_density": [
+        "1.24"
+    ],
     "filament_deretraction_speed": [
         "20"
     ],
-    "filament_retract_when_changing_layer": [
-        "0"
+    "filament_flow_ratio": [
+        "0.890393"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
     ],
     "filament_retraction_length": [
         "0.5"
@@ -26,17 +32,14 @@
     "filament_settings_id": [
         "Sunlu PLA+ @X1C"
     ],
+    "filament_start_gcode": [
+        "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >30)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}"
+    ],
     "filament_type": [
         "PLA+"
     ],
-    "filament_wipe": [
-        "1"
-    ],
     "filament_z_hop": [
         "0.4"
-    ],
-    "filament_z_hop_types": [
-        "Normal Lift"
     ],
     "from": "User",
     "inherits": "Bambu PLA Basic @BBL X1C",
@@ -58,7 +61,10 @@
         "25%"
     ],
     "pressure_advance": [
-        "0.0175"
+        "0.018"
+    ],
+    "slow_down_layer_time": [
+        "8"
     ],
     "temperature_vitrification": [
         "60"

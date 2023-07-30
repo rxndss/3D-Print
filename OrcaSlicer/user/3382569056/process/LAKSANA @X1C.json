@@ -18,7 +18,6 @@
     "inner_wall_acceleration": "10000",
     "internal_solid_infill_acceleration": "10000",
     "internal_solid_infill_line_width": "0.45",
-    "is_custom_defined": "0",
     "line_width": "0.45",
     "minimum_sparse_infill_area": "0",
     "name": "LAKSANA @X1C",

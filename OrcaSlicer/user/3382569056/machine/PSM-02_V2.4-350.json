@@ -1,5 +1,5 @@
 {
-    "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\GitHub\\\\3D-Print\\\\SuperSlicer\\\\VORON V2.4\\\\bed_model.stl",
+    "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\Documents\\\\PARAGON\\\\Machines\\\\Paragon PEI-Flex 350.stl",
     "before_layer_change_gcode": ";SET_VELOCITY_LIMIT ACCEL=30000\n;TIMELAPSE_TAKE_FRAME\nG92 E0",
     "change_filament_gcode": "PAUSE",
     "extruder_clearance_height_to_lid": "472",
@@ -7,8 +7,7 @@
     "extruder_clearance_radius": "77",
     "fan_speedup_time": "1",
     "from": "User",
-    "gcode_flavor": "klipper",
-    "inherits": "Anker M5 0.4 nozzle",
+    "inherits": "MyKlipper 0.4 nozzle",
     "is_custom_defined": "0",
     "machine_end_gcode": "_PRINT_END",
     "machine_max_acceleration_e": [
@@ -17,38 +16,30 @@
     ],
     "machine_max_acceleration_extruding": [
         "15000",
-        "5000"
+        "20000"
     ],
     "machine_max_acceleration_retracting": [
-        "35000",
+        "8000",
         "5000"
     ],
     "machine_max_acceleration_x": [
         "35000",
-        "5000"
+        "20000"
     ],
     "machine_max_acceleration_y": [
         "35000",
-        "5000"
-    ],
-    "machine_max_acceleration_z": [
-        "500",
-        "200"
+        "20000"
     ],
     "machine_max_jerk_x": [
         "10",
-        "30"
+        "9"
     ],
     "machine_max_jerk_y": [
         "10",
-        "30"
-    ],
-    "machine_max_jerk_z": [
-        "0.2",
-        "0.4"
+        "9"
     ],
     "machine_max_speed_e": [
-        "120",
+        "80",
         "25"
     ],
     "machine_max_speed_x": [
@@ -63,33 +54,41 @@
         "20",
         "12"
     ],
-    "machine_pause_gcode": "PAUSE",
     "machine_start_gcode": "M104 S0\nM140 S0\n_PRINT_START PRINT_PROFILE=CASUAL BED_TEMPERATURE=[bed_temperature_initial_layer_single] EXTRUDER_TEMPERATURE=[nozzle_temperature_initial_layer] CHAMBER_TEMPERATURE=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
     "max_layer_height": [
-        "0.24"
+        "0.4"
+    ],
+    "min_layer_height": [
+        "0.1"
     ],
     "name": "PSM-02_V2.4-350",
+    "nozzle_diameter": [
+        "0.5"
+    ],
     "print_host": "psm-02.local",
     "printable_area": [
         "0x0",
         "350x0",
-        "350x335",
-        "0x335"
+        "350x350",
+        "0x350"
     ],
     "printable_height": "270",
     "printer_settings_id": "PSM-02_V2.4-350",
-    "retract_when_changing_layer": [
-        "0"
+    "retract_before_wipe": [
+        "0%"
     ],
-    "retraction_length": [
-        "0.5"
+    "retraction_speed": [
+        "40"
     ],
     "thumbnails": [
+        "64x64",
         "400x300"
     ],
-    "use_firmware_retraction": "1",
-    "version": "1.4.4.0",
-    "z_hop": [
-        "0.2"
+    "version": "1.6.0.0",
+    "wipe_distance": [
+        "1"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
     ]
 }

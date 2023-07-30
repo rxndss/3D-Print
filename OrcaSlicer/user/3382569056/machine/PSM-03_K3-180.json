@@ -1,0 +1,76 @@
+{
+    "change_filament_gcode": "PAUSE",
+    "fan_speedup_time": "1",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "Print_End",
+    "machine_max_acceleration_e": [
+        "8000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "12000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "20000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "12000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "12000",
+        "20000"
+    ],
+    "machine_max_jerk_x": [
+        "12",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "12",
+        "9"
+    ],
+    "machine_max_speed_e": [
+        "30",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "300",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "300",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "20",
+        "12"
+    ],
+    "machine_start_gcode": "M104 S0\nM140 S0\nprint_start EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]",
+    "name": "PSM-03_K3-180",
+    "print_host": "psm-03.local",
+    "printable_area": [
+        "0x0",
+        "180x0",
+        "180x180",
+        "0x180"
+    ],
+    "printer_settings_id": "PSM-03_K3-180",
+    "retract_before_wipe": [
+        "0%"
+    ],
+    "thumbnails": [
+        "32x32",
+        "400x300"
+    ],
+    "version": "1.6.0.0",
+    "wipe_distance": [
+        "1"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}

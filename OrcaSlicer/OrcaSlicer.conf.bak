@@ -9,7 +9,7 @@
         "backup_interval": "10",
         "backup_switch": true,
         "curr_bed_type": "3",
-        "dark_color_mode": "1",
+        "dark_color_mode": "0",
         "developer_mode": false,
         "download_path": "C:\\Users\\RENDI SAPUTRA\\Downloads",
         "drop_project_action": true,
@@ -20,8 +20,8 @@
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_GB",
-        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Tue_Jul_18/05_10_41#13928#78",
-        "last_export_path": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP",
+        "last_backup_path": "C:\\Users\\RENDIS~1\\AppData\\Local\\Temp/orcaslicer_model/Fri_Jul_28/16_19_57#5812#47",
+        "last_export_path": "E:\\",
         "max_recent_count": "18",
         "mouse_supported": "mouse left/mouse middle/mouse right",
         "mouse_wheel": "0",
@@ -66,7 +66,7 @@
         "user_mode": "advanced",
         "version": "01.06.00.66",
         "window_mainframe": "-8; -8; 1936; 1036; 1",
-        "zoom_to_mouse": false,
+        "zoom_to_mouse": true,
         "zoom_view": "none/mouse left"
     },
     "arrange": {
@@ -80,16 +80,6 @@
         "timelapse": false
     },
     "filaments": [
-        "Anker Generic ABS",
-        "Anker Generic ASA",
-        "Anker Generic PA",
-        "Anker Generic PA-CF",
-        "Anker Generic PC",
-        "Anker Generic PETG",
-        "Anker Generic PLA",
-        "Anker Generic PLA-CF",
-        "Anker Generic PVA",
-        "Anker Generic TPU",
         "Bambu ABS @BBL P1P",
         "Bambu ABS @BBL P1P 0.2 nozzle",
         "Bambu ABS @BBL X1C",
@@ -105,6 +95,8 @@
         "Bambu PC @BBL X1C 0.2 nozzle",
         "Bambu PC @BBL X1C 0.6 nozzle",
         "Bambu PC @BBL X1C 0.8 nozzle",
+        "Bambu PET-CF @BBL P1P",
+        "Bambu PET-CF @BBL X1C",
         "Bambu PETG Basic @BBL X1C",
         "Bambu PETG Basic @BBL X1C 0.2 nozzle",
         "Bambu PETG Basic @BBL X1C 0.8 nozzle",
@@ -116,11 +108,39 @@
         "Bambu PLA Basic @BBL X1C",
         "Bambu PLA Basic @BBL X1C 0.2 nozzle",
         "Bambu PLA Basic @BBL X1C 0.8 nozzle",
+        "Bambu PLA Marble @BBL P1P",
+        "Bambu PLA Marble @BBL X1",
+        "Bambu PLA Marble @BBL X1C",
+        "Bambu PLA Matte @BBL P1P",
+        "Bambu PLA Matte @BBL P1P 0.2 nozzle",
+        "Bambu PLA Matte @BBL X1",
+        "Bambu PLA Matte @BBL X1C",
+        "Bambu PLA Matte @BBL X1C 0.2 nozzle",
+        "Bambu PLA Matte @BBL X1C 0.8 nozzle",
+        "Bambu PLA Metal @BBL P1P",
+        "Bambu PLA Metal @BBL P1P 0.2 nozzle",
+        "Bambu PLA Metal @BBL X1",
+        "Bambu PLA Metal @BBL X1C",
+        "Bambu PLA Metal @BBL X1C 0.2 nozzle",
         "Bambu PLA Silk @BBL P1P",
         "Bambu PLA Silk @BBL P1P 0.2 nozzle",
         "Bambu PLA Silk @BBL X1",
         "Bambu PLA Silk @BBL X1C",
         "Bambu PLA Silk @BBL X1C 0.2 nozzle",
+        "Bambu PLA Sparkle @BBL P1P",
+        "Bambu PLA Sparkle @BBL X1",
+        "Bambu PLA Sparkle @BBL X1C",
+        "Bambu PLA Tough @BBL P1P",
+        "Bambu PLA Tough @BBL P1P 0.2 nozzle",
+        "Bambu PLA Tough @BBL X1",
+        "Bambu PLA Tough @BBL X1C",
+        "Bambu PLA Tough @BBL X1C 0.2 nozzle",
+        "Bambu PLA-CF @BBL P1P",
+        "Bambu PLA-CF @BBL P1P 0.8 nozzle",
+        "Bambu PLA-CF @BBL X1C",
+        "Bambu PLA-CF @BBL X1C 0.8 nozzle",
+        "Bambu Support G @BBL P1P",
+        "Bambu Support G @BBL X1C",
         "Bambu Support W @BBL P1P",
         "Bambu Support W @BBL P1P 0.2 nozzle",
         "Bambu Support W @BBL X1",
@@ -129,41 +149,13 @@
         "Bambu TPU 95A @BBL P1P",
         "Bambu TPU 95A @BBL X1",
         "Bambu TPU 95A @BBL X1C",
-        "My Generic ABS",
-        "My Generic ASA",
-        "My Generic PA",
-        "My Generic PA-CF",
-        "My Generic PC",
-        "My Generic PETG",
-        "My Generic PLA",
-        "My Generic PLA-CF",
-        "My Generic PVA",
-        "My Generic TPU",
-        "PolyLite PLA @Arena X1C",
-        "PolyLite PLA @Arena X1C 0.2 nozzle",
-        "PolyLite PLA @BBL P1P",
-        "PolyLite PLA @BBL P1P 0.2 nozzle",
-        "PolyLite PLA @BBL X1",
-        "PolyLite PLA @BBL X1C",
-        "PolyLite PLA @BBL X1C 0.2 nozzle",
-        "PolyTerra PLA @Arena X1C",
-        "PolyTerra PLA @Arena X1C 0.2 nozzle",
-        "PolyTerra PLA @BBL P1P",
-        "PolyTerra PLA @BBL P1P 0.2 nozzle",
-        "PolyTerra PLA @BBL X1",
-        "PolyTerra PLA @BBL X1C",
-        "PolyTerra PLA @BBL X1C 0.2 nozzle"
+        "My Generic ABS"
     ],
     "firstguide": {
         "finish": true
     },
     "header": "OrcaSlicer 1.6.3",
     "models": [
-        {
-            "model": "Anker M5",
-            "nozzle_diameter": "0.4",
-            "vendor": "Anker"
-        },
         {
             "model": "Bambu Lab X1 Carbon",
             "nozzle_diameter": "0.4",
@@ -186,28 +178,37 @@
     "presets": {
         "filament_colors": "#FF8000",
         "filaments": [
-            "My Generic PETG"
+            "Bambu ABS @BBL X1C"
         ],
         "flush_volumes_matrix": "0.000000",
         "flush_volumes_vector": "140.000000|140.000000",
-        "machine": "MyKlipper 0.4 nozzle - Copy",
-        "process": "0.20mm Standard @MyKlipper"
+        "machine": "PSM-06_X1C-250",
+        "process": "0.20mm Standard @BBL X1C"
     },
     "print": {
-        "bed_leveling": "0",
+        "bed_leveling": "1",
         "flow_cali": "0",
         "timelapse": "0"
     },
     "recent": {
-        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop",
+        "last_opened_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop\\LAKSANA",
         "printhost_path": "",
-        "settings_folder": "C:\\Users\\RS\\Models\\classic-transport-truck-model_files"
+        "settings_folder": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230716"
     },
     "recent_projects": {
-        "01": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP\\EM Calibration.3mf"
+        "01": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230716\\Penyangga Hood Rev 2.3mf",
+        "02": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230712\\230712.3mf",
+        "03": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230710\\230710.3mf",
+        "04": "C:\\Users\\RENDI SAPUTRA\\Desktop\\230707\\Adjusment T - Left - Front.3mf",
+        "05": "C:\\Users\\RENDI SAPUTRA\\Downloads\\Compressed\\X1-internal-sliced-files\\X1-internal-sliced-files\\Phone Stand.gcode.3mf",
+        "06": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Project LAKSANA\\I. Miniatur Legacy SR3 XHD 65cm\\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\\Production\\FDM\\jok.3mf",
+        "07": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Project LAKSANA\\I. Miniatur Legacy SR3 XHD 65cm\\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\\Production\\FDM\\Exterior Only.3mf",
+        "08": "C:\\Users\\RENDI SAPUTRA\\Desktop\\Project LAKSANA\\I. Miniatur Legacy SR3 XHD 65cm\\LEGACY SR3  XHD - DGR_print3D PARAGON WATERTIGHT\\Production\\SLA\\SLA.3mf",
+        "09": "C:\\Users\\RENDI SAPUTRA\\Desktop\\EM Calibration.3mf",
+        "10": "C:\\Users\\RENDI SAPUTRA\\Documents\\Documents\\3DP\\EM Calibration.3mf"
     },
     "user_access_code": {
         "00M09A342400095": ""
     }
 }
-# MD5 checksum B8AC2A4AED8479AEB04A815EB71AA2B3
+# MD5 checksum E7CF54C8FE96609342B5332830A249F3
