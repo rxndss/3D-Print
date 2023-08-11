@@ -2,6 +2,9 @@
     "close_fan_the_first_x_layers": [
         "1"
     ],
+    "enable_pressure_advance": [
+        "1"
+    ],
     "eng_plate_temp": [
         "110"
     ],
@@ -18,10 +21,10 @@
         "30"
     ],
     "filament_flow_ratio": [
-        "0.93"
+        "0.9215"
     ],
     "filament_retraction_length": [
-        "0.5"
+        "0.7"
     ],
     "filament_retraction_speed": [
         "30"
@@ -33,14 +36,23 @@
         "0.4"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "0"
+    ],
     "inherits": "Bambu ABS @BBL X1C",
     "is_custom_defined": "0",
     "name": "Sunlu ABS @X1C",
     "nozzle_temperature": [
-        "240"
+        "250"
     ],
     "nozzle_temperature_initial_layer": [
-        "240"
+        "250"
     ],
     "nozzle_temperature_range_high": [
         "270"
@@ -48,8 +60,17 @@
     "nozzle_temperature_range_low": [
         "230"
     ],
+    "pressure_advance": [
+        "0.024"
+    ],
     "temperature_vitrification": [
         "110"
+    ],
+    "textured_plate_temp": [
+        "0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "0"
     ],
     "version": "1.6.0.3"
 }

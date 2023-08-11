@@ -411,7 +411,7 @@
             },
             {
                 "ecode": "07FF8004",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
+                "intro": "Failed to pull back the filament from the toolhead to AMS. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"retry\" button."
             },
             {
                 "ecode": "07FF8005",
@@ -479,7 +479,7 @@
             },
             {
                 "ecode": "07FFC003",
-                "intro": "Please remove the external filament from the extruder. If an AMS is to be used later, please connect the PTFE tube to the coupler."
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
             },
             {
                 "ecode": "07FFC006",
@@ -547,11 +547,11 @@
             },
             {
                 "ecode": "12FF8003",
-                "intro": "Remove external filament from extruder. Then, connect the PTFE tube to coupler and click \"Retry\" if using an AMS for the next print."
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler and click the \"retry\" button."
             },
             {
                 "ecode": "12FFC003",
-                "intro": "Remove external filament from extruder. Then, connect the PTFE tube to coupler and click \"Retry\" if using an AMS for the next print."
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
             },
             {
                 "ecode": "12008004",
@@ -619,7 +619,7 @@
             },
             {
                 "ecode": "12008007",
-                "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the retry button."
+                "intro": "Failed to extrude the filament. Please check whether the filament is stuck or the extruder clogged. After troubleshooting, click the \"retry\" button."
             },
             {
                 "ecode": "12018007",
@@ -866,7 +866,7 @@
                 "intro": "The detected build plate is not the same as in G-code."
             }
         ],
-        "ver": 202307272230
+        "ver": 202308082030
     },
     "device_hms": {
         "en": [
@@ -3705,9 +3705,13 @@
             {
                 "ecode": "0500030000010023",
                 "intro": "The CTC module is malfunctioning. Please restart the device."
+            },
+            {
+                "ecode": "0300900000010010",
+                "intro": "The communication of chamber temperature controller is abnormal."
             }
         ],
-        "ver": 202307272230
+        "ver": 202308082030
     },
-    "version": "202307272230"
+    "version": "202308082030"
 }

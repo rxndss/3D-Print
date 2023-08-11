@@ -67,9 +67,6 @@
         "400x300"
     ],
     "version": "1.6.0.0",
-    "wipe_distance": [
-        "1"
-    ],
     "z_hop_types": [
         "Spiral Lift"
     ]

@@ -1,5 +1,4 @@
 {
-    "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\Documents\\\\PARAGON\\\\Machines\\\\Paragon PEI-Flex 350.stl",
     "before_layer_change_gcode": ";SET_VELOCITY_LIMIT ACCEL=30000\n;TIMELAPSE_TAKE_FRAME\nG92 E0",
     "change_filament_gcode": "PAUSE",
     "extruder_clearance_height_to_lid": "472",
@@ -85,9 +84,6 @@
         "400x300"
     ],
     "version": "1.6.0.0",
-    "wipe_distance": [
-        "1"
-    ],
     "z_hop_types": [
         "Spiral Lift"
     ]

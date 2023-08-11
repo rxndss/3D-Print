@@ -1,5 +1,4 @@
 {
-    "accel_to_decel_enable": "1",
     "bottom_shell_layers": "5",
     "bridge_acceleration": "5000",
     "bridge_density": "50%",

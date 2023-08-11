@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="0" xmlns="http://www.w3.org/2000/svg" width="256mm" height="256mm" viewBox="0 0 725.7 725.7">
+  <g id="b" data-name="LWPOLYLINE">
+    <rect x=".2" y="-.2" width="725.7" height="725.7" style="fill: none; stroke: #000; stroke-linecap: round; stroke-linejoin: round; stroke-width: .7px;"/>
+  </g>
+  <g id="c" data-name="LWPOLYLINE">
+    <polygon points="423.2 311.1 363.2 281.4 303.1 311.1 423.2 311.1" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="d" data-name="LWPOLYLINE">
+    <polygon points="492.3 298.7 467 311.1 363.2 258.9 258 310.8 233.7 298.8 363.1 234.9 492.3 298.7" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="e" data-name="LWPOLYLINE">
+    <polygon points="258 310.8 258 363 250.4 359.3 237.3 353 233.7 351.2 233.7 298.8 258 310.8" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="f" data-name="LWPOLYLINE">
+    <polygon points="492.3 298.7 492.3 351.1 363 415 280.5 374.2 280.6 322.2 316.4 339.5 363 362.7 409.7 339.5 492.3 298.7" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="g" data-name="LWPOLYLINE">
+    <polygon points="258 377.2 258 394.7 245.8 388.7 239.5 385.6 233.7 382.7 233.7 365.2 238.3 367.4 248.3 372.4 258 377.2" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="h" data-name="LWPOLYLINE">
+    <polygon points="492.1 365.4 492.1 382.9 363.1 446.6 280.3 405.8 280.4 388 363 429 492.1 365.4" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="i" data-name="LWPOLYLINE">
+    <polygon points="233.7 396.9 258 408.9 258 424.1 233.7 412.3 233.7 396.9" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+  <g id="j" data-name="LWPOLYLINE">
+    <polygon points="491.9 397.3 491.9 412.6 363.2 476.1 280.2 435.2 280.2 419.9 363.2 460.8 491.9 397.3" style="fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+  </g>
+</svg>
