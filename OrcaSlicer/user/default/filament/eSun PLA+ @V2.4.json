@@ -1,0 +1,84 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "38"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "filament_density": [
+        "1.24"
+    ],
+    "filament_flow_ratio": [
+        "0.911"
+    ],
+    "filament_max_volumetric_speed": [
+        "50"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_retraction_speed": [
+        "40"
+    ],
+    "filament_settings_id": [
+        "eSun PLA+ @V2.4"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z=0.02\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
+    ],
+    "filament_type": [
+        "PLA+"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "inherits": "My Generic ABS",
+    "name": "eSun PLA+ @V2.4",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220"
+    ],
+    "nozzle_temperature_range_high": [
+        "225"
+    ],
+    "nozzle_temperature_range_low": [
+        "205"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "pressure_advance": [
+        "0.0275"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+    "temperature_vitrification": [
+        "60"
+    ],
+    "version": "1.6.0.0"
+}

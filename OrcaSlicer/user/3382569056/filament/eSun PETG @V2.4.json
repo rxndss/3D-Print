@@ -18,42 +18,36 @@
         "1.27"
     ],
     "filament_flow_ratio": [
-        "0.8484"
+        "0.9405"
     ],
     "filament_max_volumetric_speed": [
         "35"
-    ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "40"
     ],
     "filament_settings_id": [
         "eSun PETG @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "PETG"
     ],
-    "filament_z_hop": [
-        "0.2"
-    ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "hot_plate_temp": [
-        "80"
+        "70"
     ],
     "hot_plate_temp_initial_layer": [
-        "80"
+        "70"
     ],
     "inherits": "My Generic ABS",
     "is_custom_defined": "0",
     "name": "eSun PETG @V2.4",
+    "nozzle_temperature": [
+        "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
     "nozzle_temperature_range_high": [
         "260"
     ],
@@ -61,10 +55,13 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "35"
+        "27"
     ],
     "pressure_advance": [
-        "0.048"
+        "0.0345"
+    ],
+    "slow_down_layer_time": [
+        "4"
     ],
     "temperature_vitrification": [
         "80"

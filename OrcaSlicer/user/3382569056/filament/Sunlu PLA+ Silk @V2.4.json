@@ -21,33 +21,21 @@
         "1.24"
     ],
     "filament_flow_ratio": [
-        "0.8935"
+        "0.931"
     ],
     "filament_max_volumetric_speed": [
         "35"
-    ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "40"
     ],
     "filament_settings_id": [
         "Sunlu PLA+ Silk @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=0.005\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "PLA+"
     ],
-    "filament_z_hop": [
-        "0.4"
-    ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "hot_plate_temp": [
         "50"
     ],
@@ -58,10 +46,10 @@
     "is_custom_defined": "0",
     "name": "Sunlu PLA+ Silk @V2.4",
     "nozzle_temperature": [
-        "210"
+        "230"
     ],
     "nozzle_temperature_initial_layer": [
-        "210"
+        "220"
     ],
     "nozzle_temperature_range_high": [
         "230"
@@ -73,7 +61,7 @@
         "40"
     ],
     "pressure_advance": [
-        "0.04"
+        "0.036"
     ],
     "slow_down_layer_time": [
         "8"

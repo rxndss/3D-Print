@@ -20,32 +20,23 @@
     "filament_density": [
         "1.24"
     ],
-    "filament_deretraction_speed": [
-        "20"
+    "filament_end_gcode": [
+        "M106 P3 S0"
     ],
     "filament_flow_ratio": [
-        "0.931"
+        "0.9408"
     ],
     "filament_max_volumetric_speed": [
         "18"
-    ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "30"
     ],
     "filament_settings_id": [
         "Sunlu PLA+ @X1C"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >30)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}"
+        "M106 P3 S255"
     ],
     "filament_type": [
         "PLA+"
-    ],
-    "filament_z_hop": [
-        "0.4"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -60,6 +51,9 @@
     "inherits": "Bambu PLA Basic @BBL X1C",
     "is_custom_defined": "0",
     "name": "Sunlu PLA+ @X1C",
+    "nozzle_temperature": [
+        "230"
+    ],
     "nozzle_temperature_range_high": [
         "235"
     ],
@@ -70,7 +64,7 @@
         "25%"
     ],
     "pressure_advance": [
-        "0.024"
+        "0.0165"
     ],
     "slow_down_layer_time": [
         "8"

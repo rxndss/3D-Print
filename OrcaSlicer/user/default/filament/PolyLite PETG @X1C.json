@@ -11,8 +11,8 @@
     "eng_plate_temp_initial_layer": [
         "80"
     ],
-    "filament_deretraction_speed": [
-        "20"
+    "filament_end_gcode": [
+        "M106 P3 S0"
     ],
     "filament_flow_ratio": [
         "0.893"
@@ -21,7 +21,7 @@
         "18"
     ],
     "filament_retraction_length": [
-        "0.5"
+        "0.8"
     ],
     "filament_retraction_speed": [
         "30"
@@ -32,8 +32,11 @@
     "filament_shrink": [
         "99.725%"
     ],
+    "filament_start_gcode": [
+        "M106 P3 S255"
+    ],
     "filament_z_hop": [
-        "0.4"
+        "0.2"
     ],
     "from": "User",
     "hot_plate_temp": [

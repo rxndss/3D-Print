@@ -6,39 +6,27 @@
         "1"
     ],
     "fan_max_speed": [
-        "27"
+        "23"
     ],
     "fan_min_speed": [
-        "18"
+        "13"
     ],
     "filament_cost": [
         "148000"
     ],
     "filament_flow_ratio": [
-        "0.923"
+        "0.888"
     ],
     "filament_max_volumetric_speed": [
         "65"
-    ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "40"
     ],
     "filament_settings_id": [
         "Sunlu ABS @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80\n;0.9233 0.0335"
-    ],
-    "filament_z_hop": [
-        "0.4"
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "hot_plate_temp": [
         "110"
     ],
@@ -48,20 +36,17 @@
     "inherits": "My Generic ABS",
     "is_custom_defined": "0",
     "name": "Sunlu ABS @V2.4",
-    "nozzle_temperature": [
-        "240"
-    ],
     "nozzle_temperature_initial_layer": [
-        "240"
+        "250"
     ],
     "nozzle_temperature_range_low": [
         "230"
     ],
     "overhang_fan_speed": [
-        "30"
+        "23"
     ],
     "pressure_advance": [
-        "0.035"
+        "0.0325"
     ],
     "version": "1.6.0.0"
 }

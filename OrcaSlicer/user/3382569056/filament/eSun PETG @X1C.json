@@ -5,48 +5,36 @@
     "enable_pressure_advance": [
         "1"
     ],
-    "eng_plate_temp": [
-        "80"
-    ],
-    "eng_plate_temp_initial_layer": [
-        "80"
-    ],
-    "filament_deretraction_speed": [
-        "20"
+    "filament_end_gcode": [
+        "M106 P3 S0"
     ],
     "filament_flow_ratio": [
-        "0.9405"
+        "0.9329"
     ],
     "filament_max_volumetric_speed": [
         "16"
     ],
-    "filament_retraction_length": [
-        "0.8"
-    ],
-    "filament_retraction_speed": [
-        "30"
-    ],
     "filament_settings_id": [
         "eSun PETG @X1C"
     ],
-    "filament_z_hop": [
-        "0.2"
+    "filament_start_gcode": [
+        "M106 P3 S255"
     ],
     "from": "User",
     "full_fan_speed_layer": [
         "3"
     ],
     "hot_plate_temp": [
-        "0"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "0"
+        "80"
     ],
     "inherits": "Generic PETG",
     "is_custom_defined": "0",
     "name": "eSun PETG @X1C",
     "nozzle_temperature": [
-        "250"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
         "250"
@@ -58,7 +46,7 @@
         "230"
     ],
     "pressure_advance": [
-        "0.05"
+        "0.037"
     ],
     "temperature_vitrification": [
         "80"

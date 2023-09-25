@@ -18,13 +18,13 @@
         "1.27"
     ],
     "filament_flow_ratio": [
-        "0.912"
+        "0.89585"
     ],
     "filament_max_volumetric_speed": [
         "45"
     ],
     "filament_retraction_length": [
-        "0.5"
+        "0.8"
     ],
     "filament_retraction_speed": [
         "40"
@@ -33,13 +33,13 @@
         "Sunlu PETG @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "PETG"
     ],
     "filament_z_hop": [
-        "0.2"
+        "0.4"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -54,6 +54,12 @@
     "inherits": "My Generic ABS",
     "is_custom_defined": "0",
     "name": "Sunlu PETG @V2.4",
+    "nozzle_temperature": [
+        "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
     "nozzle_temperature_range_high": [
         "240"
     ],
@@ -64,7 +70,7 @@
         "30"
     ],
     "pressure_advance": [
-        "0.032"
+        "0.023"
     ],
     "slow_down_layer_time": [
         "7"

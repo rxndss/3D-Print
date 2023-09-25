@@ -17,23 +17,11 @@
     "filament_cost": [
         "148000"
     ],
-    "filament_deretraction_speed": [
-        "30"
-    ],
     "filament_flow_ratio": [
         "0.9215"
     ],
-    "filament_retraction_length": [
-        "0.7"
-    ],
-    "filament_retraction_speed": [
-        "30"
-    ],
     "filament_settings_id": [
         "Sunlu ABS @X1C"
-    ],
-    "filament_z_hop": [
-        "0.4"
     ],
     "from": "User",
     "full_fan_speed_layer": [

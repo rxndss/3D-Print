@@ -5,6 +5,9 @@
     "cool_plate_temp_initial_layer": [
         "0"
     ],
+    "enable_pressure_advance": [
+        "1"
+    ],
     "eng_plate_temp": [
         "35"
     ],
@@ -14,8 +17,20 @@
     "filament_cost": [
         "0"
     ],
+    "filament_end_gcode": [
+        "M106 P3 S0"
+    ],
+    "filament_retraction_speed": [
+        "40"
+    ],
     "filament_settings_id": [
         "Sunlu TPU @X1C"
+    ],
+    "filament_start_gcode": [
+        "M106 P3 S255"
+    ],
+    "filament_z_hop": [
+        "0.2"
     ],
     "from": "User",
     "hot_plate_temp": [
@@ -37,6 +52,9 @@
     ],
     "nozzle_temperature_range_low": [
         "195"
+    ],
+    "pressure_advance": [
+        "0.03"
     ],
     "textured_plate_temp": [
         "0"

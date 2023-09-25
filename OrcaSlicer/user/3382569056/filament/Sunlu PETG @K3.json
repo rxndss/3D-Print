@@ -36,9 +36,6 @@
         "0.2"
     ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "inherits": "My Generic PETG",
     "is_custom_defined": "0",
     "name": "Sunlu PETG @K3",

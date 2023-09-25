@@ -1,0 +1,55 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "23"
+    ],
+    "fan_min_speed": [
+        "13"
+    ],
+    "filament_cost": [
+        "399900"
+    ],
+    "filament_density": [
+        "1.13"
+    ],
+    "filament_flow_ratio": [
+        "0.9025"
+    ],
+    "filament_max_volumetric_speed": [
+        "55"
+    ],
+    "filament_settings_id": [
+        "PolyLite ABS @V2.4"
+    ],
+    "filament_start_gcode": [
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "My Generic ABS",
+    "is_custom_defined": "0",
+    "name": "PolyLite ABS @V2.4",
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "265"
+    ],
+    "overhang_fan_speed": [
+        "23"
+    ],
+    "pressure_advance": [
+        "0.025"
+    ],
+    "version": "1.6.0.0"
+}

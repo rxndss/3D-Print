@@ -1,11 +1,13 @@
 {
-    "bed_custom_model": "C:\\\\Users\\\\RENDI SAPUTRA\\\\Documents\\\\Documents\\\\PARAGON\\\\Machines\\\\Paragon PEI-Flex 350.stl",
-    "before_layer_change_gcode": ";SET_VELOCITY_LIMIT ACCEL=30000\n;TIMELAPSE_TAKE_FRAME\nG92 E0",
+    "bed_custom_model": "\\\\\\\\Desktop-6r02qsk\\\\rs\\\\psm-sheet-350.stl",
+    "bed_custom_texture": "\\\\\\\\Desktop-6r02qsk\\\\rs\\\\psm-sheet-350.svg",
+    "before_layer_change_gcode": "TIMELAPSE_TAKE_FRAME\nG92 E0",
     "change_filament_gcode": "PAUSE",
     "extruder_clearance_height_to_lid": "472",
     "extruder_clearance_height_to_rod": "47",
     "extruder_clearance_radius": "77",
-    "fan_speedup_time": "1",
+    "fan_speedup_overhangs": "0",
+    "fan_speedup_time": "0.6",
     "from": "User",
     "inherits": "MyKlipper 0.4 nozzle",
     "machine_end_gcode": "_PRINT_END",
@@ -55,7 +57,7 @@
     ],
     "machine_start_gcode": "M104 S0\nM140 S0\n_PRINT_START PRINT_PROFILE=CASUAL BED_TEMPERATURE=[bed_temperature_initial_layer_single] EXTRUDER_TEMPERATURE=[nozzle_temperature_initial_layer] CHAMBER_TEMPERATURE=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
     "max_layer_height": [
-        "0.4"
+        "0.5"
     ],
     "min_layer_height": [
         "0.1"
@@ -64,6 +66,7 @@
     "nozzle_diameter": [
         "0.5"
     ],
+    "nozzle_type": "hardened_steel",
     "print_host": "psm-02.local",
     "printable_area": [
         "0x0",
@@ -71,20 +74,26 @@
         "350x350",
         "0x350"
     ],
-    "printable_height": "270",
+    "printable_height": "290",
     "printer_settings_id": "PSM-02_V2.4-350",
     "retract_before_wipe": [
         "0%"
+    ],
+    "retract_lift_below": [
+        "289"
     ],
     "retraction_speed": [
         "40"
     ],
     "thumbnails": [
-        "64x64",
+        "32x32",
         "400x300"
     ],
     "version": "1.6.0.0",
+    "wipe_distance": [
+        "2"
+    ],
     "z_hop_types": [
-        "Spiral Lift"
+        "Auto Lift"
     ]
 }

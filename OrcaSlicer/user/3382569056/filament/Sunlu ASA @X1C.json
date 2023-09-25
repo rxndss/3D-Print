@@ -11,20 +11,8 @@
     "filament_cost": [
         "0"
     ],
-    "filament_deretraction_speed": [
-        "30"
-    ],
-    "filament_retraction_length": [
-        "0.8"
-    ],
-    "filament_retraction_speed": [
-        "40"
-    ],
     "filament_settings_id": [
         "Sunlu ASA @X1C"
-    ],
-    "filament_z_hop": [
-        "0.4"
     ],
     "from": "User",
     "full_fan_speed_layer": [
@@ -37,7 +25,6 @@
         "0"
     ],
     "inherits": "Bambu ASA @BBL X1C 0.4 nozzle",
-    "is_custom_defined": "0",
     "name": "Sunlu ASA @X1C",
     "nozzle_temperature": [
         "260"

@@ -6,10 +6,10 @@
         "1"
     ],
     "fan_max_speed": [
-        "27"
+        "23"
     ],
     "fan_min_speed": [
-        "18"
+        "13"
     ],
     "filament_cost": [
         "288000"
@@ -23,28 +23,16 @@
     "filament_max_volumetric_speed": [
         "65"
     ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "40"
-    ],
     "filament_settings_id": [
         "Sunlu ASA @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "ASA"
     ],
-    "filament_z_hop": [
-        "0.4"
-    ],
     "from": "User",
-    "full_fan_speed_layer": [
-        "3"
-    ],
     "hot_plate_temp": [
         "110"
     ],
@@ -67,7 +55,7 @@
         "230"
     ],
     "overhang_fan_speed": [
-        "30"
+        "23"
     ],
     "pressure_advance": [
         "0.03"

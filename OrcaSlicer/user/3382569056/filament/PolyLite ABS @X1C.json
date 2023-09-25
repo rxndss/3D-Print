@@ -1,0 +1,61 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "299000"
+    ],
+    "filament_flow_ratio": [
+        "0.931"
+    ],
+    "filament_settings_id": [
+        "PolyLite ABS @X1C"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "0"
+    ],
+    "inherits": "Bambu ABS @BBL X1C",
+    "is_custom_defined": "0",
+    "name": "PolyLite ABS @X1C",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "265"
+    ],
+    "pressure_advance": [
+        "0.021"
+    ],
+    "temperature_vitrification": [
+        "110"
+    ],
+    "textured_plate_temp": [
+        "0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "0"
+    ],
+    "version": "1.6.0.3"
+}

@@ -29,12 +29,6 @@
     "filament_max_volumetric_speed": [
         "16"
     ],
-    "filament_retraction_length": [
-        "0.5"
-    ],
-    "filament_retraction_speed": [
-        "40"
-    ],
     "filament_settings_id": [
         "PolyDissolve PVA @V2.4"
     ],
@@ -42,26 +36,23 @@
         "1"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "PVA"
     ],
-    "filament_z_hop": [
-        "0.4"
-    ],
     "from": "User",
     "hot_plate_temp": [
-        "55"
+        "60"
     ],
     "hot_plate_temp_initial_layer": [
-        "55"
+        "60"
     ],
     "inherits": "My Generic ABS",
     "is_custom_defined": "0",
     "name": "PolyDissolve PVA @V2.4",
     "nozzle_temperature": [
-        "220"
+        "225"
     ],
     "nozzle_temperature_initial_layer": [
         "220"
@@ -82,7 +73,7 @@
         "7"
     ],
     "temperature_vitrification": [
-        "55"
+        "60"
     ],
     "version": "1.6.0.0"
 }

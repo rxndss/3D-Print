@@ -18,13 +18,13 @@
         "1.13"
     ],
     "filament_flow_ratio": [
-        "0.8835"
+        "0.8889"
     ],
     "filament_max_volumetric_speed": [
         "55"
     ],
     "filament_retraction_length": [
-        "0.5"
+        "0.8"
     ],
     "filament_retraction_speed": [
         "40"
@@ -33,7 +33,7 @@
         "PolyLite ASA @V2.4"
     ],
     "filament_start_gcode": [
-        "SET_GCODE_OFFSET Z=0.0\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03\n\n;SET_RETRACTION RETRACT_LENGTH=0.5\n;SET_RETRACTION UNRETRACT_EXTRA_LENGTH=0\n;SET_RETRACTION RETRACT_SPEED=60\n;SET_RETRACTION UNRETRACT_SPEED=80"
+        "SET_GCODE_OFFSET Z=-0.005\nSET_PRESSURE_ADVANCE EXTRUDER=extruder SMOOTH_TIME=0.03"
     ],
     "filament_type": [
         "ASA"
@@ -54,9 +54,6 @@
     "inherits": "My Generic ABS",
     "is_custom_defined": "0",
     "name": "PolyLite ASA @V2.4",
-    "nozzle_temperature": [
-        "250"
-    ],
     "nozzle_temperature_initial_layer": [
         "250"
     ],
@@ -67,7 +64,7 @@
         "30"
     ],
     "pressure_advance": [
-        "0.031"
+        "0.0225"
     ],
     "version": "1.6.0.0"
 }

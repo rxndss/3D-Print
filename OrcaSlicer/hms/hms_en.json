@@ -866,7 +866,7 @@
                 "intro": "The detected build plate is not the same as in G-code."
             }
         ],
-        "ver": 202308082030
+        "ver": 202308091200
     },
     "device_hms": {
         "en": [
@@ -3711,7 +3711,7 @@
                 "intro": "The communication of chamber temperature controller is abnormal."
             }
         ],
-        "ver": 202308082030
+        "ver": 202308091200
     },
-    "version": "202308082030"
+    "version": "202308091200"
 }
